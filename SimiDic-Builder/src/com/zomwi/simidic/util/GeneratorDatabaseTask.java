@@ -76,21 +76,27 @@ public class GeneratorDatabaseTask extends SwingWorker<Void, Void> {
             String meaning = st2.nextToken();
             // ---------------
             String summary = meaning;
-            summary = summary.replaceAll("<i>", "");
-            summary = summary.replaceAll("<b>", "");
-            summary = summary.replaceAll("</b>", "");
-            summary = summary.replaceAll("</i>", "");
-            summary = summary.replaceAll("<span foreground=\"#......\">", "");
-            summary = summary.replaceAll("<span foreground=\"#...\">", "");
-            summary = summary.replaceAll("</span>", "");
-            summary = truncate(summary, 45) + "...";
-            // ----------------
-            meaning = meaning.replaceAll("<i>", "<span foreground=\"#AA66CC\"><i>");
-            meaning = meaning.replaceAll("</i>", "</i></font>");
-            meaning = meaning.replaceAll("<span foreground", "<font color");
-            meaning = meaning.replaceAll("</span>", "</font>");
+            
+            //ABB's code to convert Pango markup to plain text 
+            summary = summary.replaceAll("&lt;", "<");
+            summary = summary.replaceAll("&gt;", ">");
+            summary = summary.replaceAll("&amp;", "&");
+            summary = summary.replaceAll("\\n", " ");
+            summary = summary.replaceAll("</?br>", " ");
+            summary = summary.replaceAll("</?[a-zA-Z]+[^>]*>", ""); //strip all HTML codes like <...> </...>
+            summary = summary.replaceAll(" {2,}", " "); 
+            
+            if (summary.length() > 48) {
+            	summary = truncate(summary, 45) + "...";
+            }
+                     
+            meaning = meaning.replaceAll("<span +(foreground|color|fgcolor)([^<]+)</span>", "<font color$2</font>");
+            meaning = meaning.replaceAll("<span +(font_size|size)([^<]+)</span>", "<font size$2</font>");
+            meaning = meaning.replaceAll("<span +(font_family|face)([^<]+)</span>", "<font face$2</font>");
             meaning = meaning.replaceAll("\\n", "<br>");
 
+            //if (str1.toLowerCase().contains(str2.toLowerCase())
+            //ABB code end
 
 
             dataBase.insertWord(word, meaning, summary); // insert word
