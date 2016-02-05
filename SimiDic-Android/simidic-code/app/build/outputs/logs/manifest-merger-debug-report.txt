@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:1:1-90:12
+	xmlns:android
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:1:11-69
+	package
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:4:5-32
+	android:versionCode
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:5:5-35
+uses-sdk
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:appcompat-v7:21.0.3] /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:10:9-34
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:21:22-65
+permission#com.ketanolab.simidic.permission.C2D_MESSAGE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:24:5-26:47
+	android:protectionLevel
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:25:9-68
+uses-permission#com.ketanolab.simidic.permission.C2D_MESSAGE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:28:5-84
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:28:22-81
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:31:5-82
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:31:22-79
+uses-permission#android.permission.VIBRATE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:37:5-66
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:37:22-63
+application
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:39:5-88:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:41:9-41
+	android:icon
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:40:9-45
+	android:theme
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:42:9-40
+activity#com.ketanolab.simidic.SplashActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:43:9-51:20
+	android:theme
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:45:13-60
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:44:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:49:27-74
+activity#com.ketanolab.simidic.MainActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:52:9-53:20
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:52:19-47
+activity#com.ketanolab.simidic.DownloadsActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:54:9-57:20
+	android:label
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:56:13-46
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:55:13-46
+activity#com.ketanolab.simidic.DiccionariesActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:58:9-61:20
+	android:label
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:59:13-49
+activity#com.ketanolab.simidic.WordActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:62:9-63:20
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:62:19-47
+activity#com.ketanolab.simidic.FavoritesActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:64:9-67:20
+	android:label
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:66:13-46
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:65:13-46
+activity#com.ketanolab.simidic.CreditsActivity
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:69:13-44
+receiver#com.google.android.gcm.GCMBroadcastReceiver
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:72:10-84:20
+	android:permission
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:74:13-73
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:73:13-71
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.ketanolab.simidic
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:75:13-83:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:78:17-81
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:78:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:80:17-86
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:80:25-83
+category#com.ketanolab.simidic
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:82:17-66
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:82:27-63
+service#com.ketanolab.simidic.GCMIntentService
+ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:86:9-53
+	android:name
+		ADDED from /home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/AndroidManifest.xml:86:18-50

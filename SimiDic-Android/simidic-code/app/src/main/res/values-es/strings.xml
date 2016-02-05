@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">SimiDic</string>
+    <string name="app_full_name">SimiDic 1.0.1</string>
+    <string name="ketanolab">Ketanolab</string>
+    <string name="illa_a">ILLA-A</string>
+    <!-- Titles -->
+    <string name="favorites">Favoritos</string>
+    <string name="dictionaries">Diccionarios</string>
+    <string name="credits">Créditos</string>
+    <string name="downloads">Descargas</string>
+    <string name="information">Información</string>
+    <!-- MainActivity -->
+    <string name="insert_word">Ingrese palabra</string>
+    <string name="download_dictionaries">¿Descargar diccionarios?</string>
+    <string name="you_dont_have_dictionaries">No tienes diccionarios instalados en tu dispositivo.</string>
+    <string name="sd_required">SD requerido</string>
+    <string name="you_dont_have_sd">No tienes una memoria externa instalada, SimiDic lo requiere para almacenar los diccionarios.</string>
+    <!-- DownloadsActivity -->
+    <string name="download_failed">Descarga fallida, intente de nuevo.</string>
+    <string name="downloaded">Descargado</string>
+    <string name="is_downloaded_or_downloading">Ya selecciono esta descarga.</string>
+    <string name="downloading">Descargando…</string>
+    <string name="load_completed">Carga completada</string>
+    <string name="no_internet">Sin internet</string>
+    <string name="you_dont_have_conection">No tienes una conexión a Internet, es necesario para poder descargar diccionarios.</string>
+    <string name="update">Actualizar</string>
+    <string name="loading">Cargando…</string>
+    <string name="word">Palabra</string>
+    <string name="meaning">Significado</string>
+    <string name="name">Nombre</string>
+    <string name="author">Autor</string>
+    <string name="description">Descripción</string>
+    <string name="size">Tamaño</string>
+    <string name="try_again">Fallo la descarga, intenta de nuevo.</string>
+    <string name="no_downloads">No hay diccionarios nuevos para descargar, intenta en otro momento.</string>
+    <!-- FavoritesActivity -->
+    <string name="by">por</string>
+    <!-- WordActivity -->
+    <string name="favorite">Favorito</string>
+    <string name="favorite_now">Esta palabra es favorita ahora.</string>
+    <string name="no_favorite_now">Esta palabra ya no es favorita.</string>
+    <!-- AboutActivity -->
+    <string name="present">Presentan…</string>
+    <string name="licence">Bajo licencia GPL 3</string>
+    <string name="authors">Basado en los diccionarios de</string>
+    <string name="developer">Desarrollador</string>
+    <string name="linguist">Lingüista</string>
+    <string name="coordinator_and_graphics">Coordinador y gráficos</string>
+    <string name="producers">Productores</string>
+    <string name="special_thanks">Agradecimientos especiales</string>
+    <!--  NOTIFICACION PUSH -->
+    <string name="server_registering">Se esta registrando el Dispositivo en el servidor espere ....</string>
+    <string name="server_registered">Registrado Dispositivo en el Servidor correctamente</string>
+    <string name="server_unregistered">Se retiro su Dispositivo en el Servidor</string>
+    <string name="server_register_error">No se pudo registrar su Dispositivo</string>
+    <string name="server_unregister_error">No se pudo eliminar su registro</string>
+    <string name="no_favorites">No tiene favoritos todavia (Presione estrella en las palabras que quiere insertar).</string>
+
+
+</resources>

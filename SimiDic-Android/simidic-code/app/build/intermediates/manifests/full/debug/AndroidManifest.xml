@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ketanolab.simidic"
+    android:installLocation="auto"
+    android:versionCode="4"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- GCM connects to Internet Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.ketanolab.simidic.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ketanolab.simidic.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ketanolab.simidic.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ketanolab.simidic.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.ketanolab.simidic.DownloadsActivity"
+            android:label="@string/downloads" >
+        </activity>
+        <activity
+            android:name="com.ketanolab.simidic.DiccionariesActivity"
+            android:label="@string/dictionaries" >
+        </activity>
+        <activity android:name="com.ketanolab.simidic.WordActivity" >
+        </activity>
+        <activity
+            android:name="com.ketanolab.simidic.FavoritesActivity"
+            android:label="@string/favorites" >
+        </activity>
+        <activity
+            android:name="com.ketanolab.simidic.CreditsActivity"
+            android:label="@string/credits" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.ketanolab.simidic" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.ketanolab.simidic.GCMIntentService" />
+    </application>
+
+</manifest>
