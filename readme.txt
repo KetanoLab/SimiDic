@@ -12,9 +12,6 @@ The project contains:
 -SimiDic app for Android.- 
 -SimiDic app for iOS.-
 
-Note: to compile SimiDic for Android you need to download the following libraries:
--- ViewPagerIndicator http://viewpagerindicator.com/
--- ActionBar http://actionbarsherlock.com/
 
 
 The project is developed under GPLV3 license, for more information about the license visit:

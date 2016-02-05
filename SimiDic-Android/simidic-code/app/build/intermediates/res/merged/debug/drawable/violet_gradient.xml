@@ -6,4 +6,4 @@
         android:endColor="@color/ligh_violet"
         android:startColor="@color/violet" />
 
-</shape><!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/drawable/violet_gradient.xml -->
+</shape><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/drawable/violet_gradient.xml -->

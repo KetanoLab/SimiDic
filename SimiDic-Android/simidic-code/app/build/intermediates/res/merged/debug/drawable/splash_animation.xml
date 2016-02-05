@@ -12,4 +12,4 @@
         android:drawable="@drawable/img_dictionary"
         android:duration="500"/>
 
-</animation-list><!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/drawable/splash_animation.xml -->
+</animation-list><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/drawable/splash_animation.xml -->

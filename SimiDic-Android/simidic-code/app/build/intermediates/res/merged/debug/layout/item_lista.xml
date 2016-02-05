@@ -39,4 +39,4 @@
         android:text="@string/author"
         android:textColor="@color/black2" />
 
-</RelativeLayout><!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/layout/item_lista.xml -->
+</RelativeLayout><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/layout/item_lista.xml -->

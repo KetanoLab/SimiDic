@@ -38,4 +38,4 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black1" />
 
-</RelativeLayout><!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/layout/activity_splash.xml -->
+</RelativeLayout><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/layout/activity_splash.xml -->

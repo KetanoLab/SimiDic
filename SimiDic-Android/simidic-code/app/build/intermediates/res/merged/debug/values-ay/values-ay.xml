@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/values-ay/strings.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values-ay/strings.xml -->
     <eat-comment/>
     <string name="app_full_name">"SimiDic 1.0.1"</string>
     <string name="app_name">"SimiDic"</string>

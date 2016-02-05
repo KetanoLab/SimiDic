@@ -28,4 +28,4 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/black2" />
 
-</LinearLayout><!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/layout/word_list_item.xml -->
+</LinearLayout><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/layout/word_list_item.xml -->

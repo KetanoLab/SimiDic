@@ -21,4 +21,4 @@
         android:showAsAction="ifRoom"
         android:title="@string/credits"/>
 
-</menu><!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/menu/activity_main.xml -->
+</menu><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/menu/activity_main.xml -->

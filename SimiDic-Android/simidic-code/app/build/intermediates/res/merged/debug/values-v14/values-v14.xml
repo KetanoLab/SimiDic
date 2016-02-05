@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values-v14/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"/>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v14/values.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v14/values.xml -->
     <eat-comment/>
     <style name="Base.Theme.AppCompat" parent="Base.V14.Theme.AppCompat">
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
@@ -37,7 +37,7 @@
     <style name="Base.V14.Theme.AppCompat.Dialog" parent="Base.V11.Theme.AppCompat.Dialog"/>
     <style name="Base.V14.Theme.AppCompat.Light" parent="Base.V11.Theme.AppCompat.Light"/>
     <style name="Base.V14.Theme.AppCompat.Light.Dialog" parent="Base.V11.Theme.AppCompat.Light.Dialog"/>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/values-v14/abs__themes.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values-v14/abs__themes.xml -->
     <eat-comment/>
     <style name="Sherlock.__Theme" parent="android:Theme.Holo">
     </style>
@@ -55,7 +55,7 @@
     </style>
     <style name="Sherlock.__Theme.Light" parent="android:Theme.Holo.Light">
     </style>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/values-v14/abs__styles.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values-v14/abs__styles.xml -->
     <eat-comment/>
     <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large" parent="android:TextAppearance.Holo.Widget.PopupMenu.Large">
     </style>
@@ -85,13 +85,13 @@
     </style>
     <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small" parent="android:TextAppearance.Holo.Widget.PopupMenu.Small">
     </style>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/values-v14/abs__themes.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values-v14/abs__themes.xml -->
     <eat-comment/>
     <style name="Theme.Sherlock.Dialog" parent="android:Theme.Holo.Dialog">
     </style>
     <style name="Theme.Sherlock.Light.Dialog" parent="android:Theme.Holo.Light.Dialog">
     </style>
-    <!-- From: file:/home/pteran/gradleCourse/ud867/4.04-Exercise-CreateAnAndroidLibrary/simidic-code/app/src/main/res/values-v14/abs__styles.xml -->
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values-v14/abs__styles.xml -->
     <eat-comment/>
     <style name="Widget.Sherlock.ActionBar" parent="android:Widget.Holo.ActionBar">
     </style>
