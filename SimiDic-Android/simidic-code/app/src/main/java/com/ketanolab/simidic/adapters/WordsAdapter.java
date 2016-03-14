@@ -22,8 +22,8 @@ public class WordsAdapter extends BaseAdapter {
 	private List<String> titulos;
 	private List<CharSequence> subtitulos;
 
-	public WordsAdapter(Context contexto) {
-		inflater = LayoutInflater.from(contexto);
+	public WordsAdapter(Context context) {
+		inflater = LayoutInflater.from(context);
 		imagenes = new ArrayList<Integer>();
 		titulos = new ArrayList<String>();
 		subtitulos = new ArrayList<CharSequence>();
@@ -76,20 +76,20 @@ public class WordsAdapter extends BaseAdapter {
 		TextView subtitulo;
 	}
 
-	public void adicionarItem(int recurso, String titulo, CharSequence subtitulo) {
+	public void addItem(int recurso, String titulo, CharSequence subtitulo) {
 		imagenes.add(recurso);
 		titulos.add(titulo);
 		subtitulos.add(subtitulo);
 		notifyDataSetChanged();
 	}
 
-	public void adicionarItem(String titulo, CharSequence subtitulo) {
+	public void addItem(String titulo, CharSequence subtitulo) {
 		imagenes.add(0);
 		titulos.add(titulo);
 		subtitulos.add(subtitulo);
 	}
 
-	public void adicionarItem(String titulo) {
+	public void addItem(String titulo) {
 		imagenes.add(0);
 		titulos.add(titulo);
 		subtitulos.add("");

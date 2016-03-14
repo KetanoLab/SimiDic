@@ -49,4 +49,6 @@
     <string name="you_dont_have_dictionaries">"Not have dictionaries installed on your device."</string>
     <string name="you_dont_have_sd">"Not have an external memory installed, it requires to store SimiDic dictionaries."</string>
     <string name="no_favorites">No tiene favoritos todavia (Presione estrella en las palabras que quiere insertar).</string>
+    <string name="open_memu_drawer_description_for_accesibility">Manu abierto</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menu Cerrado</string>
 </resources>

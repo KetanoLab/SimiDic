@@ -56,6 +56,8 @@
     <string name="server_register_error">No se pudo registrar su Dispositivo</string>
     <string name="server_unregister_error">No se pudo eliminar su registro</string>
     <string name="no_favorites">No tiene favoritos todavia (Presione estrella en las palabras que quiere insertar).</string>
+    <string name="open_memu_drawer_description_for_accesibility">Manu abierto</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menu Cerrado</string>
 
 
 </resources>

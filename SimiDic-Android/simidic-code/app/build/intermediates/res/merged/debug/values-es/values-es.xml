@@ -24,6 +24,7 @@
     <string name="author">Autor</string>
     <string name="authors">Basado en los diccionarios de</string>
     <string name="by">por</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menu Cerrado</string>
     <string name="coordinator_and_graphics">Coordinador y gráficos</string>
     <string name="credits">Créditos</string>
     <string name="description">Descripción</string>
@@ -52,6 +53,7 @@
     <string name="no_favorite_now">Esta palabra ya no es favorita.</string>
     <string name="no_favorites">No tiene favoritos todavia (Presione estrella en las palabras que quiere insertar).</string>
     <string name="no_internet">Sin internet</string>
+    <string name="open_memu_drawer_description_for_accesibility">Manu abierto</string>
     <string name="present">Presentan…</string>
     <string name="producers">Productores</string>
     <string name="sd_required">SD requerido</string>

@@ -74,10 +74,10 @@ public class FavoritesActivity extends ActionBarActivity implements OnItemClickL
 				}
 				dbWords.close();
 				// ****
-				adaptadorLista.adicionarItem(R.drawable.ic_menu_star, word, name + "\n" + author);
+				adaptadorLista.addItem(R.drawable.ic_menu_star, word, name + "\n" + author);
 			} while (cursor.moveToNext());
 		} else {
-			adaptadorLista.adicionarItem(R.drawable.ic_menu_star,getString(R.string.no_favorites)," ");
+			adaptadorLista.addItem(R.drawable.ic_menu_star, getString(R.string.no_favorites), " ");
 		}
 		cursor.close();
 		db.close();

@@ -1,0 +1,16 @@
+<resources>
+
+    <string-array name="items">
+        <item>@string/dictionaries</item>
+        <item>@string/favorites</item>
+        <item>@string/downloads</item>
+        <item>@string/credits</item>
+
+    </string-array>
+    <integer-array name="resources">
+        <item>@drawable/ic_action_books</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_download</item>
+        <item>@drawable/ic_action_info</item>
+    </integer-array>
+</resources>

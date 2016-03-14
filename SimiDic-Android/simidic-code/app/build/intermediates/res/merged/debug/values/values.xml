@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values/menu_items.xml -->
+    <eat-comment/>
+    <string-array name="items">
+        <item>@string/dictionaries</item>
+        <item>@string/favorites</item>
+        <item>@string/downloads</item>
+        <item>@string/credits</item>
+
+    </string-array>
+    <integer-array name="resources">
+        <item>@drawable/ic_action_books</item>
+        <item>@drawable/ic_action_star</item>
+        <item>@drawable/ic_action_download</item>
+        <item>@drawable/ic_action_info</item>
+    </integer-array>
     <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values/vpi__attrs.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
@@ -240,7 +255,10 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
+    <dimen name="icon_menu_size">48dp</dimen>
     <dimen name="margin">7dp</dimen>
+    <dimen name="menu_margin">16dp</dimen>
+    <dimen name="menu_margin_vertical">8dp</dimen>
     <!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
@@ -286,6 +304,7 @@
     <string name="author">"Author"</string>
     <string name="authors">"Based on dictionaries"</string>
     <string name="by">"by"</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menu Closed</string>
     <string name="coordinator_and_graphics">"Coordinator and graphics"</string>
     <string name="credits">"Credits"</string>
     <string name="description">"Description"</string>
@@ -314,6 +333,7 @@
     <string name="no_favorite_now">"This word is no favorite."</string>
     <string name="no_favorites">You don\'t have favorites, (click on the star over the words you want to add)</string>
     <string name="no_internet">"Without Internet"</string>
+    <string name="open_memu_drawer_description_for_accesibility">Menu Opened</string>
     <string name="present">"Presented ..."</string>
     <string name="producers">"Producers"</string>
     <string name="sd_required">"SD required"</string>

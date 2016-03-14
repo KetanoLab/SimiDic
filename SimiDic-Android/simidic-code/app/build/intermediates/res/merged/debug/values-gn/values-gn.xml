@@ -7,6 +7,7 @@
     <string name="author">"Chhiijnuqiri"</string>
     <string name="authors">"ukarjama arus"</string>
     <string name="by">"layku"</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menu Cerrado</string>
     <string name="coordinator_and_graphics">"jamukiri"</string>
     <string name="credits">"creditos"</string>
     <string name="description">"arsusa yatiyaña"</string>
@@ -35,6 +36,7 @@
     <string name="no_favorite_now">"This word is no favorite."</string>
     <string name="no_favorites">No tiene favoritos todavia (Presione estrella en las palabras que quiere insertar).</string>
     <string name="no_internet">"Without Internet"</string>
+    <string name="open_memu_drawer_description_for_accesibility">Manu abierto</string>
     <string name="present">"Presented ..."</string>
     <string name="producers">"Producers"</string>
     <string name="sd_required">"SD required"</string>

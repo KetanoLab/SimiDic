@@ -8,7 +8,9 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SimpleCursorAdapter;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -31,6 +33,8 @@ import android.os.AsyncTask;
 //
 
 
+import com.ketanolab.simidic.UIUtils.MenuDrawer;
+import com.ketanolab.simidic.adapters.MenuListAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Dictionaries;
 import com.ketanolab.simidic.util.Util;
@@ -46,20 +50,20 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 	private int itemSelectedNavigation = 0;
 	private ArrayAdapter<String> listNavigationAdapter;
 
-	// List
-	private ListView listView;
-	private SimpleCursorAdapter simpleCursorAdapter;
+	// List words
+	private ListView wordsListView;
+	private SimpleCursorAdapter WordsSimpleCursorAdapter;
 	SQLiteDatabase db;
 
+	//list menu
+	private ListView menuListView;
+	private MenuListAdapter menuListAdapter;
 	// EditText
-	private EditText cajaConsulta;
+	private EditText askBox;
 
 
-
-	// Internet detector
-	ConnectionDetector cd;
-	// UI elements
-	// Asyntask
+	//MenuDrawer Button
+	private ActionBarDrawerToggle mMenu;
 
 	AsyncTask<Void, Void, Void> mRegisterTask;
 
@@ -71,35 +75,41 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 		super.onCreate(savedInstanceState);
 		Log.i(Constants.DEBUG, "onCreate()");
 		setContentView(R.layout.activity_main);
-		getSupportActionBar().setDisplayShowTitleEnabled(false); // Hide title
-		getSupportActionBar().setDisplayShowHomeEnabled(false); // Hide icon
 
+		//menuListView.setOnItemClickListener(this);
 		// Navigation
 		Context context = getSupportActionBar().getThemedContext();
 		listNavigationAdapter = new ArrayAdapter<String>(context,
 				R.layout.action_bar_spinner_list_item);
 		listNavigationAdapter
 				.setDropDownViewResource(R.layout.action_bar_spinner_list_item);
+
+		final android.app.ActionBar actionBar = getActionBar();
+		// List
+		wordsListView = (ListView) findViewById(R.id.lista);
+		wordsListView.setOnItemClickListener(this);
+		getSupportActionBar().setDisplayShowTitleEnabled(false); // Hide title
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setHomeButtonEnabled(true);
 		getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
 		getSupportActionBar().setListNavigationCallbacks(listNavigationAdapter,
 				this);
-		final android.app.ActionBar actionBar = getActionBar();
-		// List
-		listView = (ListView) findViewById(R.id.lista);
-		listView.setOnItemClickListener(this);
-
-		cajaConsulta = (EditText) findViewById(R.id.caja_consulta);
-		cajaConsulta.addTextChangedListener(new TextWatcher() {
+		DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+		mMenu = MenuDrawer.getMenuDrawer(this,getSupportActionBar(),drawerLayout);
+		menuListView = (ListView)findViewById(R.id.list_slidermenu);
+		menuListView.setAdapter(new MenuListAdapter(this));
+		askBox = (EditText) findViewById(R.id.caja_consulta);
+		askBox.addTextChangedListener(new TextWatcher() {
 
 			public void onTextChanged(CharSequence s, int start, int before,
-					int count) {
+									  int count) {
 				if (s.toString().length() > 0) {
-					simpleCursorAdapter.getFilter().filter(s.toString());
+					WordsSimpleCursorAdapter.getFilter().filter(s.toString());
 				}
 			}
 
 			public void beforeTextChanged(CharSequence s, int start, int count,
-					int after) {
+										  int after) {
 			}
 
 			public void afterTextChanged(Editable s) {
@@ -125,9 +135,9 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 			loadAllWords();
 		}
 		// Re-query
-		String s = cajaConsulta.getText().toString();
+		String s = askBox.getText().toString();
 		if (s.toString().length() > 0) {
-			simpleCursorAdapter.getFilter().filter(s.toString());
+			WordsSimpleCursorAdapter.getFilter().filter(s.toString());
 		}
 	}
 
@@ -139,13 +149,13 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 		Cursor cursor = db
 				.query("words", columns, null, null, null, null, null);
 
-		simpleCursorAdapter = new SimpleCursorAdapter(this,
+		WordsSimpleCursorAdapter = new SimpleCursorAdapter(this,
 				R.layout.word_list_item, cursor, columns, to, 0);
 
-		simpleCursorAdapter.setFilterQueryProvider(new FilterQueryProvider() {
+		WordsSimpleCursorAdapter.setFilterQueryProvider(new FilterQueryProvider() {
 			public Cursor runQuery(CharSequence constraint) {
 
-				String word = constraint.toString() + "%";
+				String word = "%" + constraint.toString() + "%";
 				Cursor cursor = null;
 				if (pathsDictionaries.get(itemSelectedNavigation)
 						.contains("gn")) {
@@ -164,7 +174,7 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 			}
 		});
 
-		listView.setAdapter(simpleCursorAdapter);
+		wordsListView.setAdapter(WordsSimpleCursorAdapter);
 
 	}
 
@@ -191,9 +201,9 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 			loadAllWords();
 		}
 		// Re-query
-		String word = cajaConsulta.getText().toString();
+		String word = askBox.getText().toString();
 		if (word.length() > 0) {
-			simpleCursorAdapter.getFilter().filter(word);
+			WordsSimpleCursorAdapter.getFilter().filter(word);
 		}
 		return true;
 	}
@@ -207,8 +217,8 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		if (item.getItemId() == android.R.id.home || item.getItemId() == 0) {
-			return false;
+		if (mMenu.onOptionsItemSelected(item)) {
+			return true;
 		}
 		switch (item.getItemId()) {
 		case R.id.menu_download:
@@ -238,7 +248,6 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 		String word = ((TextView) v.findViewById(R.id.word_item)).getText()
 				.toString();
 		Intent intent = new Intent(this, WordActivity.class);
-		//GCMRegistrar.register(this, SENDER_ID);
 		intent.putExtra("path", pathsDictionaries.get(getSupportActionBar()
 				.getSelectedNavigationIndex()));
 		intent.putExtra("word", word);
@@ -249,9 +258,9 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 	protected void onStop() {
 		super.onStop();
 		Log.i(Constants.DEBUG, "onStop()");
-		if (simpleCursorAdapter != null) {
-			simpleCursorAdapter.getCursor().close();
-			simpleCursorAdapter = null;
+		if (WordsSimpleCursorAdapter != null) {
+			WordsSimpleCursorAdapter.getCursor().close();
+			WordsSimpleCursorAdapter = null;
 		}
 		if (db != null) {
 			db.close();

@@ -16,6 +16,9 @@
     <string name="you_dont_have_dictionaries">"Not have dictionaries installed on your device."</string>
     <string name="sd_required">"SD required"</string>
     <string name="you_dont_have_sd">"Not have an external memory installed, it requires to store SimiDic dictionaries."</string>
+    <string name="open_memu_drawer_description_for_accesibility">Menu Opened</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menu Closed</string>
+
     <!-- DownloadsActivity -->
     <string name="download_failed">"Download failed, try again."</string>
     <string name="downloaded">"Downloaded"</string>

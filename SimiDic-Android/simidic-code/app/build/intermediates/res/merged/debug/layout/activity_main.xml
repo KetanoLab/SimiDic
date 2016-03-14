@@ -1,5 +1,36 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <!-- nativagion drawer view-->
+
+    <ScrollView
+    android:id="@+id/activity_lists_menu_drawer"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:layout_marginRight="@dimen/menu_margin"
+    android:scaleType="matrix"
+    android:background="@color/ligh_violet"
+    >
+        <ListView
+            android:id="@+id/list_slidermenu"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="@color/white"
+            android:dividerHeight="1dp"
+            android:background="#00000000"/>
+
+    </ScrollView>
+    <!-- main view-->
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blanco1"
@@ -28,4 +59,6 @@
         android:dividerHeight="1dp" >
     </ListView>
 
-</LinearLayout><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/layout/activity_main.xml -->
+</LinearLayout>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/res/layout/activity_main.xml -->
