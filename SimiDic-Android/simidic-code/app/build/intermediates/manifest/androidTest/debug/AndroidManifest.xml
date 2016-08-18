@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ketanolab.simidic.test">
+    package="com.ketanolab.simidic.test.test">
 
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="16" />
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="16" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.ketanolab.simidic"
+                     android:targetPackage="com.ketanolab.simidic.test"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.ketanolab.simidic"/>
+                     android:label="Tests for com.ketanolab.simidic.test"/>
 </manifest>

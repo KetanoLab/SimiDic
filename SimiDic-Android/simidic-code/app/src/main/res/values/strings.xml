@@ -9,6 +9,7 @@
     <string name="favorites">"Starred"</string>
     <string name="dictionaries">"Dictionaries"</string>
     <string name="downloads">"Downloads"</string>
+    <string name="preferences">Preferences</string>
     <string name="information">"Information"</string>
     <!-- MainActivity -->
     <string name="insert_word">"Type word"</string>

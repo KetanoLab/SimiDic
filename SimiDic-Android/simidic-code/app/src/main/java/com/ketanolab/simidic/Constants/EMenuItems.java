@@ -9,7 +9,10 @@ public enum EMenuItems {
     DICTIONAIRES(R.string.dictionaries,  R.drawable.ic_action_books,1),
     CREDITS(R.string.credits,  R.drawable.ic_action_info,2),
     FAVORITES(R.string.favorites,R.drawable.ic_action_star,3),
-    DOWNLOADS(R.string.downloads,  R.drawable.ic_action_download,4);
+    DOWNLOADS(R.string.downloads,  R.drawable.ic_action_download,4),
+    PREFERENCES(R.string.preferences,R.drawable.ic_action_download,5);
+
+
 private final int text, icon, id;
 
     private EMenuItems(int text, int icon, int id){

@@ -11,6 +11,8 @@ import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -34,6 +36,7 @@ import android.os.AsyncTask;
 
 
 import com.ketanolab.simidic.UIUtils.MenuDrawer;
+import com.ketanolab.simidic.adapters.MenuAdapter;
 import com.ketanolab.simidic.adapters.MenuListAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Dictionaries;
@@ -56,7 +59,7 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 	SQLiteDatabase db;
 
 	//list menu
-	private ListView menuListView;
+	private RecyclerView menuListView;
 	private MenuListAdapter menuListAdapter;
 	// EditText
 	private EditText askBox;
@@ -66,6 +69,8 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 	private ActionBarDrawerToggle mMenu;
 
 	AsyncTask<Void, Void, Void> mRegisterTask;
+	private LinearLayoutManager mLayoutManager;
+	private MenuAdapter mAdapter;
 
 	// END NOTIFICACION PUSH
 
@@ -76,7 +81,6 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 		Log.i(Constants.DEBUG, "onCreate()");
 		setContentView(R.layout.activity_main);
 
-		//menuListView.setOnItemClickListener(this);
 		// Navigation
 		Context context = getSupportActionBar().getThemedContext();
 		listNavigationAdapter = new ArrayAdapter<String>(context,
@@ -84,7 +88,6 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 		listNavigationAdapter
 				.setDropDownViewResource(R.layout.action_bar_spinner_list_item);
 
-		final android.app.ActionBar actionBar = getActionBar();
 		// List
 		wordsListView = (ListView) findViewById(R.id.lista);
 		wordsListView.setOnItemClickListener(this);
@@ -96,8 +99,14 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 				this);
 		DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mMenu = MenuDrawer.getMenuDrawer(this,getSupportActionBar(),drawerLayout);
-		menuListView = (ListView)findViewById(R.id.list_slidermenu);
-		menuListView.setAdapter(new MenuListAdapter(this));
+		mLayoutManager = new LinearLayoutManager(this);
+		menuListView = (RecyclerView)findViewById(R.id.list_slidermenu);
+		menuListView.setLayoutManager(mLayoutManager);
+		mAdapter = new MenuAdapter();
+		menuListView.setAdapter(mAdapter);
+		mAdapter.notifyDataSetChanged();
+
+
 		askBox = (EditText) findViewById(R.id.caja_consulta);
 		askBox.addTextChangedListener(new TextWatcher() {
 

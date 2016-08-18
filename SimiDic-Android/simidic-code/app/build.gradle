@@ -5,8 +5,8 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.ketanolab.simidic"
-        minSdkVersion 9
+        applicationId "com.ketanolab.simidic.test"
+        minSdkVersion 11
         targetSdkVersion 16
     }
 
@@ -19,8 +19,9 @@ android {
 }
 
 dependencies {
-   // compile 'com.google.android.gms:play-services:+'
+    //compile 'com.google.android.gms:play-services:+'
     //compile project(':actionbarsherlock')
     compile 'com.android.support:appcompat-v7:21.+'
     compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:recyclerview-v7:+'
 }

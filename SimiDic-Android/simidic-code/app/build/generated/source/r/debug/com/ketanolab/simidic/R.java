@@ -25,15 +25,15 @@ public final class R {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f010065;
+        public static final int actionBarDivider=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f010066;
+        public static final int actionBarItemBackground=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f01005f;
+        public static final int actionBarPopupTheme=0x7f010063;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -51,43 +51,43 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f010064;
+        public static final int actionBarSize=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f010061;
+        public static final int actionBarSplitStyle=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f010060;
+        public static final int actionBarStyle=0x7f010064;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f01005b;
+        public static final int actionBarTabBarStyle=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f01005a;
+        public static final int actionBarTabStyle=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f01005c;
+        public static final int actionBarTabTextStyle=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f010062;
+        public static final int actionBarTheme=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f010063;
+        public static final int actionBarWidgetTheme=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f01007d;
+        public static final int actionButtonStyle=0x7f010081;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f010078;
+        public static final int actionDropDownStyle=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -95,73 +95,73 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f010067;
+        public static final int actionMenuTextAppearance=0x7f01006b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f010068;
+        public static final int actionMenuTextColor=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f01006b;
+        public static final int actionModeBackground=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f01006a;
+        public static final int actionModeCloseButtonStyle=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f01006d;
+        public static final int actionModeCloseDrawable=0x7f010071;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f01006f;
+        public static final int actionModeCopyDrawable=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f01006e;
+        public static final int actionModeCutDrawable=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f010073;
+        public static final int actionModeFindDrawable=0x7f010077;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f010070;
+        public static final int actionModePasteDrawable=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f010075;
+        public static final int actionModePopupWindowStyle=0x7f010079;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f010071;
+        public static final int actionModeSelectAllDrawable=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f010072;
+        public static final int actionModeShareDrawable=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f01006c;
+        public static final int actionModeSplitBackground=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f010069;
+        public static final int actionModeStyle=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010074;
+        public static final int actionModeWebSearchDrawable=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f01005d;
+        public static final int actionOverflowButtonStyle=0x7f010061;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f01005e;
+        public static final int actionOverflowMenuStyle=0x7f010062;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -181,7 +181,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010084;
+        public static final int activityChooserViewStyle=0x7f010088;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -211,11 +211,11 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f01007f;
+        public static final int buttonBarButtonStyle=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f01007e;
+        public static final int buttonBarStyle=0x7f010082;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -233,11 +233,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int clipPadding=0x7f0100a5;
+        public static final int clipPadding=0x7f0100a9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f010040;
+        public static final int closeIcon=0x7f010044;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -249,11 +249,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f0100ba;
+        public static final int collapseContentDescription=0x7f0100be;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f0100b9;
+        public static final int collapseIcon=0x7f0100bd;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -271,7 +271,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f01009f;
+        public static final int colorAccent=0x7f0100a3;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -280,7 +280,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f0100a3;
+        public static final int colorButtonNormal=0x7f0100a7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -289,7 +289,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f0100a1;
+        public static final int colorControlActivated=0x7f0100a5;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -298,7 +298,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f0100a2;
+        public static final int colorControlHighlight=0x7f0100a6;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -307,7 +307,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f0100a0;
+        public static final int colorControlNormal=0x7f0100a4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -316,7 +316,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f01009d;
+        public static final int colorPrimary=0x7f0100a1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -325,7 +325,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f01009e;
+        public static final int colorPrimaryDark=0x7f0100a2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -334,11 +334,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f0100a4;
+        public static final int colorSwitchThumbNormal=0x7f0100a8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f010044;
+        public static final int commitIcon=0x7f010048;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -390,7 +390,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int disableChildrenWhenDisabled=0x7f01004b;
+        public static final int disableChildrenWhenDisabled=0x7f01004f;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -414,7 +414,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010083;
+        public static final int dividerHorizontal=0x7f010087;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -428,7 +428,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010082;
+        public static final int dividerVertical=0x7f010086;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -446,7 +446,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f010095;
+        public static final int dropDownListViewStyle=0x7f010099;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -456,17 +456,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f010079;
+        public static final int dropdownListPreferredItemHeight=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f01008a;
+        public static final int editTextBackground=0x7f01008e;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f010089;
+        public static final int editTextColor=0x7f01008d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -488,7 +488,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fadeDelay=0x7f0100be;
+        public static final int fadeDelay=0x7f0100c2;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -496,7 +496,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fadeLength=0x7f0100bf;
+        public static final int fadeLength=0x7f0100c3;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -504,7 +504,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fades=0x7f0100bd;
+        public static final int fades=0x7f0100c1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -522,7 +522,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerColor=0x7f0100a6;
+        public static final int footerColor=0x7f0100aa;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -532,7 +532,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerIndicatorHeight=0x7f0100a9;
+        public static final int footerIndicatorHeight=0x7f0100ad;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -544,7 +544,7 @@ containing a value of this type.
 <tr><td><code>underline</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int footerIndicatorStyle=0x7f0100a8;
+        public static final int footerIndicatorStyle=0x7f0100ac;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -554,7 +554,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerIndicatorUnderlinePadding=0x7f0100aa;
+        public static final int footerIndicatorUnderlinePadding=0x7f0100ae;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -564,7 +564,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerLineHeight=0x7f0100a7;
+        public static final int footerLineHeight=0x7f0100ab;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -574,7 +574,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerPadding=0x7f0100ab;
+        public static final int footerPadding=0x7f0100af;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -598,7 +598,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f010041;
+        public static final int goIcon=0x7f010045;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -620,7 +620,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f01007c;
+        public static final int homeAsUpIndicator=0x7f010080;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -636,7 +636,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f01003e;
+        public static final int iconifiedByDefault=0x7f010042;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -670,7 +670,15 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f01003d;
+        public static final int layout=0x7f010041;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layoutManager=0x7f01003d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -681,7 +689,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int linePosition=0x7f0100ac;
+        public static final int linePosition=0x7f0100b0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -695,11 +703,11 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f01009c;
+        public static final int listChoiceBackgroundIndicator=0x7f0100a0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f010096;
+        public static final int listPopupWindowStyle=0x7f01009a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -709,7 +717,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f010090;
+        public static final int listPreferredItemHeight=0x7f010094;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -719,7 +727,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f010092;
+        public static final int listPreferredItemHeightLarge=0x7f010096;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -729,7 +737,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f010091;
+        public static final int listPreferredItemHeightSmall=0x7f010095;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -739,7 +747,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f010093;
+        public static final int listPreferredItemPaddingLeft=0x7f010097;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -749,7 +757,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f010094;
+        public static final int listPreferredItemPaddingRight=0x7f010098;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -763,7 +771,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f0100b7;
+        public static final int maxButtonHeight=0x7f0100bb;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -789,11 +797,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f0100bc;
+        public static final int navigationContentDescription=0x7f0100c0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f0100bb;
+        public static final int navigationIcon=0x7f0100bf;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -823,7 +831,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f0100c1;
+        public static final int paddingEnd=0x7f0100c5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -833,7 +841,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f0100c0;
+        public static final int paddingStart=0x7f0100c4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -846,11 +854,11 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f010099;
+        public static final int panelBackground=0x7f01009d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f01009b;
+        public static final int panelMenuListTheme=0x7f01009f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -860,15 +868,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f01009a;
+        public static final int panelMenuListWidth=0x7f01009e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f010087;
+        public static final int popupMenuStyle=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupPromptView=0x7f01004a;
+        public static final int popupPromptView=0x7f01004e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -876,7 +884,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f010088;
+        public static final int popupWindowStyle=0x7f01008c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -902,11 +910,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int prompt=0x7f010048;
+        public static final int prompt=0x7f01004c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f010046;
+        public static final int queryBackground=0x7f01004a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -914,7 +922,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f01003f;
+        public static final int queryHint=0x7f010043;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -925,22 +933,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int radius=0x7f010025;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int searchIcon=0x7f010042;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int searchViewStyle=0x7f01008f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectableItemBackground=0x7f010080;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectableItemBackgroundBorderless=0x7f010081;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -948,7 +940,31 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int selectedBold=0x7f0100ad;
+        public static final int reverseLayout=0x7f01003f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchIcon=0x7f010046;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchViewStyle=0x7f010093;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackground=0x7f010084;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackgroundBorderless=0x7f010085;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selectedBold=0x7f0100b1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -992,7 +1008,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010052;
+        public static final int showText=0x7f010056;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1001,6 +1017,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int snap=0x7f010026;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spanCount=0x7f01003e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1012,7 +1036,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f01007b;
+        public static final int spinnerDropDownItemStyle=0x7f01007f;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1023,11 +1047,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int spinnerMode=0x7f010049;
+        public static final int spinnerMode=0x7f01004d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f01007a;
+        public static final int spinnerStyle=0x7f01007e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1035,7 +1059,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010051;
+        public static final int splitTrack=0x7f010055;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int stackFromEnd=0x7f010040;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1066,7 +1098,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f010047;
+        public static final int submitBackground=0x7f01004b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1078,7 +1110,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f0100b1;
+        public static final int subtitleTextAppearance=0x7f0100b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1086,7 +1118,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f010045;
+        public static final int suggestionRowLayout=0x7f010049;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1096,7 +1128,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f01004f;
+        public static final int switchMinWidth=0x7f010053;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1106,15 +1138,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010050;
+        public static final int switchPadding=0x7f010054;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f01008b;
+        public static final int switchStyle=0x7f01008f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f01004e;
+        public static final int switchTextAppearance=0x7f010052;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -1123,37 +1155,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f010076;
+        public static final int textAppearanceLargePopupMenu=0x7f01007a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f010097;
+        public static final int textAppearanceListItem=0x7f01009b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f010098;
+        public static final int textAppearanceListItemSmall=0x7f01009c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f01008d;
+        public static final int textAppearanceSearchResultSubtitle=0x7f010091;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f01008c;
+        public static final int textAppearanceSearchResultTitle=0x7f010090;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f010077;
+        public static final int textAppearanceSmallPopupMenu=0x7f01007b;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f01008e;
+        public static final int textColorSearchUrl=0x7f010092;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f0100b8;
+        public static final int theme=0x7f0100bc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1173,7 +1205,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f01004d;
+        public static final int thumbTextPadding=0x7f010051;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1191,7 +1223,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f0100b6;
+        public static final int titleMarginBottom=0x7f0100ba;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1201,7 +1233,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f0100b4;
+        public static final int titleMarginEnd=0x7f0100b8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1211,7 +1243,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f0100b3;
+        public static final int titleMarginStart=0x7f0100b7;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1221,7 +1253,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f0100b5;
+        public static final int titleMarginTop=0x7f0100b9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1231,7 +1263,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f0100b2;
+        public static final int titleMargins=0x7f0100b6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1241,11 +1273,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titlePadding=0x7f0100ae;
+        public static final int titlePadding=0x7f0100b2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f0100b0;
+        public static final int titleTextAppearance=0x7f0100b4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1253,11 +1285,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f010086;
+        public static final int toolbarNavigationButtonStyle=0x7f01008a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f010085;
+        public static final int toolbarStyle=0x7f010089;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1277,11 +1309,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int topPadding=0x7f0100af;
+        public static final int topPadding=0x7f0100b3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f01004c;
+        public static final int track=0x7f010050;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1294,31 +1326,31 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f010043;
+        public static final int voiceIcon=0x7f010047;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiCirclePageIndicatorStyle=0x7f0100c2;
+        public static final int vpiCirclePageIndicatorStyle=0x7f0100c6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiIconPageIndicatorStyle=0x7f0100c3;
+        public static final int vpiIconPageIndicatorStyle=0x7f0100c7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiLinePageIndicatorStyle=0x7f0100c4;
+        public static final int vpiLinePageIndicatorStyle=0x7f0100c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiTabPageIndicatorStyle=0x7f0100c6;
+        public static final int vpiTabPageIndicatorStyle=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiTitlePageIndicatorStyle=0x7f0100c5;
+        public static final int vpiTitlePageIndicatorStyle=0x7f0100c9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiUnderlinePageIndicatorStyle=0x7f0100c7;
+        public static final int vpiUnderlinePageIndicatorStyle=0x7f0100cb;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1326,7 +1358,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f010053;
+        public static final int windowActionBar=0x7f010057;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1334,7 +1366,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f010054;
+        public static final int windowActionBarOverlay=0x7f010058;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1342,7 +1374,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f010055;
+        public static final int windowActionModeOverlay=0x7f010059;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1355,7 +1387,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMajor=0x7f010059;
+        public static final int windowFixedHeightMajor=0x7f01005d;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1368,7 +1400,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMinor=0x7f010057;
+        public static final int windowFixedHeightMinor=0x7f01005b;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1381,7 +1413,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMajor=0x7f010056;
+        public static final int windowFixedWidthMajor=0x7f01005a;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1394,7 +1426,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMinor=0x7f010058;
+        public static final int windowFixedWidthMinor=0x7f01005c;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs=0x7f060002;
@@ -1410,19 +1442,19 @@ containing a value of this type.
         public static final int default_underline_indicator_fades=0x7f06000a;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0b0053;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0b0054;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0b0054;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0b0055;
         public static final int abc_input_method_navigation_guard=0x7f0b0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0b0055;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0b0056;
-        public static final int abc_primary_text_material_dark=0x7f0b0057;
-        public static final int abc_primary_text_material_light=0x7f0b0058;
-        public static final int abc_search_url_text=0x7f0b0059;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0b0056;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0b0057;
+        public static final int abc_primary_text_material_dark=0x7f0b0058;
+        public static final int abc_primary_text_material_light=0x7f0b0059;
+        public static final int abc_search_url_text=0x7f0b005a;
         public static final int abc_search_url_text_normal=0x7f0b0001;
         public static final int abc_search_url_text_pressed=0x7f0b0002;
         public static final int abc_search_url_text_selected=0x7f0b0003;
-        public static final int abc_secondary_text_material_dark=0x7f0b005a;
-        public static final int abc_secondary_text_material_light=0x7f0b005b;
+        public static final int abc_secondary_text_material_dark=0x7f0b005b;
+        public static final int abc_secondary_text_material_light=0x7f0b005c;
         public static final int accent_material_dark=0x7f0b0004;
         public static final int accent_material_light=0x7f0b0005;
         public static final int background_floating_material_dark=0x7f0b0006;
@@ -1492,18 +1524,19 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_light=0x7f0b0046;
         public static final int switch_thumb_normal_material_dark=0x7f0b0047;
         public static final int switch_thumb_normal_material_light=0x7f0b0048;
-        public static final int violet=0x7f0b0049;
-        public static final int vpi__background_holo_dark=0x7f0b004a;
-        public static final int vpi__background_holo_light=0x7f0b004b;
-        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f0b004c;
-        public static final int vpi__bright_foreground_disabled_holo_light=0x7f0b004d;
-        public static final int vpi__bright_foreground_holo_dark=0x7f0b004e;
-        public static final int vpi__bright_foreground_holo_light=0x7f0b004f;
-        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f0b0050;
-        public static final int vpi__bright_foreground_inverse_holo_light=0x7f0b0051;
-        public static final int vpi__dark_theme=0x7f0b005c;
-        public static final int vpi__light_theme=0x7f0b005d;
-        public static final int white=0x7f0b0052;
+        public static final int transparent=0x7f0b0049;
+        public static final int violet=0x7f0b004a;
+        public static final int vpi__background_holo_dark=0x7f0b004b;
+        public static final int vpi__background_holo_light=0x7f0b004c;
+        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f0b004d;
+        public static final int vpi__bright_foreground_disabled_holo_light=0x7f0b004e;
+        public static final int vpi__bright_foreground_holo_dark=0x7f0b004f;
+        public static final int vpi__bright_foreground_holo_light=0x7f0b0050;
+        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f0b0051;
+        public static final int vpi__bright_foreground_inverse_holo_light=0x7f0b0052;
+        public static final int vpi__dark_theme=0x7f0b005d;
+        public static final int vpi__light_theme=0x7f0b005e;
+        public static final int white=0x7f0b0053;
     }
     public static final class dimen {
         public static final int abc_action_bar_default_height_material=0x7f070000;
@@ -1563,9 +1596,12 @@ containing a value of this type.
         public static final int disabled_alpha_material_dark=0x7f070036;
         public static final int disabled_alpha_material_light=0x7f070037;
         public static final int icon_menu_size=0x7f070038;
-        public static final int margin=0x7f070039;
-        public static final int menu_margin=0x7f07003a;
-        public static final int menu_margin_vertical=0x7f07003b;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f070039;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f07003a;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f07003b;
+        public static final int margin=0x7f07003c;
+        public static final int menu_margin=0x7f07003d;
+        public static final int menu_margin_vertical=0x7f07003e;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_holo_dark=0x7f020000;
@@ -1654,118 +1690,119 @@ containing a value of this type.
         public static final int vpi__tab_unselected_pressed_holo=0x7f020053;
     }
     public static final class id {
-        public static final int action_bar=0x7f0c0035;
+        public static final int action_bar=0x7f0c0036;
         public static final int action_bar_activity_content=0x7f0c0000;
-        public static final int action_bar_container=0x7f0c0034;
-        public static final int action_bar_root=0x7f0c0030;
+        public static final int action_bar_container=0x7f0c0035;
+        public static final int action_bar_root=0x7f0c0031;
         public static final int action_bar_spinner=0x7f0c0001;
-        public static final int action_bar_subtitle=0x7f0c0023;
-        public static final int action_bar_title=0x7f0c0022;
-        public static final int action_context_bar=0x7f0c0036;
+        public static final int action_bar_subtitle=0x7f0c0024;
+        public static final int action_bar_title=0x7f0c0023;
+        public static final int action_context_bar=0x7f0c0037;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
-        public static final int action_mode_bar=0x7f0c0032;
-        public static final int action_mode_bar_stub=0x7f0c0031;
-        public static final int action_mode_close_button=0x7f0c0024;
-        public static final int activity_chooser_view_content=0x7f0c0025;
-        public static final int activity_lists_menu_drawer=0x7f0c0050;
-        public static final int always=0x7f0c0016;
-        public static final int authorItem=0x7f0c0060;
-        public static final int beginning=0x7f0c0013;
-        public static final int bottom=0x7f0c0020;
-        public static final int caja_consulta=0x7f0c0052;
-        public static final int checkbox=0x7f0c002d;
-        public static final int collapseActionView=0x7f0c0017;
-        public static final int decor_content_parent=0x7f0c0033;
-        public static final int default_activity_button=0x7f0c0028;
-        public static final int descargaImageView=0x7f0c005e;
-        public static final int descriptionItem=0x7f0c0061;
-        public static final int dialog=0x7f0c001b;
-        public static final int disableHome=0x7f0c000c;
-        public static final int drawer_layout=0x7f0c004f;
-        public static final int dropdown=0x7f0c001c;
-        public static final int edit_query=0x7f0c0037;
-        public static final int end=0x7f0c0014;
-        public static final int expand_activities_button=0x7f0c0026;
-        public static final int expanded_menu=0x7f0c002c;
-        public static final int extraItem=0x7f0c0062;
+        public static final int action_mode_bar=0x7f0c0033;
+        public static final int action_mode_bar_stub=0x7f0c0032;
+        public static final int action_mode_close_button=0x7f0c0025;
+        public static final int activity_chooser_view_content=0x7f0c0026;
+        public static final int activity_lists_menu_drawer=0x7f0c0051;
+        public static final int always=0x7f0c0017;
+        public static final int authorItem=0x7f0c0061;
+        public static final int beginning=0x7f0c0014;
+        public static final int bottom=0x7f0c0021;
+        public static final int caja_consulta=0x7f0c0053;
+        public static final int checkbox=0x7f0c002e;
+        public static final int collapseActionView=0x7f0c0018;
+        public static final int decor_content_parent=0x7f0c0034;
+        public static final int default_activity_button=0x7f0c0029;
+        public static final int descargaImageView=0x7f0c005f;
+        public static final int descriptionItem=0x7f0c0062;
+        public static final int dialog=0x7f0c001c;
+        public static final int disableHome=0x7f0c000d;
+        public static final int drawer_layout=0x7f0c0050;
+        public static final int dropdown=0x7f0c001d;
+        public static final int edit_query=0x7f0c0038;
+        public static final int end=0x7f0c0015;
+        public static final int expand_activities_button=0x7f0c0027;
+        public static final int expanded_menu=0x7f0c002d;
+        public static final int extraItem=0x7f0c0063;
         public static final int home=0x7f0c0004;
-        public static final int homeAsUp=0x7f0c000d;
-        public static final int icon=0x7f0c002a;
-        public static final int ifRoom=0x7f0c0018;
-        public static final int image=0x7f0c0027;
-        public static final int imageSwitcher1=0x7f0c0045;
-        public static final int imagenIlla=0x7f0c0054;
-        public static final int imagenKetanolab=0x7f0c0055;
-        public static final int imagen_item=0x7f0c0063;
-        public static final int imageview_logo=0x7f0c005a;
-        public static final int indicator=0x7f0c0047;
-        public static final int item_favorite=0x7f0c006f;
-        public static final int item_update=0x7f0c006a;
-        public static final int layoutCargando=0x7f0c0048;
-        public static final int layoutMensaje=0x7f0c004b;
-        public static final int layoutSplash=0x7f0c0053;
-        public static final int listMode=0x7f0c0009;
-        public static final int list_item=0x7f0c0029;
-        public static final int list_main_menu_icon=0x7f0c0066;
-        public static final int list_main_menu_text=0x7f0c0067;
-        public static final int list_slidermenu=0x7f0c0051;
-        public static final int lista=0x7f0c004d;
-        public static final int listaFavoritos=0x7f0c004e;
-        public static final int meaning_item=0x7f0c0069;
-        public static final int menu_dictionaries=0x7f0c006b;
-        public static final int menu_download=0x7f0c006c;
-        public static final int menu_favorites=0x7f0c006d;
-        public static final int menu_information=0x7f0c006e;
-        public static final int middle=0x7f0c0015;
-        public static final int nameItem=0x7f0c005f;
-        public static final int never=0x7f0c0019;
-        public static final int none=0x7f0c000e;
-        public static final int normal=0x7f0c000a;
-        public static final int progressBar=0x7f0c0049;
-        public static final int progress_circular=0x7f0c0005;
-        public static final int progress_horizontal=0x7f0c0006;
-        public static final int radio=0x7f0c002f;
-        public static final int search_badge=0x7f0c0039;
-        public static final int search_bar=0x7f0c0038;
-        public static final int search_button=0x7f0c003a;
-        public static final int search_close_btn=0x7f0c003f;
-        public static final int search_edit_frame=0x7f0c003b;
-        public static final int search_go_btn=0x7f0c0041;
-        public static final int search_mag_icon=0x7f0c003c;
-        public static final int search_plate=0x7f0c003d;
-        public static final int search_src_text=0x7f0c003e;
-        public static final int search_voice_btn=0x7f0c0042;
-        public static final int shortcut=0x7f0c002e;
-        public static final int showCustom=0x7f0c000f;
-        public static final int showHome=0x7f0c0010;
-        public static final int showTitle=0x7f0c0011;
-        public static final int split_action_bar=0x7f0c0007;
-        public static final int submit_area=0x7f0c0040;
-        public static final int subtitulo_item=0x7f0c0065;
-        public static final int tabMode=0x7f0c000b;
-        public static final int textSwitcher1=0x7f0c0043;
-        public static final int textSwitcher2=0x7f0c0044;
-        public static final int textView1=0x7f0c0056;
-        public static final int textoCargando=0x7f0c004a;
-        public static final int textoDiccionario=0x7f0c0059;
-        public static final int textoMensaje=0x7f0c004c;
-        public static final int textoPalabra=0x7f0c0057;
-        public static final int textoSignificado=0x7f0c0058;
-        public static final int textview_extra=0x7f0c005d;
-        public static final int textview_subtitulo=0x7f0c005c;
-        public static final int textview_titulo=0x7f0c005b;
-        public static final int title=0x7f0c002b;
-        public static final int titulo_item=0x7f0c0064;
-        public static final int top=0x7f0c0021;
-        public static final int triangle=0x7f0c001e;
-        public static final int underline=0x7f0c001f;
-        public static final int up=0x7f0c0008;
-        public static final int useLogo=0x7f0c0012;
-        public static final int viewPager=0x7f0c0046;
-        public static final int withText=0x7f0c001a;
-        public static final int word_item=0x7f0c0068;
-        public static final int wrap_content=0x7f0c001d;
+        public static final int homeAsUp=0x7f0c000e;
+        public static final int icon=0x7f0c002b;
+        public static final int ifRoom=0x7f0c0019;
+        public static final int image=0x7f0c0028;
+        public static final int imageSwitcher1=0x7f0c0046;
+        public static final int imagenIlla=0x7f0c0055;
+        public static final int imagenKetanolab=0x7f0c0056;
+        public static final int imagen_item=0x7f0c0064;
+        public static final int imageview_logo=0x7f0c005b;
+        public static final int indicator=0x7f0c0048;
+        public static final int item_favorite=0x7f0c0070;
+        public static final int item_touch_helper_previous_elevation=0x7f0c0005;
+        public static final int item_update=0x7f0c006b;
+        public static final int layoutCargando=0x7f0c0049;
+        public static final int layoutMensaje=0x7f0c004c;
+        public static final int layoutSplash=0x7f0c0054;
+        public static final int listMode=0x7f0c000a;
+        public static final int list_item=0x7f0c002a;
+        public static final int list_main_menu_icon=0x7f0c0067;
+        public static final int list_main_menu_text=0x7f0c0068;
+        public static final int list_slidermenu=0x7f0c0052;
+        public static final int lista=0x7f0c004e;
+        public static final int listaFavoritos=0x7f0c004f;
+        public static final int meaning_item=0x7f0c006a;
+        public static final int menu_dictionaries=0x7f0c006c;
+        public static final int menu_download=0x7f0c006d;
+        public static final int menu_favorites=0x7f0c006e;
+        public static final int menu_information=0x7f0c006f;
+        public static final int middle=0x7f0c0016;
+        public static final int nameItem=0x7f0c0060;
+        public static final int never=0x7f0c001a;
+        public static final int none=0x7f0c000f;
+        public static final int normal=0x7f0c000b;
+        public static final int progressBar=0x7f0c004a;
+        public static final int progress_circular=0x7f0c0006;
+        public static final int progress_horizontal=0x7f0c0007;
+        public static final int radio=0x7f0c0030;
+        public static final int search_badge=0x7f0c003a;
+        public static final int search_bar=0x7f0c0039;
+        public static final int search_button=0x7f0c003b;
+        public static final int search_close_btn=0x7f0c0040;
+        public static final int search_edit_frame=0x7f0c003c;
+        public static final int search_go_btn=0x7f0c0042;
+        public static final int search_mag_icon=0x7f0c003d;
+        public static final int search_plate=0x7f0c003e;
+        public static final int search_src_text=0x7f0c003f;
+        public static final int search_voice_btn=0x7f0c0043;
+        public static final int shortcut=0x7f0c002f;
+        public static final int showCustom=0x7f0c0010;
+        public static final int showHome=0x7f0c0011;
+        public static final int showTitle=0x7f0c0012;
+        public static final int split_action_bar=0x7f0c0008;
+        public static final int submit_area=0x7f0c0041;
+        public static final int subtitulo_item=0x7f0c0066;
+        public static final int tabMode=0x7f0c000c;
+        public static final int textSwitcher1=0x7f0c0044;
+        public static final int textSwitcher2=0x7f0c0045;
+        public static final int textView1=0x7f0c0057;
+        public static final int textoCargando=0x7f0c004b;
+        public static final int textoDiccionario=0x7f0c005a;
+        public static final int textoMensaje=0x7f0c004d;
+        public static final int textoPalabra=0x7f0c0058;
+        public static final int textoSignificado=0x7f0c0059;
+        public static final int textview_extra=0x7f0c005e;
+        public static final int textview_subtitulo=0x7f0c005d;
+        public static final int textview_titulo=0x7f0c005c;
+        public static final int title=0x7f0c002c;
+        public static final int titulo_item=0x7f0c0065;
+        public static final int top=0x7f0c0022;
+        public static final int triangle=0x7f0c001f;
+        public static final int underline=0x7f0c0020;
+        public static final int up=0x7f0c0009;
+        public static final int useLogo=0x7f0c0013;
+        public static final int viewPager=0x7f0c0047;
+        public static final int withText=0x7f0c001b;
+        public static final int word_item=0x7f0c0069;
+        public static final int wrap_content=0x7f0c001e;
     }
     public static final class integer {
         public static final int abc_max_action_buttons=0x7f080000;
@@ -1872,6 +1909,7 @@ containing a value of this type.
         public static final int no_favorites=0x7f050030;
         public static final int no_internet=0x7f050031;
         public static final int open_memu_drawer_description_for_accesibility=0x7f050032;
+        public static final int preferences=0x7f050044;
         public static final int present=0x7f050033;
         public static final int producers=0x7f050034;
         public static final int sd_required=0x7f050035;
@@ -2139,33 +2177,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.ketanolab.simidic:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.ketanolab.simidic:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.ketanolab.simidic:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.ketanolab.simidic:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.ketanolab.simidic:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.ketanolab.simidic:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.ketanolab.simidic:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.ketanolab.simidic:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.ketanolab.simidic:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.ketanolab.simidic:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.ketanolab.simidic:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.ketanolab.simidic:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.ketanolab.simidic:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.ketanolab.simidic:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.ketanolab.simidic:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.ketanolab.simidic:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.ketanolab.simidic:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.ketanolab.simidic:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.ketanolab.simidic:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.ketanolab.simidic:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.ketanolab.simidic:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.ketanolab.simidic:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.ketanolab.simidic:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.ketanolab.simidic:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.ketanolab.simidic:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.ketanolab.simidic:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.ketanolab.simidic:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.ketanolab.simidic.test:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.ketanolab.simidic.test:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.ketanolab.simidic.test:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.ketanolab.simidic.test:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.ketanolab.simidic.test:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.ketanolab.simidic.test:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.ketanolab.simidic.test:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.ketanolab.simidic.test:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.ketanolab.simidic.test:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.ketanolab.simidic.test:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.ketanolab.simidic.test:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.ketanolab.simidic.test:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.ketanolab.simidic.test:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.ketanolab.simidic.test:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.ketanolab.simidic.test:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.ketanolab.simidic.test:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.ketanolab.simidic.test:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.ketanolab.simidic.test:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.ketanolab.simidic.test:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.ketanolab.simidic.test:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.ketanolab.simidic.test:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.ketanolab.simidic.test:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.ketanolab.simidic.test:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.ketanolab.simidic.test:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.ketanolab.simidic.test:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.ketanolab.simidic.test:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.ketanolab.simidic.test:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2202,20 +2240,20 @@ containing a value of this type.
             0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
             0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
-            0x7f01001e, 0x7f01001f, 0x7f01007c
+            0x7f01001e, 0x7f01001f, 0x7f010080
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#background}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:background
+          @attr name com.ketanolab.simidic.test:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2223,11 +2261,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ketanolab.simidic:backgroundSplit
+          @attr name com.ketanolab.simidic.test:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2235,11 +2273,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ketanolab.simidic:backgroundStacked
+          @attr name com.ketanolab.simidic.test:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2251,11 +2289,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetEnd
+          @attr name com.ketanolab.simidic.test:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2267,11 +2305,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetLeft
+          @attr name com.ketanolab.simidic.test:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2283,11 +2321,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetRight
+          @attr name com.ketanolab.simidic.test:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2299,21 +2337,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetStart
+          @attr name com.ketanolab.simidic.test:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:customNavigationLayout
+          @attr name com.ketanolab.simidic.test:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2331,21 +2369,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:displayOptions
+          @attr name com.ketanolab.simidic.test:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:divider
+          @attr name com.ketanolab.simidic.test:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2357,11 +2395,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:elevation
+          @attr name com.ketanolab.simidic.test:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#height}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2373,11 +2411,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:height
+          @attr name com.ketanolab.simidic.test:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2387,51 +2425,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:hideOnContentScroll
+          @attr name com.ketanolab.simidic.test:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:homeAsUpIndicator
+          @attr name com.ketanolab.simidic.test:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:homeLayout
+          @attr name com.ketanolab.simidic.test:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:icon
+          @attr name com.ketanolab.simidic.test:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:indeterminateProgressStyle
+          @attr name com.ketanolab.simidic.test:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2443,21 +2481,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:itemPadding
+          @attr name com.ketanolab.simidic.test:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:logo
+          @attr name com.ketanolab.simidic.test:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2471,21 +2509,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:navigationMode
+          @attr name com.ketanolab.simidic.test:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:popupTheme
+          @attr name com.ketanolab.simidic.test:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2497,21 +2535,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:progressBarPadding
+          @attr name com.ketanolab.simidic.test:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:progressBarStyle
+          @attr name com.ketanolab.simidic.test:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2521,21 +2559,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:subtitle
+          @attr name com.ketanolab.simidic.test:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:subtitleTextStyle
+          @attr name com.ketanolab.simidic.test:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#title}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2545,17 +2583,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:title
+          @attr name com.ketanolab.simidic.test:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:titleTextStyle
+          @attr name com.ketanolab.simidic.test:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2607,12 +2645,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.ketanolab.simidic:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.ketanolab.simidic:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.ketanolab.simidic:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.ketanolab.simidic:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.ketanolab.simidic:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.ketanolab.simidic:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.ketanolab.simidic.test:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.ketanolab.simidic.test:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.ketanolab.simidic.test:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.ketanolab.simidic.test:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.ketanolab.simidic.test:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.ketanolab.simidic.test:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2626,17 +2664,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010012, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#background}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:background
+          @attr name com.ketanolab.simidic.test:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2644,21 +2682,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ketanolab.simidic:backgroundSplit
+          @attr name com.ketanolab.simidic.test:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:closeItemLayout
+          @attr name com.ketanolab.simidic.test:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#height}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2670,27 +2708,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:height
+          @attr name com.ketanolab.simidic.test:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:subtitleTextStyle
+          @attr name com.ketanolab.simidic.test:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:titleTextStyle
+          @attr name com.ketanolab.simidic.test:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2699,8 +2737,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.ketanolab.simidic:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.ketanolab.simidic:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.ketanolab.simidic.test:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.ketanolab.simidic.test:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2709,17 +2747,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010021, 0x7f010022
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:expandActivityOverflowButtonDrawable
+          @attr name com.ketanolab.simidic.test:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2729,7 +2767,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:initialActivityCount
+          @attr name com.ketanolab.simidic.test:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CirclePageIndicator.
@@ -2740,13 +2778,13 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_centered com.ketanolab.simidic:centered}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_fillColor com.ketanolab.simidic:fillColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_pageColor com.ketanolab.simidic:pageColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_radius com.ketanolab.simidic:radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_snap com.ketanolab.simidic:snap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.ketanolab.simidic:strokeColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.ketanolab.simidic:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_centered com.ketanolab.simidic.test:centered}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_fillColor com.ketanolab.simidic.test:fillColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_pageColor com.ketanolab.simidic.test:pageColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_radius com.ketanolab.simidic.test:radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_snap com.ketanolab.simidic.test:snap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.ketanolab.simidic.test:strokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.ketanolab.simidic.test:strokeWidth}</code></td><td></td></tr>
            </table>
            @see #CirclePageIndicator_android_background
            @see #CirclePageIndicator_android_orientation
@@ -2776,7 +2814,7 @@ containing a value of this type.
         */
         public static final int CirclePageIndicator_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#centered}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#centered}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2786,11 +2824,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:centered
+          @attr name com.ketanolab.simidic.test:centered
         */
         public static final int CirclePageIndicator_centered = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#fillColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#fillColor}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2801,11 +2839,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:fillColor
+          @attr name com.ketanolab.simidic.test:fillColor
         */
         public static final int CirclePageIndicator_fillColor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#pageColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#pageColor}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2816,11 +2854,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:pageColor
+          @attr name com.ketanolab.simidic.test:pageColor
         */
         public static final int CirclePageIndicator_pageColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#radius}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#radius}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2832,11 +2870,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:radius
+          @attr name com.ketanolab.simidic.test:radius
         */
         public static final int CirclePageIndicator_radius = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#snap}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#snap}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2846,11 +2884,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:snap
+          @attr name com.ketanolab.simidic.test:snap
         */
         public static final int CirclePageIndicator_snap = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#strokeColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#strokeColor}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2861,11 +2899,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:strokeColor
+          @attr name com.ketanolab.simidic.test:strokeColor
         */
         public static final int CirclePageIndicator_strokeColor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#strokeWidth}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#strokeWidth}
           attribute's value can be found in the {@link #CirclePageIndicator} array.
 
 
@@ -2877,7 +2915,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:strokeWidth
+          @attr name com.ketanolab.simidic.test:strokeWidth
         */
         public static final int CirclePageIndicator_strokeWidth = 3;
         /** Attributes that can be used with a CompatTextView.
@@ -2886,7 +2924,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.ketanolab.simidic:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.ketanolab.simidic.test:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2894,14 +2932,14 @@ containing a value of this type.
             0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.ketanolab.simidic:textAllCaps
+          @attr name com.ketanolab.simidic.test:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2910,14 +2948,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.ketanolab.simidic:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.ketanolab.simidic:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.ketanolab.simidic:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.ketanolab.simidic:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.ketanolab.simidic:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.ketanolab.simidic:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.ketanolab.simidic:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.ketanolab.simidic:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.ketanolab.simidic.test:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.ketanolab.simidic.test:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.ketanolab.simidic.test:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.ketanolab.simidic.test:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.ketanolab.simidic.test:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.ketanolab.simidic.test:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.ketanolab.simidic.test:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.ketanolab.simidic.test:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2933,7 +2971,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2945,11 +2983,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:barSize
+          @attr name com.ketanolab.simidic.test:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#color}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2960,11 +2998,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:color
+          @attr name com.ketanolab.simidic.test:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2976,11 +3014,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:drawableSize
+          @attr name com.ketanolab.simidic.test:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2992,11 +3030,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:gapBetweenBars
+          @attr name com.ketanolab.simidic.test:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3008,11 +3046,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:middleBarArrowSize
+          @attr name com.ketanolab.simidic.test:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3022,11 +3060,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:spinBars
+          @attr name com.ketanolab.simidic.test:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3038,11 +3076,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:thickness
+          @attr name com.ketanolab.simidic.test:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3054,7 +3092,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:topBottomBarArrowSize
+          @attr name com.ketanolab.simidic.test:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinePageIndicator.
@@ -3064,12 +3102,12 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_centered com.ketanolab.simidic:centered}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_gapWidth com.ketanolab.simidic:gapWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_lineWidth com.ketanolab.simidic:lineWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_selectedColor com.ketanolab.simidic:selectedColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_strokeWidth com.ketanolab.simidic:strokeWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinePageIndicator_unselectedColor com.ketanolab.simidic:unselectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_centered com.ketanolab.simidic.test:centered}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_gapWidth com.ketanolab.simidic.test:gapWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_lineWidth com.ketanolab.simidic.test:lineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_selectedColor com.ketanolab.simidic.test:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_strokeWidth com.ketanolab.simidic.test:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinePageIndicator_unselectedColor com.ketanolab.simidic.test:unselectedColor}</code></td><td></td></tr>
            </table>
            @see #LinePageIndicator_android_background
            @see #LinePageIndicator_centered
@@ -3090,7 +3128,7 @@ containing a value of this type.
         */
         public static final int LinePageIndicator_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#centered}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#centered}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -3100,11 +3138,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:centered
+          @attr name com.ketanolab.simidic.test:centered
         */
         public static final int LinePageIndicator_centered = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#gapWidth}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#gapWidth}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -3116,11 +3154,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:gapWidth
+          @attr name com.ketanolab.simidic.test:gapWidth
         */
         public static final int LinePageIndicator_gapWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#lineWidth}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#lineWidth}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -3132,11 +3170,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:lineWidth
+          @attr name com.ketanolab.simidic.test:lineWidth
         */
         public static final int LinePageIndicator_lineWidth = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#selectedColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#selectedColor}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -3147,11 +3185,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:selectedColor
+          @attr name com.ketanolab.simidic.test:selectedColor
         */
         public static final int LinePageIndicator_selectedColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#strokeWidth}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#strokeWidth}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -3163,11 +3201,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:strokeWidth
+          @attr name com.ketanolab.simidic.test:strokeWidth
         */
         public static final int LinePageIndicator_strokeWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#unselectedColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#unselectedColor}
           attribute's value can be found in the {@link #LinePageIndicator} array.
 
 
@@ -3178,7 +3216,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:unselectedColor
+          @attr name com.ketanolab.simidic.test:unselectedColor
         */
         public static final int LinePageIndicator_unselectedColor = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3192,10 +3230,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.ketanolab.simidic:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.ketanolab.simidic:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.ketanolab.simidic:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.ketanolab.simidic:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.ketanolab.simidic.test:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.ketanolab.simidic.test:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.ketanolab.simidic.test:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.ketanolab.simidic.test:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3243,17 +3281,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:divider
+          @attr name com.ketanolab.simidic.test:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3265,11 +3303,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:dividerPadding
+          @attr name com.ketanolab.simidic.test:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3279,11 +3317,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:measureWithLargestChild
+          @attr name com.ketanolab.simidic.test:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3298,7 +3336,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:showDividers
+          @attr name com.ketanolab.simidic.test:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3437,9 +3475,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.ketanolab.simidic:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.ketanolab.simidic:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.ketanolab.simidic:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.ketanolab.simidic.test:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.ketanolab.simidic.test:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.ketanolab.simidic.test:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3453,7 +3491,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.ketanolab.simidic:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.ketanolab.simidic.test:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3481,17 +3519,17 @@ containing a value of this type.
             0x7f010039
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionLayout
+          @attr name com.ketanolab.simidic.test:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3501,11 +3539,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:actionProviderClass
+          @attr name com.ketanolab.simidic.test:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3515,7 +3553,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:actionViewClass
+          @attr name com.ketanolab.simidic.test:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3597,7 +3635,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3613,7 +3651,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:showAsAction
+          @attr name com.ketanolab.simidic.test:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3629,7 +3667,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.ketanolab.simidic:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.ketanolab.simidic.test:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3687,7 +3725,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3697,7 +3735,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:preserveIconSpacing
+          @attr name com.ketanolab.simidic.test:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3707,7 +3745,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.ketanolab.simidic:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.ketanolab.simidic.test:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3722,7 +3760,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3732,7 +3770,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:overlapAnchor
+          @attr name com.ketanolab.simidic.test:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3741,7 +3779,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.ketanolab.simidic:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.ketanolab.simidic.test:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3749,7 +3787,7 @@ containing a value of this type.
             0x7f01003c
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3759,9 +3797,101 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:state_above_anchor
+          @attr name com.ketanolab.simidic.test:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
+        /** Attributes that can be used with a RecyclerView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.ketanolab.simidic.test:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.ketanolab.simidic.test:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.ketanolab.simidic.test:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.ketanolab.simidic.test:stackFromEnd}</code></td><td></td></tr>
+           </table>
+           @see #RecyclerView_android_descendantFocusability
+           @see #RecyclerView_android_orientation
+           @see #RecyclerView_layoutManager
+           @see #RecyclerView_reverseLayout
+           @see #RecyclerView_spanCount
+           @see #RecyclerView_stackFromEnd
+         */
+        public static final int[] RecyclerView = {
+            0x010100c4, 0x010100f1, 0x7f01003d, 0x7f01003e,
+            0x7f01003f, 0x7f010040
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:descendantFocusability
+        */
+        public static final int RecyclerView_android_descendantFocusability = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:orientation
+        */
+        public static final int RecyclerView_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#layoutManager}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ketanolab.simidic.test:layoutManager
+        */
+        public static final int RecyclerView_layoutManager = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#reverseLayout}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ketanolab.simidic.test:reverseLayout
+        */
+        public static final int RecyclerView_reverseLayout = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#spanCount}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ketanolab.simidic.test:spanCount
+        */
+        public static final int RecyclerView_spanCount = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#stackFromEnd}
+          attribute's value can be found in the {@link #RecyclerView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ketanolab.simidic.test:stackFromEnd
+        */
+        public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
@@ -3772,17 +3902,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.ketanolab.simidic:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.ketanolab.simidic:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.ketanolab.simidic:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.ketanolab.simidic:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.ketanolab.simidic:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.ketanolab.simidic:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.ketanolab.simidic:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.ketanolab.simidic:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.ketanolab.simidic:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.ketanolab.simidic:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.ketanolab.simidic:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.ketanolab.simidic.test:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.ketanolab.simidic.test:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.ketanolab.simidic.test:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.ketanolab.simidic.test:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.ketanolab.simidic.test:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.ketanolab.simidic.test:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.ketanolab.simidic.test:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.ketanolab.simidic.test:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.ketanolab.simidic.test:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.ketanolab.simidic.test:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.ketanolab.simidic.test:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3802,9 +3932,9 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040,
             0x7f010041, 0x7f010042, 0x7f010043, 0x7f010044,
-            0x7f010045, 0x7f010046, 0x7f010047
+            0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048,
+            0x7f010049, 0x7f01004a, 0x7f01004b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -3831,37 +3961,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:closeIcon
+          @attr name com.ketanolab.simidic.test:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:commitIcon
+          @attr name com.ketanolab.simidic.test:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:goIcon
+          @attr name com.ketanolab.simidic.test:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3871,31 +4001,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:iconifiedByDefault
+          @attr name com.ketanolab.simidic.test:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:layout
+          @attr name com.ketanolab.simidic.test:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:queryBackground
+          @attr name com.ketanolab.simidic.test:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3905,47 +4035,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:queryHint
+          @attr name com.ketanolab.simidic.test:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:searchIcon
+          @attr name com.ketanolab.simidic.test:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:submitBackground
+          @attr name com.ketanolab.simidic.test:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:suggestionRowLayout
+          @attr name com.ketanolab.simidic.test:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:voiceIcon
+          @attr name com.ketanolab.simidic.test:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -3961,10 +4091,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.ketanolab.simidic:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.ketanolab.simidic:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.ketanolab.simidic:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.ketanolab.simidic:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.ketanolab.simidic.test:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.ketanolab.simidic.test:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.ketanolab.simidic.test:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.ketanolab.simidic.test:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -3980,8 +4110,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] Spinner = {
             0x010100af, 0x010100d4, 0x01010175, 0x01010176,
-            0x01010262, 0x010102ac, 0x010102ad, 0x7f010048,
-            0x7f010049, 0x7f01004a, 0x7f01004b
+            0x01010262, 0x010102ac, 0x010102ad, 0x7f01004c,
+            0x7f01004d, 0x7f01004e, 0x7f01004f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -4026,7 +4156,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4036,31 +4166,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:disableChildrenWhenDisabled
+          @attr name com.ketanolab.simidic.test:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:popupPromptView
+          @attr name com.ketanolab.simidic.test:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:prompt
+          @attr name com.ketanolab.simidic.test:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4073,7 +4203,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:spinnerMode
+          @attr name com.ketanolab.simidic.test:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -4085,13 +4215,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.ketanolab.simidic:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.ketanolab.simidic:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.ketanolab.simidic:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.ketanolab.simidic:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.ketanolab.simidic:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.ketanolab.simidic:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.ketanolab.simidic:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.ketanolab.simidic.test:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.ketanolab.simidic.test:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.ketanolab.simidic.test:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.ketanolab.simidic.test:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.ketanolab.simidic.test:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.ketanolab.simidic.test:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.ketanolab.simidic.test:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -4105,9 +4235,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f01004c,
-            0x7f01004d, 0x7f01004e, 0x7f01004f, 0x7f010050,
-            0x7f010051, 0x7f010052
+            0x01010124, 0x01010125, 0x01010142, 0x7f010050,
+            0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054,
+            0x7f010055, 0x7f010056
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -4128,7 +4258,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4138,11 +4268,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:showText
+          @attr name com.ketanolab.simidic.test:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4152,11 +4282,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:splitTrack
+          @attr name com.ketanolab.simidic.test:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4168,11 +4298,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:switchMinWidth
+          @attr name com.ketanolab.simidic.test:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4184,21 +4314,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:switchPadding
+          @attr name com.ketanolab.simidic.test:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:switchTextAppearance
+          @attr name com.ketanolab.simidic.test:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4210,17 +4340,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:thumbTextPadding
+          @attr name com.ketanolab.simidic.test:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#track}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:track
+          @attr name com.ketanolab.simidic.test:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a Theme.
@@ -4229,89 +4359,89 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.ketanolab.simidic:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.ketanolab.simidic:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.ketanolab.simidic:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.ketanolab.simidic:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.ketanolab.simidic:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.ketanolab.simidic:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.ketanolab.simidic:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.ketanolab.simidic:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.ketanolab.simidic:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.ketanolab.simidic:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.ketanolab.simidic:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.ketanolab.simidic:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.ketanolab.simidic:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.ketanolab.simidic:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.ketanolab.simidic:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.ketanolab.simidic:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.ketanolab.simidic:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.ketanolab.simidic:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.ketanolab.simidic:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.ketanolab.simidic:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.ketanolab.simidic:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.ketanolab.simidic:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.ketanolab.simidic:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.ketanolab.simidic:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.ketanolab.simidic:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.ketanolab.simidic:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.ketanolab.simidic:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.ketanolab.simidic:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.ketanolab.simidic:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.ketanolab.simidic:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.ketanolab.simidic:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.ketanolab.simidic.test:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.ketanolab.simidic.test:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.ketanolab.simidic.test:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.ketanolab.simidic.test:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.ketanolab.simidic.test:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.ketanolab.simidic.test:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.ketanolab.simidic.test:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.ketanolab.simidic.test:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.ketanolab.simidic.test:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.ketanolab.simidic.test:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.ketanolab.simidic.test:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.ketanolab.simidic.test:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.ketanolab.simidic.test:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.ketanolab.simidic.test:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.ketanolab.simidic.test:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.ketanolab.simidic.test:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.ketanolab.simidic.test:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.ketanolab.simidic.test:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.ketanolab.simidic.test:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.ketanolab.simidic.test:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.ketanolab.simidic.test:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.ketanolab.simidic.test:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.ketanolab.simidic.test:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.ketanolab.simidic.test:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.ketanolab.simidic.test:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.ketanolab.simidic.test:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.ketanolab.simidic.test:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.ketanolab.simidic.test:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.ketanolab.simidic.test:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.ketanolab.simidic.test:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.ketanolab.simidic.test:activityChooserViewStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.ketanolab.simidic:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.ketanolab.simidic:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.ketanolab.simidic:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.ketanolab.simidic:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.ketanolab.simidic:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.ketanolab.simidic:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.ketanolab.simidic:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.ketanolab.simidic:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.ketanolab.simidic:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.ketanolab.simidic:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.ketanolab.simidic:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.ketanolab.simidic:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.ketanolab.simidic:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.ketanolab.simidic:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.ketanolab.simidic:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.ketanolab.simidic:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.ketanolab.simidic:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.ketanolab.simidic:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.ketanolab.simidic:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.ketanolab.simidic:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.ketanolab.simidic:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.ketanolab.simidic:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.ketanolab.simidic:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.ketanolab.simidic:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.ketanolab.simidic:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.ketanolab.simidic:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.ketanolab.simidic:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.ketanolab.simidic:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.ketanolab.simidic:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.ketanolab.simidic:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.ketanolab.simidic:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.ketanolab.simidic:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.ketanolab.simidic:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.ketanolab.simidic:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.ketanolab.simidic:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.ketanolab.simidic:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.ketanolab.simidic:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.ketanolab.simidic:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.ketanolab.simidic:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.ketanolab.simidic:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.ketanolab.simidic:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.ketanolab.simidic:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.ketanolab.simidic:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.ketanolab.simidic:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.ketanolab.simidic:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.ketanolab.simidic:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.ketanolab.simidic:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.ketanolab.simidic:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.ketanolab.simidic:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.ketanolab.simidic:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.ketanolab.simidic:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.ketanolab.simidic.test:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.ketanolab.simidic.test:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.ketanolab.simidic.test:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.ketanolab.simidic.test:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.ketanolab.simidic.test:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.ketanolab.simidic.test:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.ketanolab.simidic.test:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.ketanolab.simidic.test:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.ketanolab.simidic.test:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.ketanolab.simidic.test:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.ketanolab.simidic.test:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.ketanolab.simidic.test:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.ketanolab.simidic.test:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.ketanolab.simidic.test:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.ketanolab.simidic.test:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.ketanolab.simidic.test:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.ketanolab.simidic.test:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.ketanolab.simidic.test:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.ketanolab.simidic.test:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.ketanolab.simidic.test:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.ketanolab.simidic.test:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.ketanolab.simidic.test:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.ketanolab.simidic.test:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.ketanolab.simidic.test:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.ketanolab.simidic.test:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.ketanolab.simidic.test:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.ketanolab.simidic.test:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.ketanolab.simidic.test:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.ketanolab.simidic.test:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.ketanolab.simidic.test:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.ketanolab.simidic.test:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.ketanolab.simidic.test:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.ketanolab.simidic.test:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.ketanolab.simidic.test:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.ketanolab.simidic.test:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.ketanolab.simidic.test:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.ketanolab.simidic.test:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.ketanolab.simidic.test:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.ketanolab.simidic.test:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.ketanolab.simidic.test:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.ketanolab.simidic.test:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.ketanolab.simidic.test:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.ketanolab.simidic.test:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.ketanolab.simidic.test:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.ketanolab.simidic.test:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.ketanolab.simidic.test:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.ketanolab.simidic.test:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.ketanolab.simidic.test:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.ketanolab.simidic.test:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.ketanolab.simidic.test:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.ketanolab.simidic.test:windowFixedWidthMinor}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -4398,8 +4528,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_windowFixedWidthMinor
          */
         public static final int[] Theme = {
-            0x01010057, 0x7f010053, 0x7f010054, 0x7f010055,
-            0x7f010056, 0x7f010057, 0x7f010058, 0x7f010059,
+            0x01010057, 0x7f010057, 0x7f010058, 0x7f010059,
             0x7f01005a, 0x7f01005b, 0x7f01005c, 0x7f01005d,
             0x7f01005e, 0x7f01005f, 0x7f010060, 0x7f010061,
             0x7f010062, 0x7f010063, 0x7f010064, 0x7f010065,
@@ -4418,40 +4547,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010096, 0x7f010097, 0x7f010098, 0x7f010099,
             0x7f01009a, 0x7f01009b, 0x7f01009c, 0x7f01009d,
             0x7f01009e, 0x7f01009f, 0x7f0100a0, 0x7f0100a1,
-            0x7f0100a2, 0x7f0100a3, 0x7f0100a4
+            0x7f0100a2, 0x7f0100a3, 0x7f0100a4, 0x7f0100a5,
+            0x7f0100a6, 0x7f0100a7, 0x7f0100a8
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarDivider
+          @attr name com.ketanolab.simidic.test:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 19;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarItemBackground
+          @attr name com.ketanolab.simidic.test:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarPopupTheme
+          @attr name com.ketanolab.simidic.test:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4471,111 +4601,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:actionBarSize
+          @attr name com.ketanolab.simidic.test:actionBarSize
         */
         public static final int Theme_actionBarSize = 18;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarSplitStyle
+          @attr name com.ketanolab.simidic.test:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarStyle
+          @attr name com.ketanolab.simidic.test:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarTabBarStyle
+          @attr name com.ketanolab.simidic.test:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarTabStyle
+          @attr name com.ketanolab.simidic.test:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarTabTextStyle
+          @attr name com.ketanolab.simidic.test:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarTheme
+          @attr name com.ketanolab.simidic.test:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionBarWidgetTheme
+          @attr name com.ketanolab.simidic.test:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionButtonStyle
+          @attr name com.ketanolab.simidic.test:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionDropDownStyle
+          @attr name com.ketanolab.simidic.test:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionMenuTextAppearance
+          @attr name com.ketanolab.simidic.test:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4583,167 +4713,167 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ketanolab.simidic:actionMenuTextColor
+          @attr name com.ketanolab.simidic.test:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeBackground
+          @attr name com.ketanolab.simidic.test:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeCloseButtonStyle
+          @attr name com.ketanolab.simidic.test:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeCloseDrawable
+          @attr name com.ketanolab.simidic.test:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeCopyDrawable
+          @attr name com.ketanolab.simidic.test:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeCutDrawable
+          @attr name com.ketanolab.simidic.test:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeFindDrawable
+          @attr name com.ketanolab.simidic.test:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModePasteDrawable
+          @attr name com.ketanolab.simidic.test:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModePopupWindowStyle
+          @attr name com.ketanolab.simidic.test:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeSelectAllDrawable
+          @attr name com.ketanolab.simidic.test:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeShareDrawable
+          @attr name com.ketanolab.simidic.test:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeSplitBackground
+          @attr name com.ketanolab.simidic.test:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeStyle
+          @attr name com.ketanolab.simidic.test:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 23;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionModeWebSearchDrawable
+          @attr name com.ketanolab.simidic.test:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionOverflowButtonStyle
+          @attr name com.ketanolab.simidic.test:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:actionOverflowMenuStyle
+          @attr name com.ketanolab.simidic.test:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:activityChooserViewStyle
+          @attr name com.ketanolab.simidic.test:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 50;
         /**
@@ -4753,27 +4883,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:buttonBarButtonStyle
+          @attr name com.ketanolab.simidic.test:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:buttonBarStyle
+          @attr name com.ketanolab.simidic.test:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4784,11 +4914,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorAccent
+          @attr name com.ketanolab.simidic.test:colorAccent
         */
         public static final int Theme_colorAccent = 77;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4799,11 +4929,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorButtonNormal
+          @attr name com.ketanolab.simidic.test:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4814,11 +4944,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorControlActivated
+          @attr name com.ketanolab.simidic.test:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 79;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4829,11 +4959,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorControlHighlight
+          @attr name com.ketanolab.simidic.test:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4844,11 +4974,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorControlNormal
+          @attr name com.ketanolab.simidic.test:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 78;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4859,11 +4989,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorPrimary
+          @attr name com.ketanolab.simidic.test:colorPrimary
         */
         public static final int Theme_colorPrimary = 75;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4874,11 +5004,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorPrimaryDark
+          @attr name com.ketanolab.simidic.test:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4889,41 +5019,41 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:colorSwitchThumbNormal
+          @attr name com.ketanolab.simidic.test:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:dividerHorizontal
+          @attr name com.ketanolab.simidic.test:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:dividerVertical
+          @attr name com.ketanolab.simidic.test:dividerVertical
         */
         public static final int Theme_dividerVertical = 48;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:dropDownListViewStyle
+          @attr name com.ketanolab.simidic.test:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4935,21 +5065,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:dropdownListPreferredItemHeight
+          @attr name com.ketanolab.simidic.test:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:editTextBackground
+          @attr name com.ketanolab.simidic.test:editTextBackground
         */
         public static final int Theme_editTextBackground = 56;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4957,41 +5087,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ketanolab.simidic:editTextColor
+          @attr name com.ketanolab.simidic.test:editTextColor
         */
         public static final int Theme_editTextColor = 55;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:homeAsUpIndicator
+          @attr name com.ketanolab.simidic.test:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:listChoiceBackgroundIndicator
+          @attr name com.ketanolab.simidic.test:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:listPopupWindowStyle
+          @attr name com.ketanolab.simidic.test:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5003,11 +5133,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:listPreferredItemHeight
+          @attr name com.ketanolab.simidic.test:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5019,11 +5149,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:listPreferredItemHeightLarge
+          @attr name com.ketanolab.simidic.test:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5035,11 +5165,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:listPreferredItemHeightSmall
+          @attr name com.ketanolab.simidic.test:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5051,11 +5181,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:listPreferredItemPaddingLeft
+          @attr name com.ketanolab.simidic.test:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5067,31 +5197,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:listPreferredItemPaddingRight
+          @attr name com.ketanolab.simidic.test:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:panelBackground
+          @attr name com.ketanolab.simidic.test:panelBackground
         */
         public static final int Theme_panelBackground = 71;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:panelMenuListTheme
+          @attr name com.ketanolab.simidic.test:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5103,151 +5233,151 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:panelMenuListWidth
+          @attr name com.ketanolab.simidic.test:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:popupMenuStyle
+          @attr name com.ketanolab.simidic.test:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:popupWindowStyle
+          @attr name com.ketanolab.simidic.test:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:searchViewStyle
+          @attr name com.ketanolab.simidic.test:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:selectableItemBackground
+          @attr name com.ketanolab.simidic.test:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:selectableItemBackgroundBorderless
+          @attr name com.ketanolab.simidic.test:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:spinnerDropDownItemStyle
+          @attr name com.ketanolab.simidic.test:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:spinnerStyle
+          @attr name com.ketanolab.simidic.test:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 40;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:switchStyle
+          @attr name com.ketanolab.simidic.test:switchStyle
         */
         public static final int Theme_switchStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:textAppearanceLargePopupMenu
+          @attr name com.ketanolab.simidic.test:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:textAppearanceListItem
+          @attr name com.ketanolab.simidic.test:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:textAppearanceListItemSmall
+          @attr name com.ketanolab.simidic.test:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:textAppearanceSearchResultSubtitle
+          @attr name com.ketanolab.simidic.test:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:textAppearanceSearchResultTitle
+          @attr name com.ketanolab.simidic.test:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:textAppearanceSmallPopupMenu
+          @attr name com.ketanolab.simidic.test:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5255,31 +5385,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.ketanolab.simidic:textColorSearchUrl
+          @attr name com.ketanolab.simidic.test:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:toolbarNavigationButtonStyle
+          @attr name com.ketanolab.simidic.test:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:toolbarStyle
+          @attr name com.ketanolab.simidic.test:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5289,11 +5419,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowActionBar
+          @attr name com.ketanolab.simidic.test:windowActionBar
         */
         public static final int Theme_windowActionBar = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5303,11 +5433,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowActionBarOverlay
+          @attr name com.ketanolab.simidic.test:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5317,11 +5447,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowActionModeOverlay
+          @attr name com.ketanolab.simidic.test:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5336,11 +5466,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowFixedHeightMajor
+          @attr name com.ketanolab.simidic.test:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5355,11 +5485,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowFixedHeightMinor
+          @attr name com.ketanolab.simidic.test:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5374,11 +5504,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowFixedWidthMajor
+          @attr name com.ketanolab.simidic.test:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5393,7 +5523,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:windowFixedWidthMinor
+          @attr name com.ketanolab.simidic.test:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 6;
         /** Attributes that can be used with a TitlePageIndicator.
@@ -5405,18 +5535,18 @@ containing a value of this type.
            <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td></td></tr>
            <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_clipPadding com.ketanolab.simidic:clipPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerColor com.ketanolab.simidic:footerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.ketanolab.simidic:footerIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.ketanolab.simidic:footerIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.ketanolab.simidic:footerIndicatorUnderlinePadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.ketanolab.simidic:footerLineHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerPadding com.ketanolab.simidic:footerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_linePosition com.ketanolab.simidic:linePosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_selectedBold com.ketanolab.simidic:selectedBold}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_selectedColor com.ketanolab.simidic:selectedColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_titlePadding com.ketanolab.simidic:titlePadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_topPadding com.ketanolab.simidic:topPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_clipPadding com.ketanolab.simidic.test:clipPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerColor com.ketanolab.simidic.test:footerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.ketanolab.simidic.test:footerIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.ketanolab.simidic.test:footerIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.ketanolab.simidic.test:footerIndicatorUnderlinePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.ketanolab.simidic.test:footerLineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_footerPadding com.ketanolab.simidic.test:footerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_linePosition com.ketanolab.simidic.test:linePosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_selectedBold com.ketanolab.simidic.test:selectedBold}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_selectedColor com.ketanolab.simidic.test:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_titlePadding com.ketanolab.simidic.test:titlePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TitlePageIndicator_topPadding com.ketanolab.simidic.test:topPadding}</code></td><td></td></tr>
            </table>
            @see #TitlePageIndicator_android_background
            @see #TitlePageIndicator_android_textColor
@@ -5436,9 +5566,9 @@ containing a value of this type.
          */
         public static final int[] TitlePageIndicator = {
             0x01010095, 0x01010098, 0x010100d4, 0x7f010004,
-            0x7f0100a5, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8,
             0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
-            0x7f0100ad, 0x7f0100ae, 0x7f0100af
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -5459,7 +5589,7 @@ containing a value of this type.
         */
         public static final int TitlePageIndicator_android_textSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#clipPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#clipPadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5471,11 +5601,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:clipPadding
+          @attr name com.ketanolab.simidic.test:clipPadding
         */
         public static final int TitlePageIndicator_clipPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#footerColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#footerColor}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5486,11 +5616,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:footerColor
+          @attr name com.ketanolab.simidic.test:footerColor
         */
         public static final int TitlePageIndicator_footerColor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#footerIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#footerIndicatorHeight}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5502,11 +5632,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:footerIndicatorHeight
+          @attr name com.ketanolab.simidic.test:footerIndicatorHeight
         */
         public static final int TitlePageIndicator_footerIndicatorHeight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#footerIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#footerIndicatorStyle}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5520,11 +5650,11 @@ containing a value of this type.
 <tr><td><code>triangle</code></td><td>1</td><td></td></tr>
 <tr><td><code>underline</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:footerIndicatorStyle
+          @attr name com.ketanolab.simidic.test:footerIndicatorStyle
         */
         public static final int TitlePageIndicator_footerIndicatorStyle = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#footerIndicatorUnderlinePadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#footerIndicatorUnderlinePadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5536,11 +5666,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:footerIndicatorUnderlinePadding
+          @attr name com.ketanolab.simidic.test:footerIndicatorUnderlinePadding
         */
         public static final int TitlePageIndicator_footerIndicatorUnderlinePadding = 9;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#footerLineHeight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#footerLineHeight}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5552,11 +5682,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:footerLineHeight
+          @attr name com.ketanolab.simidic.test:footerLineHeight
         */
         public static final int TitlePageIndicator_footerLineHeight = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#footerPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#footerPadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5568,11 +5698,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:footerPadding
+          @attr name com.ketanolab.simidic.test:footerPadding
         */
         public static final int TitlePageIndicator_footerPadding = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#linePosition}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#linePosition}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5585,11 +5715,11 @@ containing a value of this type.
 <tr><td><code>bottom</code></td><td>0</td><td></td></tr>
 <tr><td><code>top</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.ketanolab.simidic:linePosition
+          @attr name com.ketanolab.simidic.test:linePosition
         */
         public static final int TitlePageIndicator_linePosition = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#selectedBold}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#selectedBold}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5599,11 +5729,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:selectedBold
+          @attr name com.ketanolab.simidic.test:selectedBold
         */
         public static final int TitlePageIndicator_selectedBold = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#selectedColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#selectedColor}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5614,11 +5744,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:selectedColor
+          @attr name com.ketanolab.simidic.test:selectedColor
         */
         public static final int TitlePageIndicator_selectedColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titlePadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titlePadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5630,11 +5760,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:titlePadding
+          @attr name com.ketanolab.simidic.test:titlePadding
         */
         public static final int TitlePageIndicator_titlePadding = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#topPadding}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#topPadding}
           attribute's value can be found in the {@link #TitlePageIndicator} array.
 
 
@@ -5646,7 +5776,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:topPadding
+          @attr name com.ketanolab.simidic.test:topPadding
         */
         public static final int TitlePageIndicator_topPadding = 14;
         /** Attributes that can be used with a Toolbar.
@@ -5657,26 +5787,26 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.ketanolab.simidic:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.ketanolab.simidic:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.ketanolab.simidic:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.ketanolab.simidic:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.ketanolab.simidic:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.ketanolab.simidic:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.ketanolab.simidic:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.ketanolab.simidic:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.ketanolab.simidic:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.ketanolab.simidic:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.ketanolab.simidic:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.ketanolab.simidic:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme com.ketanolab.simidic:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.ketanolab.simidic:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.ketanolab.simidic:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.ketanolab.simidic:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.ketanolab.simidic:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.ketanolab.simidic:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.ketanolab.simidic:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.ketanolab.simidic:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.ketanolab.simidic.test:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.ketanolab.simidic.test:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.ketanolab.simidic.test:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.ketanolab.simidic.test:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.ketanolab.simidic.test:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.ketanolab.simidic.test:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.ketanolab.simidic.test:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.ketanolab.simidic.test:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.ketanolab.simidic.test:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.ketanolab.simidic.test:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.ketanolab.simidic.test:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.ketanolab.simidic.test:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme com.ketanolab.simidic.test:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.ketanolab.simidic.test:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.ketanolab.simidic.test:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.ketanolab.simidic.test:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.ketanolab.simidic.test:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.ketanolab.simidic.test:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.ketanolab.simidic.test:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.ketanolab.simidic.test:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -5704,10 +5834,10 @@ containing a value of this type.
         public static final int[] Toolbar = {
             0x010100af, 0x01010140, 0x7f010006, 0x7f01000a,
             0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
-            0x7f01001f, 0x7f0100b0, 0x7f0100b1, 0x7f0100b2,
-            0x7f0100b3, 0x7f0100b4, 0x7f0100b5, 0x7f0100b6,
+            0x7f01001f, 0x7f0100b4, 0x7f0100b5, 0x7f0100b6,
             0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba,
-            0x7f0100bb, 0x7f0100bc
+            0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be,
+            0x7f0100bf, 0x7f0100c0
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -5722,7 +5852,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5732,21 +5862,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:collapseContentDescription
+          @attr name com.ketanolab.simidic.test:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:collapseIcon
+          @attr name com.ketanolab.simidic.test:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5758,11 +5888,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetEnd
+          @attr name com.ketanolab.simidic.test:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5774,11 +5904,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetLeft
+          @attr name com.ketanolab.simidic.test:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5790,11 +5920,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetRight
+          @attr name com.ketanolab.simidic.test:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5806,11 +5936,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:contentInsetStart
+          @attr name com.ketanolab.simidic.test:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5822,11 +5952,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:maxButtonHeight
+          @attr name com.ketanolab.simidic.test:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5836,31 +5966,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:navigationContentDescription
+          @attr name com.ketanolab.simidic.test:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:navigationIcon
+          @attr name com.ketanolab.simidic.test:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:popupTheme
+          @attr name com.ketanolab.simidic.test:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5870,31 +6000,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:subtitle
+          @attr name com.ketanolab.simidic.test:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:subtitleTextAppearance
+          @attr name com.ketanolab.simidic.test:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:theme
+          @attr name com.ketanolab.simidic.test:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#title}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5904,11 +6034,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:title
+          @attr name com.ketanolab.simidic.test:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5920,11 +6050,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:titleMarginBottom
+          @attr name com.ketanolab.simidic.test:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5936,11 +6066,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:titleMarginEnd
+          @attr name com.ketanolab.simidic.test:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5952,11 +6082,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:titleMarginStart
+          @attr name com.ketanolab.simidic.test:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5968,11 +6098,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:titleMarginTop
+          @attr name com.ketanolab.simidic.test:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5984,17 +6114,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:titleMargins
+          @attr name com.ketanolab.simidic.test:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:titleTextAppearance
+          @attr name com.ketanolab.simidic.test:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a UnderlinePageIndicator.
@@ -6004,10 +6134,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.ketanolab.simidic:fadeDelay}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.ketanolab.simidic:fadeLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fades com.ketanolab.simidic:fades}</code></td><td></td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.ketanolab.simidic:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.ketanolab.simidic.test:fadeDelay}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.ketanolab.simidic.test:fadeLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_fades com.ketanolab.simidic.test:fades}</code></td><td></td></tr>
+           <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.ketanolab.simidic.test:selectedColor}</code></td><td></td></tr>
            </table>
            @see #UnderlinePageIndicator_android_background
            @see #UnderlinePageIndicator_fadeDelay
@@ -6016,8 +6146,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #UnderlinePageIndicator_selectedColor
          */
         public static final int[] UnderlinePageIndicator = {
-            0x010100d4, 0x7f010004, 0x7f0100bd, 0x7f0100be,
-            0x7f0100bf
+            0x010100d4, 0x7f010004, 0x7f0100c1, 0x7f0100c2,
+            0x7f0100c3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -6026,7 +6156,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int UnderlinePageIndicator_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#fadeDelay}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#fadeDelay}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -6036,11 +6166,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:fadeDelay
+          @attr name com.ketanolab.simidic.test:fadeDelay
         */
         public static final int UnderlinePageIndicator_fadeDelay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#fadeLength}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#fadeLength}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -6050,11 +6180,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:fadeLength
+          @attr name com.ketanolab.simidic.test:fadeLength
         */
         public static final int UnderlinePageIndicator_fadeLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#fades}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#fades}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -6064,11 +6194,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:fades
+          @attr name com.ketanolab.simidic.test:fades
         */
         public static final int UnderlinePageIndicator_fades = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#selectedColor}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#selectedColor}
           attribute's value can be found in the {@link #UnderlinePageIndicator} array.
 
 
@@ -6079,7 +6209,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:selectedColor
+          @attr name com.ketanolab.simidic.test:selectedColor
         */
         public static final int UnderlinePageIndicator_selectedColor = 1;
         /** Attributes that can be used with a View.
@@ -6089,15 +6219,15 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.ketanolab.simidic:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.ketanolab.simidic:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.ketanolab.simidic.test:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.ketanolab.simidic.test:paddingStart}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
            @see #View_paddingStart
          */
         public static final int[] View = {
-            0x010100da, 0x7f0100c0, 0x7f0100c1
+            0x010100da, 0x7f0100c4, 0x7f0100c5
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -6106,7 +6236,7 @@ containing a value of this type.
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6118,11 +6248,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:paddingEnd
+          @attr name com.ketanolab.simidic.test:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6134,7 +6264,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.ketanolab.simidic:paddingStart
+          @attr name com.ketanolab.simidic.test:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewPagerIndicator.
@@ -6143,12 +6273,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.ketanolab.simidic:vpiCirclePageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.ketanolab.simidic:vpiIconPageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.ketanolab.simidic:vpiLinePageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.ketanolab.simidic:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.ketanolab.simidic:vpiTitlePageIndicatorStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.ketanolab.simidic:vpiUnderlinePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.ketanolab.simidic.test:vpiCirclePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.ketanolab.simidic.test:vpiIconPageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.ketanolab.simidic.test:vpiLinePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.ketanolab.simidic.test:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.ketanolab.simidic.test:vpiTitlePageIndicatorStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.ketanolab.simidic.test:vpiUnderlinePageIndicatorStyle}</code></td><td></td></tr>
            </table>
            @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
            @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
@@ -6158,67 +6288,67 @@ containing a value of this type.
            @see #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
          */
         public static final int[] ViewPagerIndicator = {
-            0x7f0100c2, 0x7f0100c3, 0x7f0100c4, 0x7f0100c5,
-            0x7f0100c6, 0x7f0100c7
+            0x7f0100c6, 0x7f0100c7, 0x7f0100c8, 0x7f0100c9,
+            0x7f0100ca, 0x7f0100cb
         };
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#vpiCirclePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#vpiCirclePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:vpiCirclePageIndicatorStyle
+          @attr name com.ketanolab.simidic.test:vpiCirclePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#vpiIconPageIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#vpiIconPageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:vpiIconPageIndicatorStyle
+          @attr name com.ketanolab.simidic.test:vpiIconPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#vpiLinePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#vpiLinePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:vpiLinePageIndicatorStyle
+          @attr name com.ketanolab.simidic.test:vpiLinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#vpiTabPageIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#vpiTabPageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:vpiTabPageIndicatorStyle
+          @attr name com.ketanolab.simidic.test:vpiTabPageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#vpiTitlePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#vpiTitlePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:vpiTitlePageIndicatorStyle
+          @attr name com.ketanolab.simidic.test:vpiTitlePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.ketanolab.simidic.R.attr#vpiUnderlinePageIndicatorStyle}
+          <p>This symbol is the offset where the {@link com.ketanolab.simidic.test.R.attr#vpiUnderlinePageIndicatorStyle}
           attribute's value can be found in the {@link #ViewPagerIndicator} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ketanolab.simidic:vpiUnderlinePageIndicatorStyle
+          @attr name com.ketanolab.simidic.test:vpiUnderlinePageIndicatorStyle
         */
         public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
         /** Attributes that can be used with a ViewStubCompat.
