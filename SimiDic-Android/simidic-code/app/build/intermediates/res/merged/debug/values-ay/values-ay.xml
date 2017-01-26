@@ -2,7 +2,6 @@
 <resources>
     <string name="app_full_name">"SimiDic 1.0.1"</string>
     <string name="app_name">"SimiDic"</string>
-    <string name="app_version_name" translatable="false"/>
     <string name="author">"inuquiri"</string>
     <string name="authors">"ukarjama arus"</string>
     <string name="by">"layku"</string>

@@ -1,15 +1,15 @@
 package com.ketanolab.simidic;
 
-import java.util.ArrayList;
-
-
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SimpleCursorAdapter;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -26,23 +26,17 @@ import android.widget.FilterQueryProvider;
 import android.widget.ListView;
 import android.widget.TextView;
 
-//LIBRERIAS IMPORTADAS PARA NOTIFICACION PUSH
-
-
-import android.os.AsyncTask;
-
-
-//
-
-
 import com.ketanolab.simidic.UIUtils.MenuDrawer;
 import com.ketanolab.simidic.adapters.MenuAdapter;
 import com.ketanolab.simidic.adapters.MenuListAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Dictionaries;
 import com.ketanolab.simidic.util.Util;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
+
+import java.util.ArrayList;
+
+//LIBRERIAS IMPORTADAS PARA NOTIFICACION PUSH
+//
 
 public class MainActivity extends ActionBarActivity  implements  ListView.OnItemClickListener, ActionBar.OnNavigationListener{
 
@@ -76,7 +70,7 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		 setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
+		setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		Log.i(Constants.DEBUG, "onCreate()");
 		setContentView(R.layout.activity_main);
@@ -230,23 +224,23 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 			return true;
 		}
 		switch (item.getItemId()) {
-		case R.id.menu_download:
-			Intent intentDescarga = new Intent(this, DownloadsActivity.class);
-			startActivity(intentDescarga);
-			break;
-		case R.id.menu_favorites:
-			Intent intentFavoritos = new Intent(this, FavoritesActivity.class);
-			startActivity(intentFavoritos);
-			break;
-		case R.id.menu_information:
-			Intent intentCreditos = new Intent(this, CreditsActivity.class);
-			startActivity(intentCreditos);
-			break;
-		case R.id.menu_dictionaries:
-			Intent intentDiccionarios = new Intent(this,
-					DiccionariesActivity.class);
-			startActivity(intentDiccionarios);
-			break;
+			case R.id.menu_download:
+				Intent intentDescarga = new Intent(this, DownloadsActivity.class);
+				startActivity(intentDescarga);
+				break;
+			case R.id.menu_favorites:
+				Intent intentFavoritos = new Intent(this, FavoritesActivity.class);
+				startActivity(intentFavoritos);
+				break;
+			case R.id.menu_information:
+				Intent intentCreditos = new Intent(this, CreditsActivity.class);
+				startActivity(intentCreditos);
+				break;
+			case R.id.menu_dictionaries:
+				Intent intentDiccionarios = new Intent(this,
+						DiccionariesActivity.class);
+				startActivity(intentDiccionarios);
+				break;
 		}
 		return true;
 	}
@@ -254,13 +248,36 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 	// ************************* ITEMCLICK *************************
 	public void onItemClick(AdapterView<?> arg0, View v, int posicion, long id) {
 		// Start WordActivity
-		String word = ((TextView) v.findViewById(R.id.word_item)).getText()
-				.toString();
-		Intent intent = new Intent(this, WordActivity.class);
-		intent.putExtra("path", pathsDictionaries.get(getSupportActionBar()
-				.getSelectedNavigationIndex()));
-		intent.putExtra("word", word);
-		startActivity(intent);
+		switch(v.getId()){
+			case R.id.lista:
+				String word = ((TextView) v.findViewById(R.id.word_item)).getText()
+						.toString();
+				Intent intent = new Intent(this, WordActivity.class);
+				intent.putExtra("path", pathsDictionaries.get(getSupportActionBar()
+						.getSelectedNavigationIndex()));
+				intent.putExtra("word", word);
+				startActivity(intent);
+				break;
+
+			case R.id.menu_download:
+				Intent intentDescarga = new Intent(this, DownloadsActivity.class);
+				startActivity(intentDescarga);
+				break;
+			case R.id.menu_favorites:
+				Intent intentFavoritos = new Intent(this, FavoritesActivity.class);
+				startActivity(intentFavoritos);
+				break;
+			case R.id.menu_information:
+				Intent intentCreditos = new Intent(this, CreditsActivity.class);
+				startActivity(intentCreditos);
+				break;
+			case R.id.menu_dictionaries:
+				Intent intentDiccionarios = new Intent(this,
+						DiccionariesActivity.class);
+				startActivity(intentDiccionarios);
+				break;
+		}
+
 	}
 
 	@Override

@@ -218,6 +218,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 				File file = new File(Constants.PATH_DICTIONARIES + args[1]);
 				return file.length();
 			} catch (Exception e) {
+				new File(Constants.PATH_DICTIONARIES + args[1]).delete();
 				Log.i(Constants.DEBUG, "Error al descargar: " + e.toString());
 			}
 			return 0l;

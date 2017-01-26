@@ -1872,7 +1872,7 @@ containing a value of this type.
         public static final int abc_searchview_description_voice=0x7f05000c;
         public static final int abc_shareactionprovider_share_with=0x7f05000d;
         public static final int abc_shareactionprovider_share_with_application=0x7f05000e;
-        public static final int abc_toolbar_collapse_description=0x7f050043;
+        public static final int abc_toolbar_collapse_description=0x7f050044;
         public static final int app_full_name=0x7f05000f;
         public static final int app_name=0x7f050010;
         public static final int app_version_name=0x7f050011;
@@ -1909,7 +1909,7 @@ containing a value of this type.
         public static final int no_favorites=0x7f050030;
         public static final int no_internet=0x7f050031;
         public static final int open_memu_drawer_description_for_accesibility=0x7f050032;
-        public static final int preferences=0x7f050044;
+        public static final int preferences=0x7f050043;
         public static final int present=0x7f050033;
         public static final int producers=0x7f050034;
         public static final int sd_required=0x7f050035;

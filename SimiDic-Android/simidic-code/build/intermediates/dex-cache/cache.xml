@@ -1,2 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e76f91ffe709b8b354ad94de0f6425adc693631d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_aab77b21c21744562d90686a7cd8fd65472a0fcf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_e35cbd4c18ec4dc59707e87ff604ad999784ccad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.3_73ca58adc762d0050092643179a7060912d835ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_ce61ba26118277dae0c4bc2314fd09c26b6c131b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="277e6f76f79a834d15ee78f303d1e1e5d7c68c01">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_93c5e8baabcfc3b691134ce2cd5bbad1542a814c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_505cd92a9d36b41a675397a422d96b08a24b0520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/Android/adt-bundle-linux-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_82c6b42f313b39a87db61fc329cbc584897d45ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_70a0a389d20201317e244235c5e0337c4c86ebac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31630cefd4585b0788ccc160e3ba7bae414972c">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/instant-run_520cf705c813275073db14295517218451d30f0d.jar" />
+    </item>
+    <item
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7a3871dd2e741e25ad99acc511830426e1fdfd60">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_93c5e8baabcfc3b691134ce2cd5bbad1542a814c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2b9eb62a90dbd2de516e223b41da4ba27cfd0ed6.jar" />
+    </item>
+    <item
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.3_73ca58adc762d0050092643179a7060912d835ea.jar" />
+    </item>
+    <item
+        jar="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="08c7397e518b287c53e911add539409f77ab1425">
+        <dex dex="/home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/pre-dexed/debug/instant-run_520cf705c813275073db14295517218451d30f0d.jar" />
+    </item>
+
+</items>

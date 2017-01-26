@@ -638,7 +638,7 @@ int string abc_searchview_description_submit 0x7f05000b
 int string abc_searchview_description_voice 0x7f05000c
 int string abc_shareactionprovider_share_with 0x7f05000d
 int string abc_shareactionprovider_share_with_application 0x7f05000e
-int string abc_toolbar_collapse_description 0x7f050043
+int string abc_toolbar_collapse_description 0x7f050044
 int string app_full_name 0x7f05000f
 int string app_name 0x7f050010
 int string app_version_name 0x7f050011
@@ -675,7 +675,7 @@ int string no_favorite_now 0x7f05002f
 int string no_favorites 0x7f050030
 int string no_internet 0x7f050031
 int string open_memu_drawer_description_for_accesibility 0x7f050032
-int string preferences 0x7f050044
+int string preferences 0x7f050043
 int string present 0x7f050033
 int string producers 0x7f050034
 int string sd_required 0x7f050035

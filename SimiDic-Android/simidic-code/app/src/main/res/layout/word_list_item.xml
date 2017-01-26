@@ -12,6 +12,7 @@
         android:layout_marginRight="@dimen/margin"
         android:layout_marginTop="@dimen/margin"
         android:text="@string/word"
+        android:textIsSelectable="true"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black1" />
 
@@ -24,6 +25,7 @@
         android:layout_marginRight="@dimen/margin"
         android:ellipsize="end"
         android:singleLine="true"
+        android:textIsSelectable="true"
         android:text="@string/meaning"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/black2" />

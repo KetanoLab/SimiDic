@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-90:12
-	xmlns:android
-		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:11-69
 	package
 		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:2:5-36
 		INJECTED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
@@ -15,15 +13,19 @@ ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/
 		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
 		INJECTED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:11-69
 	android:installLocation
 		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:5:5-35
 uses-sdk
 ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:9:5-11:41
 MERGED from [com.android.support:appcompat-v7:21.0.3] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:21.0.3] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:24.2.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-compat:24.2.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:23:9-55
 	android:targetSdkVersion
 		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:11:9-38
 		INJECTED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
@@ -32,8 +34,6 @@ MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/S
 		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:10:9-34
 		INJECTED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
 		INJECTED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:23:9-51
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:14:5-80
 	android:name
@@ -71,9 +71,9 @@ ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/
 application
 ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:39:5-88:19
 MERGED from [com.android.support:appcompat-v7:21.0.3] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:21.0.3] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-compat:24.2.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/gezn/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:41:9-41
 	android:icon
