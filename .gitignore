@@ -1,30 +1,30 @@
 # Gradle files
-SimiDic-Android/.gradle/*
-SimiDic-Android/build/*
+SimiDic-Android/simidic-code/.gradle/
+SimiDic-Android/simidic-code/build/
 
 # Local configuration file (sdk path, etc)
 SimiDic-Android/local.properties
 
 # Log/OS Files
-SimiDic-Android/*.log
+SimiDic-Android/simidic-code/*.log
 
 # Android Studio generated files and folders
-SimiDic-Android/captures/*
-SimiDic-Android/.externalNativeBuild/*
-SimiDic-Android/.cxx/*
+SimiDic-Android/simidic-code/captures/
+SimiDic-Android/simidic-code/.externalNativeBuild/
+SimiDic-Android/simidic-code/.cxx/
 *.apk
-SimiDic-Android/output.json
+SimiDic-Android/simidic-code/output.json
 
 # IntelliJ
 *.iml
-SimiDic-Android/.idea/*
+SimiDic-Android/simidic-code/.idea/
 
 # Keystore files
 *.jks
 *.keystore
 
 # Google Services (e.g. APIs or Firebase)
-SimiDic-Android/google-services.json
+SimiDic-Android/simidic-code/google-services.json
 
 # Android Profiling
-SimiDic-Android/*.hprof
+SimiDic-Android/simidic-code/*.hprof
