@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,12 +15,14 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.ketanolab.simidic.adapters.WordsAdapter;
 import com.ketanolab.simidic.db.FavoritosDbAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Util;
 
-public class FavoritesActivity extends ActionBarActivity implements OnItemClickListener {
+public class FavoritesActivity extends AppCompatActivity implements OnItemClickListener {
 
 	private ListView lista;
 	private WordsAdapter adaptadorLista;
@@ -29,7 +30,6 @@ public class FavoritesActivity extends ActionBarActivity implements OnItemClickL
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_favorites);
 

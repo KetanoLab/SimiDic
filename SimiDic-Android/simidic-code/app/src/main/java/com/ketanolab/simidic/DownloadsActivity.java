@@ -1,29 +1,9 @@
 package com.ketanolab.simidic;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.ArrayList;
-import java.util.BitSet;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.protocol.HTTP;
-import org.apache.http.util.EntityUtils;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.PowerManager;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,12 +14,29 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.ketanolab.simidic.adapters.DownloadsListAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Util;
 
-public class DownloadsActivity extends ActionBarActivity implements OnItemClickListener {
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.BitSet;
+
+public class DownloadsActivity extends AppCompatActivity implements OnItemClickListener {
 
 	// URLs
 	private ArrayList<String> urls;
@@ -56,16 +53,15 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 	// Tasks
 	private ArrayList<DownloadFile> tasks;
 	private BitSet downloading;
-
+	private String dictionariesDirPath;
 	private PowerManager.WakeLock wl;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_downloads);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true); // show home icon
-
+		dictionariesDirPath =  getApplicationContext().getExternalFilesDir(null).getAbsolutePath();
 		// Loading
 		layoutCargando = (RelativeLayout) findViewById(R.id.layoutCargando);
 		layoutMensaje = (RelativeLayout) findViewById(R.id.layoutMensaje);
@@ -78,7 +74,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 		listView.setOnItemClickListener(this);
 
 		if (Util.isOnline(this)) {
-			new LoadJSON().execute(Constants.URL_JSON);
+			new LoadJSON(dictionariesDirPath).execute(Constants.URL_JSON);
 		} else {
 			Util.showAlertNoInternet(this);
 		}
@@ -91,12 +87,18 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 	protected void onStart() {
 		super.onStart();
 		PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-		wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "Simidic");
+		wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "Simidic:dictionaries");
 		wl.acquire();
 	}
 
+
 	public class LoadJSON extends AsyncTask<String, String, Void> {
 
+		private final String directoryPath;
+
+		public LoadJSON(String directory) {
+			this.directoryPath = directory;
+		}
 		@Override
 		protected void onPreExecute() {
 			listAdapter.eliminarTodo();
@@ -109,22 +111,33 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 
 		@Override
 		protected Void doInBackground(String... values) {
-			HttpClient httpClient = new DefaultHttpClient();
-			HttpGet httpGet = new HttpGet(Constants.URL_JSON);
-			httpGet.setHeader("content-type", "application/json");
 			try {
-				HttpResponse httpResponse = httpClient.execute(httpGet);
-				String resultado = EntityUtils.toString(httpResponse.getEntity(), HTTP.UTF_8);
-				JSONArray jsonArray = new JSONArray(resultado);
-				for (int i = 0; i < jsonArray.length(); i++) {
-					JSONObject jsonObject = jsonArray.getJSONObject(i);
-					String name = jsonObject.getString("name");
-					String author = jsonObject.getString("author");
-					String descripcion = jsonObject.getString("description");
-					String file = jsonObject.getString("file");
-					String url = jsonObject.getString("url");
-					String size = jsonObject.getString("size");
-					publishProgress(name, author, descripcion, file, url, size);
+				URL repo = new URL(Constants.URL_JSON);
+				HttpURLConnection con = (HttpURLConnection) repo.openConnection();
+				con.setRequestMethod("GET");
+				int responseCode = con.getResponseCode();
+				if (responseCode == HttpURLConnection.HTTP_OK) {
+					BufferedReader in = new BufferedReader(new InputStreamReader(
+							con.getInputStream()));
+					String inputLine;
+					StringBuffer response = new StringBuffer();
+
+					while ((inputLine = in.readLine()) != null) {
+						response.append(inputLine);
+					}
+					in.close();
+					String resultado = response.toString();
+					JSONArray jsonArray = new JSONArray(resultado);
+					for (int i = 0; i < jsonArray.length(); i++) {
+						JSONObject jsonObject = jsonArray.getJSONObject(i);
+						String name = jsonObject.getString("name");
+						String author = jsonObject.getString("author");
+						String descripcion = jsonObject.getString("description");
+						String file = jsonObject.getString("file");
+						String url = jsonObject.getString("url");
+						String size = jsonObject.getString("size");
+						publishProgress(name, author, descripcion, file, url, size);
+					}
 				}
 			} catch (Exception ex) {
 				Log.i(Constants.DEBUG, "Error al cargar JSON: " + ex.toString());
@@ -136,7 +149,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 		@Override
 		protected void onProgressUpdate(String... values) {
 			super.onProgressUpdate(values);
-			if (!Util.isDownloaded(values[3])) {
+			if (!Util.isDownloaded(directoryPath + values[3])) {
 				fileNames.add(values[3]);
 				urls.add(values[4]);
 				listAdapter.adicionarItem(R.drawable.ic_menu_download, values[0], values[1], values[2], values[5]);
@@ -151,9 +164,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 			if (listAdapter.getCount() == 0) {
 				layoutMensaje.setVisibility(View.VISIBLE);
 			}
-			for (int i = 0; i < listAdapter.getCount(); i++) {
-				tasks.add(new DownloadFile(i));
-			}
+
 		}
 	}
 
@@ -162,7 +173,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 		if (downloading.get(posicion)) {
 			Toast.makeText(this, R.string.is_downloaded_or_downloading, Toast.LENGTH_SHORT).show();
 		} else {
-			tasks.add(posicion, new DownloadFile(posicion));
+			tasks.add(posicion, new DownloadFile(posicion, getApplicationContext().getExternalFilesDir(null).getAbsolutePath()));
 			tasks.get(posicion).execute(urls.get(posicion), fileNames.get(posicion));
 			downloading.set(posicion);
 		}
@@ -172,10 +183,12 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 
 		private int position;
 		private long fileLength;
+		private String path;
 
-		public DownloadFile(int position) {
+		public DownloadFile(int position, String path) {
 			this.position = position;
 			this.fileLength = 0;
+			this.path = path;
 		}
 
 		@Override
@@ -188,7 +201,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 		@Override
 		protected Long doInBackground(String... args) {
 			try {
-				File directorio = new File(Constants.PATH_DICTIONARIES);
+				File directorio = new File(path);
 				if (!directorio.exists()) {
 					directorio.mkdirs();
 				}
@@ -201,7 +214,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 
 				// Download file
 				InputStream input = new BufferedInputStream(url.openStream());
-				OutputStream output = new FileOutputStream(Constants.PATH_DICTIONARIES + args[1]);
+				OutputStream output = new FileOutputStream(path + args[1]);
 
 				byte data[] = new byte[1024];
 				long total = 0;
@@ -215,7 +228,7 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 				output.close();
 				input.close();
 
-				File file = new File(Constants.PATH_DICTIONARIES + args[1]);
+				File file = new File(path, args[1]);
 				return file.length();
 			} catch (Exception e) {
 				Log.i(Constants.DEBUG, "Error al descargar: " + e.toString());
@@ -258,28 +271,28 @@ public class DownloadsActivity extends ActionBarActivity implements OnItemClickL
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		case 0:
-			finish();
-			return false;
-		case android.R.id.home:
-			finish();
-			return false;
-		case R.id.item_update:
-			try {
-				if (Util.isOnline(this)) {
-					new LoadJSON().execute(Constants.URL_JSON);
-				} else {
-					Util.showAlertNoInternet(this);
+			case 0:
+				finish();
+				return false;
+			case android.R.id.home:
+				finish();
+				return false;
+			case R.id.item_update:
+				try {
+					if (Util.isOnline(this)) {
+						new LoadJSON(dictionariesDirPath).execute(Constants.URL_JSON);
+					} else {
+						Util.showAlertNoInternet(this);
+					}
+				} catch (Exception ex) {
+					Toast.makeText(this, R.string.download_failed, Toast.LENGTH_SHORT).show();
+					if (Util.isOnline(this)) {
+						new LoadJSON(dictionariesDirPath).execute(Constants.URL_JSON);
+					} else {
+						Util.showAlertNoInternet(this);
+					}
 				}
-			} catch (Exception ex) {
-				Toast.makeText(this, R.string.download_failed, Toast.LENGTH_SHORT).show();
-				if (Util.isOnline(this)) {
-					new LoadJSON().execute(Constants.URL_JSON);
-				} else {
-					Util.showAlertNoInternet(this);
-				}
-			}
-			break;
+				break;
 		}
 		return true;
 	}

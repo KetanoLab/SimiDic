@@ -13,7 +13,7 @@ public class Dictionaries {
 	public static ArrayList<String> scanDictionariesAndValidation(Context context) {
 		ArrayList<String> paths = new ArrayList<String>();
 		if (Util.checkExternalStorageAvailable()) {
-			File directory = new File(Constants.PATH_DICTIONARIES);
+			File directory = context.getExternalFilesDir(null);
 			if (directory.exists()) {
 				File[] files = directory.listFiles();
 				if (files.length > 0) {

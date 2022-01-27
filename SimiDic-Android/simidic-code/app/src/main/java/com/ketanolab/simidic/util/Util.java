@@ -31,7 +31,7 @@ public class Util {
 	public static boolean isDownloaded(String file) {
 		boolean sw = false;
 		if (Util.checkExternalStorageAvailable()) {
-			File directory = new File(Constants.PATH_DICTIONARIES);
+			File directory = new File(file);
 			if (directory.exists()) {
 				File[] files = directory.listFiles();
 				if (files.length > 0) {

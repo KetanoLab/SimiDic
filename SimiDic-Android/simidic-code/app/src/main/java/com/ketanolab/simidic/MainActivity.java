@@ -8,9 +8,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.SimpleCursorAdapter;
-import android.support.v7.app.ActionBarDrawerToggle;
+
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -22,6 +20,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.FilterQueryProvider;
 import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 //LIBRERIAS IMPORTADAS PARA NOTIFICACION PUSH
@@ -38,10 +37,14 @@ import com.ketanolab.simidic.adapters.MenuListAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Dictionaries;
 import com.ketanolab.simidic.util.Util;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 
-public class MainActivity extends ActionBarActivity  implements  ListView.OnItemClickListener, ActionBar.OnNavigationListener{
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+
+public class MainActivity extends AppCompatActivity implements  ListView.OnItemClickListener, ActionBar.OnNavigationListener{
 
 	// Paths dictionaries
 	private ArrayList<String> pathsDictionaries;
@@ -71,7 +74,6 @@ public class MainActivity extends ActionBarActivity  implements  ListView.OnItem
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		 setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		Log.i(Constants.DEBUG, "onCreate()");
 		setContentView(R.layout.activity_main);

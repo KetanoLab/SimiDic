@@ -1,147 +1,231 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-90:12
-	xmlns:android
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:11-69
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3a4961e1e6df2f677c58b51babdba8ce/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/8d5d9afb0739d0e0bb5815febfd23e9b/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/63d693d6393609dd312217953d27b75c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a6b723c7869879458195c7c80f7bb2e8/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/dfb7ac91904b3c5a9d1a67aa3c159bd7/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/82ae702ce6452c85bbcde570c36bca5b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/6b29ae8b343c6e40ef5b3af3ef8ffd9f/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/6efa611ead098d00fb51ded6becaa692/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/c5e24b687d8535e2e6f966021bb5a6f1/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/1e3cc287f6f9aff9dd7d87c943f1b053/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/b4e5313905416d8123f632a0f396ac33/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3eec0492784393c9e1fd138d70bf69db/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:1-65:12
 	package
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:2:5-36
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:4:5-32
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
 	android:installLocation
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:5:5-35
-uses-sdk
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [com.android.support:appcompat-v7:21.0.3] /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
-	android:targetSdkVersion
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:11:9-38
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:10:9-34
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:14:5-80
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:5:5-35
+uses-permission#android.permission.writeEx
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:14:22-78
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:9:22-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:15:5-78
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:10:5-78
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:17:5-67
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:17:22-64
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:21:5-68
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:16:5-68
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:21:22-65
-permission#com.ketanolab.simidic.permission.C2D_MESSAGE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:24:5-26:47
-	android:protectionLevel
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:26:9-44
-	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:25:9-68
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:16:22-65
 uses-permission#com.ketanolab.simidic.permission.C2D_MESSAGE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:28:5-84
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:18:5-84
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:28:22-81
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:18:22-81
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:31:5-82
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:31:22-79
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:21:22-79
 uses-permission#android.permission.VIBRATE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:37:5-66
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:27:5-66
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:37:22-63
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:27:22-63
 application
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:39:5-88:19
-MERGED from [com.android.support:appcompat-v7:21.0.3] /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:29:5-63:19
+MERGED from [androidx.core:core:1.5.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:41:9-41
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:31:9-41
 	android:icon
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:40:9-45
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:30:9-45
 	android:theme
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:42:9-40
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:32:9-40
 activity#com.ketanolab.simidic.SplashActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:43:9-51:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:theme
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:45:13-60
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:35:13-60
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:44:13-43
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:46:13-50:29
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:34:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:47:17-69
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:47:25-66
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:49:17-77
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:49:27-74
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.ketanolab.simidic.MainActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:52:9-53:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:42:9-43:20
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:52:19-47
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:42:19-47
 activity#com.ketanolab.simidic.DownloadsActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:54:9-57:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:44:9-47:20
 	android:label
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:56:13-46
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:46:13-46
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:55:13-46
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:45:13-46
 activity#com.ketanolab.simidic.DiccionariesActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:58:9-61:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:48:9-51:20
 	android:label
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:60:13-49
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:50:13-49
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:59:13-49
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:49:13-49
 activity#com.ketanolab.simidic.WordActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:62:9-63:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:52:9-53:20
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:62:19-47
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:52:19-47
 activity#com.ketanolab.simidic.FavoritesActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:64:9-67:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:54:9-57:20
 	android:label
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:66:13-46
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:56:13-46
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:65:13-46
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:55:13-46
 activity#com.ketanolab.simidic.CreditsActivity
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:68:9-71:20
+ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:58:9-61:20
 	android:label
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:70:13-44
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:60:13-44
 	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:69:13-44
-receiver#com.google.android.gcm.GCMBroadcastReceiver
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:72:10-84:20
-	android:permission
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:74:13-73
-	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:73:13-71
-intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.ketanolab.simidic
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:75:13-83:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:78:17-81
-	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:78:25-78
-action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:80:17-86
-	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:80:25-83
-category#com.ketanolab.simidic
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:82:17-66
-	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:82:27-63
-service#com.ketanolab.simidic.GCMIntentService
-ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:86:9-53
-	android:name
-		ADDED from /home/pteran/simidic/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:86:18-50
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml:59:13-44
+uses-sdk
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3a4961e1e6df2f677c58b51babdba8ce/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3a4961e1e6df2f677c58b51babdba8ce/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/cdd4a60bef6c0f8a7e620ac5295b11ad/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/245d5b18118e6b5c1bf36e9adda4adaf/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/01d3dfc95a2231e940ca276123dd7284/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/8d5d9afb0739d0e0bb5815febfd23e9b/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/8d5d9afb0739d0e0bb5815febfd23e9b/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/95cbcdd264a2eccacc08be754a9be679/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/63d693d6393609dd312217953d27b75c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/63d693d6393609dd312217953d27b75c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a547992bccb754fe8c5281f35b02b089/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/1bb65d76bc4c53e4fd0fa77c28d107ec/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/54a6463602e092e46e6a3bac5a75d6f2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/62ecce35880984b0c138ce475dc962aa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ad21947eec5ee398f5c283b0c4da9784/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a6b723c7869879458195c7c80f7bb2e8/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a6b723c7869879458195c7c80f7bb2e8/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/af4ce0c025385f4d674c3fbc90c74bbd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/dfb7ac91904b3c5a9d1a67aa3c159bd7/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/dfb7ac91904b3c5a9d1a67aa3c159bd7/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/82ae702ce6452c85bbcde570c36bca5b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/82ae702ce6452c85bbcde570c36bca5b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/d88be84dffbca90874262a60190a4c2c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3d3b0751e6f78ff8c1df2664b2714ed8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/6b29ae8b343c6e40ef5b3af3ef8ffd9f/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/6b29ae8b343c6e40ef5b3af3ef8ffd9f/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/6efa611ead098d00fb51ded6becaa692/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/6efa611ead098d00fb51ded6becaa692/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/c5e24b687d8535e2e6f966021bb5a6f1/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/c5e24b687d8535e2e6f966021bb5a6f1/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/1e3cc287f6f9aff9dd7d87c943f1b053/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/1e3cc287f6f9aff9dd7d87c943f1b053/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/ece19be2784936bb046fe37356a8107f/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/b4e5313905416d8123f632a0f396ac33/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/b4e5313905416d8123f632a0f396ac33/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3eec0492784393c9e1fd138d70bf69db/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/3eec0492784393c9e1fd138d70bf69db/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/eeb46425476175758829c070e05af108/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/5de14670e80ac28f28052413a4a35127/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/0c170a5bf61b9b60ba30f013c401aa8b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/871eada208e4b1d3c3f2e0d7eeb7730e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/763fff8338f14250d307a24463e7c6bd/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/4a7e3a6a5b12d48699851e0cd7ae034e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/pedrogezn/.gradle/caches/transforms-2/files-2.1/a4934bcfce5a642fea31bbad1cb3e0e2/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/AndroidManifest.xml

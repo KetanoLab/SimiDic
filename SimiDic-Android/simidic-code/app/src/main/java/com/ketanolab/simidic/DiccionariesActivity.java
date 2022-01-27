@@ -5,17 +5,19 @@ import java.util.ArrayList;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.ketanolab.simidic.adapters.DictionariesViewPagerAdapter;
 import com.ketanolab.simidic.util.Dictionaries;
 import com.ketanolab.simidic.viewpager.CirclePageIndicator;
 
-public class DiccionariesActivity extends ActionBarActivity {
+public class DiccionariesActivity extends AppCompatActivity {
 
 	// Paginado
 	private ViewPager viewPager;
@@ -24,7 +26,6 @@ public class DiccionariesActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_dictionaries);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);

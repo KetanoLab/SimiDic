@@ -3,7 +3,6 @@ package com.ketanolab.simidic;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
@@ -11,17 +10,19 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageSwitcher;
 import android.widget.TextSwitcher;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.ketanolab.simidic.anim.ImageLogo;
 import com.ketanolab.simidic.anim.PrincipalText;
 import com.ketanolab.simidic.anim.SecundaryText;
 
-public class CreditsActivity extends ActionBarActivity {
+public class CreditsActivity extends AppCompatActivity {
 
 	private ImageSwitcher imageSwitcher1;
 	private TextSwitcher textSwicher1;
 	private TextSwitcher textSwicher2;
 
-	private int[] texts1 = { R.string.present, R.string.licence, R.string.authors, R.string.developer,
+	private final int[] texts1 = { R.string.present, R.string.licence, R.string.authors, R.string.developer,
 			R.string.linguist, R.string.coordinator_and_graphics, R.string.producers, R.string.special_thanks };
 	private String[] texts2 = { "", "SimiDic 1.0.1",
 			"Felix Layme Pairumani, Teofilo Laime Ajacopa, Comité HABLE Guaraní \n  Saturnino Callo, Elio Ortiz", "la comunidad", "Amos Batto",
@@ -30,7 +31,6 @@ public class CreditsActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_credits);
 
@@ -39,11 +39,11 @@ public class CreditsActivity extends ActionBarActivity {
 
 
 		// --------------------
-		imageSwitcher1 = (ImageSwitcher) findViewById(R.id.imageSwitcher1);
+		imageSwitcher1 = findViewById(R.id.imageSwitcher1);
 		imageSwitcher1.setFactory(new ImageLogo(this));
 
-		textSwicher1 = (TextSwitcher) findViewById(R.id.textSwitcher1);
-		textSwicher2 = (TextSwitcher) findViewById(R.id.textSwitcher2);
+		textSwicher1 = findViewById(R.id.textSwitcher1);
+		textSwicher2 = findViewById(R.id.textSwitcher2);
 		textSwicher1.setFactory(new SecundaryText(this));
 		textSwicher2.setFactory(new PrincipalText(this));
 

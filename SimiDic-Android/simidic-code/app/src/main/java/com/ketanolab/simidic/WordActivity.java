@@ -3,7 +3,6 @@ package com.ketanolab.simidic;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.text.Html;
 import android.text.TextUtils;
 import android.util.Log;
@@ -12,11 +11,13 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.ketanolab.simidic.db.FavoritosDbAdapter;
 import com.ketanolab.simidic.util.Constants;
 import com.ketanolab.simidic.util.Util;
 
-public class WordActivity extends ActionBarActivity {
+public class WordActivity extends AppCompatActivity {
 
 	private TextView textoPalabra;
 	private TextView textoSignificado;
@@ -26,7 +27,6 @@ public class WordActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setTheme(android.support.v7.appcompat.R.style.Theme_AppCompat_Light_DarkActionBar);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_word);
 

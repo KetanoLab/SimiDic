@@ -6,12 +6,7 @@
      >
 
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="21" />
- 
-    
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.writeEx"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <!-- GCM connects to Internet Services. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,12 +14,7 @@
 
     <!-- Keeps the processor from sleeping when a message is received. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
- 
-    <!-- Creates a custom permission so only this app can receive its messages. -->
-    <permission
-        android:name="com.ketanolab.simidic.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
- 
+
     <uses-permission android:name="com.ketanolab.simidic.permission.C2D_MESSAGE" />
  
     <!-- This app has permission to register and receive data message. -->
@@ -69,22 +59,7 @@
             android:name=".CreditsActivity"
             android:label="@string/credits" >
         </activity>
-         <receiver
-            android:name="com.google.android.gcm.GCMBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND" >
-            <intent-filter>
- 
-                <!-- Receives the actual messages. -->
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <!-- Receives the registration id. -->
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
- 
-                <category android:name="com.ketanolab.simidic" />
-            </intent-filter>
-        </receiver>
- 
-        <service android:name=".GCMIntentService" />
-        
+
     </application>
 
 </manifest>
