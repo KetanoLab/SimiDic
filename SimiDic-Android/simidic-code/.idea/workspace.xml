@@ -30,7 +30,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35333e22-11d1-4e9c-ac97-8b8565568dc2" name="Default" comment="Updated Simidic to compile in latest android studio" />
+    <list default="true" id="35333e22-11d1-4e9c-ac97-8b8565568dc2" name="Default" comment="Updated Simidic to compile in latest android studio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -316,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643291290776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Simidic to compile in latest android studio">
+      <created>1643291487757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643291487757</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Simidic to compile in latest android studio">
+      <created>1643291548265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643291548265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,6 +347,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated Simidic to compile in latest android studio" />
@@ -343,38 +362,38 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="300" width="424" height="519" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643251338314" />
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1643312074479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
-    <state width="1878" height="286" key="GridCell.Tab.0.center" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1643312074479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
-    <state width="1878" height="286" key="GridCell.Tab.0.left" timestamp="1643290157566">
+    <state width="1878" height="277" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1643312074479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157566" />
-    <state width="1878" height="286" key="GridCell.Tab.0.right" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1643312074479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
-    <state width="1878" height="286" key="GridCell.Tab.1.bottom" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
+    <state width="1878" height="277" key="GridCell.Tab.1.bottom" timestamp="1643312074480">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
-    <state width="1878" height="286" key="GridCell.Tab.1.center" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074480" />
+    <state width="1878" height="277" key="GridCell.Tab.1.center" timestamp="1643312074479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
-    <state width="1878" height="286" key="GridCell.Tab.1.left" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
+    <state width="1878" height="277" key="GridCell.Tab.1.left" timestamp="1643312074479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
-    <state width="1878" height="286" key="GridCell.Tab.1.right" timestamp="1643290157567">
+    <state width="1878" height="277" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
+    <state width="1878" height="277" key="GridCell.Tab.1.right" timestamp="1643312074480">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643290157567" />
+    <state width="1878" height="277" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074480" />
     <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1643250923775">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -420,6 +439,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/DownloadsActivity.java</url>
           <line>209</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/MainActivity.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

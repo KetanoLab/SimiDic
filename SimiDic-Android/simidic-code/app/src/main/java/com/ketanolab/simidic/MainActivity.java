@@ -219,9 +219,9 @@ public class MainActivity extends AppCompatActivity implements  ListView.OnItemC
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		if (mMenu.onOptionsItemSelected(item)) {
+		/*if (mMenu.onOptionsItemSelected(item)) {
 			return true;
-		}
+		}*/
 		switch (item.getItemId()) {
 		case R.id.menu_download:
 			Intent intentDescarga = new Intent(this, DownloadsActivity.class);

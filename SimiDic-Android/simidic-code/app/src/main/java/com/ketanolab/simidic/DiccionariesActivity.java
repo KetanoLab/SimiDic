@@ -28,7 +28,6 @@ public class DiccionariesActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_dictionaries);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 		// Paginado
 		viewPager = (ViewPager) findViewById(R.id.viewPager);
