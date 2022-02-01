@@ -1,128 +1,117 @@
-package com.ketanolab.simidic;
+package com.ketanolab.simidic
 
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.os.SystemClock;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageSwitcher;
-import android.widget.TextSwitcher;
+import android.os.AsyncTask
+import android.os.Bundle
+import android.os.SystemClock
+import android.view.MenuItem
+import android.view.View
+import android.view.animation.AnimationUtils
+import android.widget.ImageSwitcher
+import android.widget.TextSwitcher
+import androidx.appcompat.app.AppCompatActivity
+import com.ketanolab.simidic.anim.ImageLogo
+import com.ketanolab.simidic.anim.PrincipalText
+import com.ketanolab.simidic.anim.SecundaryText
 
-import androidx.appcompat.app.AppCompatActivity;
+class CreditsActivity : AppCompatActivity() {
+     lateinit var imageSwitcher1: ImageSwitcher
+     lateinit var textSwicher1: TextSwitcher
+     lateinit var textSwicher2: TextSwitcher
+    private val  texts1 = intArrayOf(
+        R.string.present,
+        R.string.licence,
+        R.string.authors,
+        R.string.developer,
+        R.string.linguist,
+        R.string.coordinator_and_graphics,
+        R.string.producers,
+        R.string.special_thanks
+    )
+    private val texts2 = arrayOf(
+        "",
+        "SimiDic 1.0.1",
+        "Felix Layme Pairumani, Teofilo Laime Ajacopa, Comité HABLE Guaraní \n  Saturnino Callo, Elio Ortiz",
+        "la comunidad",
+        "Amos Batto",
+        "Pedro Teran",
+        "Amos Bato/Pedro Teran",
+        "Educación Intercultural Bilingüe del Ministerio de Educación\nEstado Plurinacional de Bolivia"
+    )
 
-import com.ketanolab.simidic.anim.ImageLogo;
-import com.ketanolab.simidic.anim.PrincipalText;
-import com.ketanolab.simidic.anim.SecundaryText;
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_credits)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-public class CreditsActivity extends AppCompatActivity {
+        // --------------------
+        imageSwitcher1 = findViewById(R.id.imageSwitcher1)
+        imageSwitcher1.setFactory(ImageLogo(this))
+        textSwicher1 = findViewById(R.id.textSwitcher1)
+        textSwicher2 = findViewById(R.id.textSwitcher2)
+        textSwicher1.setFactory(SecundaryText(this))
+        textSwicher2.setFactory(PrincipalText(this))
+        val animationIn = AnimationUtils.loadAnimation(this, android.R.anim.fade_in)
+        val animationOut = AnimationUtils.loadAnimation(this, android.R.anim.fade_out)
+        imageSwitcher1.setInAnimation(animationIn)
+        imageSwitcher1.setOutAnimation(animationOut)
+        textSwicher1.setInAnimation(animationIn)
+        textSwicher1.setOutAnimation(animationOut)
+        textSwicher2.setInAnimation(animationIn)
+        textSwicher2.setOutAnimation(animationOut)
+        AnimationSwitcher().execute()
+    }
 
-	private ImageSwitcher imageSwitcher1;
-	private TextSwitcher textSwicher1;
-	private TextSwitcher textSwicher2;
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            finish()
+        }
+        return true
+    }
 
-	private final int[] texts1 = { R.string.present, R.string.licence, R.string.authors, R.string.developer,
-			R.string.linguist, R.string.coordinator_and_graphics, R.string.producers, R.string.special_thanks };
-	private String[] texts2 = { "", "SimiDic 1.0.1",
-			"Felix Layme Pairumani, Teofilo Laime Ajacopa, Comité HABLE Guaraní \n  Saturnino Callo, Elio Ortiz", "la comunidad", "Amos Batto",
-			"Pedro Teran", "Amos Bato/Pedro Teran",
-			"Educación Intercultural Bilingüe del Ministerio de Educación\nEstado Plurinacional de Bolivia" };
+    inner class AnimationSwitcher : AsyncTask<Void?, Int?, Void?>() {
+        override fun onPreExecute() {
+            textSwicher1!!.visibility = View.GONE
+            textSwicher2!!.visibility = View.GONE
+            textSwicher1!!.setText("")
+            textSwicher2!!.setText("")
+            imageSwitcher1!!.visibility = View.VISIBLE
+        }
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_credits);
+        override fun onProgressUpdate(vararg values: Int?) {
+            if (values[0] == -2) {
+                imageSwitcher1!!.setImageResource(R.drawable.logo_ketanolab)
+            } else if (values[0] == -1) {
+                imageSwitcher1!!.setImageResource(0)
+                imageSwitcher1!!.setImageResource(R.drawable.logo_illa)
+            } else {
+                imageSwitcher1!!.visibility = View.GONE
+                imageSwitcher1!!.setImageResource(0)
+                textSwicher1!!.setText("")
+                textSwicher2!!.setText("")
+                textSwicher1!!.visibility = View.VISIBLE
+                textSwicher2!!.visibility = View.VISIBLE
+                textSwicher1!!.setText(resources.getString(texts1[values[0]!!]))
+                textSwicher2!!.setText(texts2[values[0]!!])
+            }
+        }
 
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        override fun onPostExecute(result: Void?) {
+            AnimationSwitcher().execute()
+        }
 
-
-
-		// --------------------
-		imageSwitcher1 = findViewById(R.id.imageSwitcher1);
-		imageSwitcher1.setFactory(new ImageLogo(this));
-
-		textSwicher1 = findViewById(R.id.textSwitcher1);
-		textSwicher2 = findViewById(R.id.textSwitcher2);
-		textSwicher1.setFactory(new SecundaryText(this));
-		textSwicher2.setFactory(new PrincipalText(this));
-
-		Animation animationIn = AnimationUtils.loadAnimation(this, android.R.anim.fade_in);
-		Animation animationOut = AnimationUtils.loadAnimation(this, android.R.anim.fade_out);
-
-		imageSwitcher1.setInAnimation(animationIn);
-		imageSwitcher1.setOutAnimation(animationOut);
-
-		textSwicher1.setInAnimation(animationIn);
-		textSwicher1.setOutAnimation(animationOut);
-		textSwicher2.setInAnimation(animationIn);
-		textSwicher2.setOutAnimation(animationOut);
-
-		new AnimationSwitcher().execute();
-
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		if (item.getItemId() == android.R.id.home) {
-			this.finish();
-		}
-		return true;
-	}
-
-	public class AnimationSwitcher extends AsyncTask<Void, Integer, Void> {
-
-		@Override
-		protected void onPreExecute() {
-			textSwicher1.setVisibility(View.GONE);
-			textSwicher2.setVisibility(View.GONE);
-			textSwicher1.setText("");
-			textSwicher2.setText("");
-			imageSwitcher1.setVisibility(View.VISIBLE);
-		}
-
-		@Override
-		protected Void doInBackground(Void... params) {
-			publishProgress(-2);
-			SystemClock.sleep(1200);
-			publishProgress(-1);
-			SystemClock.sleep(1200);
-			publishProgress(0);
-			SystemClock.sleep(1300);
-			publishProgress(1);
-			SystemClock.sleep(2000);
-			for (int i = 2; i < texts1.length; i++) {
-				publishProgress(i);
-				SystemClock.sleep(1300);
-			}
-			return null;
-		}
-
-		@Override
-		protected void onProgressUpdate(Integer... values) {
-			if (values[0] == -2) {
-				imageSwitcher1.setImageResource(R.drawable.logo_ketanolab);
-			} else if (values[0] == -1) {
-				imageSwitcher1.setImageResource(0);
-				imageSwitcher1.setImageResource(R.drawable.logo_illa);
-			} else {
-				imageSwitcher1.setVisibility(View.GONE);
-				imageSwitcher1.setImageResource(0);
-				textSwicher1.setText("");
-				textSwicher2.setText("");
-				textSwicher1.setVisibility(View.VISIBLE);
-				textSwicher2.setVisibility(View.VISIBLE);
-				textSwicher1.setText(getResources().getString(texts1[values[0]]));
-				textSwicher2.setText(texts2[values[0]]);
-			}
-		}
-
-		@Override
-		protected void onPostExecute(Void result) {
-
-			new AnimationSwitcher().execute();
-		}
-
-	}
-
+        override fun doInBackground(vararg params: Void?): Void? {
+            publishProgress(-2)
+            SystemClock.sleep(1200)
+            publishProgress(-1)
+            SystemClock.sleep(1200)
+            publishProgress(0)
+            SystemClock.sleep(1300)
+            publishProgress(1)
+            SystemClock.sleep(2000)
+            for (i in 2 until texts1.size) {
+                publishProgress(i)
+                SystemClock.sleep(1300)
+            }
+            return null        }
+    }
 }

@@ -1,87 +1,68 @@
-package com.ketanolab.simidic.adapters;
+package com.ketanolab.simidic.adapters
 
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Context
+import android.text.Html
+import android.text.method.LinkMovementMethod
+import android.view.View
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.viewpager.widget.PagerAdapter
+import androidx.viewpager.widget.ViewPager
+import com.ketanolab.simidic.R
+import java.util.ArrayList
 
-import android.content.Context;
+class DictionariesViewPagerAdapter(private val contexto: Context) : PagerAdapter() {
+    private val listaTitulos: MutableList<String>
+    private val listaSubtitulos: MutableList<String>
+    private val listaExtras: MutableList<CharSequence>
+    private val listaBitmaps: MutableList<Int>
+    fun adicionarItem(bitmap: Int, titulo: String, subtitulo: String, extra: String) {
+        listaTitulos.add(titulo)
+        listaSubtitulos.add(subtitulo)
+        listaExtras.add(Html.fromHtml("$extra<br /><br /><a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es\">Creative Commons-Atribución-NoComercial-SinDerivadas 3.0 Unported</a>"))
+        listaBitmaps.add(bitmap)
+    }
 
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+    override fun instantiateItem(collection: View, position: Int): Any {
+        val linearLayout = View.inflate(contexto, R.layout.diccionario2, null) as LinearLayout
+        // titulo
+        val textoTitulo = linearLayout.findViewById<View>(R.id.textview_titulo) as TextView
+        textoTitulo.text = listaTitulos[position]
+        // Subtitulo
+        val textoSubtitulo = linearLayout.findViewById<View>(R.id.textview_subtitulo) as TextView
+        textoSubtitulo.text = listaSubtitulos[position]
+        // Extra
+        val textoExtra = linearLayout.findViewById<View>(R.id.textview_extra) as TextView
+        textoExtra.text = listaExtras[position]
+        textoExtra.movementMethod = LinkMovementMethod.getInstance()
+        // Imagen
+        val imagen = linearLayout.findViewById<View>(R.id.imageview_logo) as ImageView
+        imagen.setImageResource(listaBitmaps[position])
+        (collection as ViewPager).addView(linearLayout, 0)
+        return linearLayout
+    }
 
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
+    override fun getCount(): Int {
+        return listaTitulos.size
+    }
 
-import com.ketanolab.simidic.R;
+    override fun isViewFromObject(view: View, `object`: Any): Boolean {
+        return view === `object` as LinearLayout
+    }
 
+    override fun destroyItem(collection: View, position: Int, view: Any) {
+        (collection as ViewPager).removeView(view as LinearLayout)
+    }
 
-public class DictionariesViewPagerAdapter extends PagerAdapter {
+    fun getNombreProducto(posicion: Int): String {
+        return listaTitulos[posicion]
+    }
 
-	private List<String> listaTitulos;
-	private List<String> listaSubtitulos;
-	private List<CharSequence> listaExtras;
-	private List<Integer> listaBitmaps;
-	private Context contexto;
-
-	public DictionariesViewPagerAdapter(Context contexto) {
-		super();
-		this.contexto = contexto;
-		this.listaTitulos = new ArrayList<String>();
-		this.listaSubtitulos = new ArrayList<String>();
-		this.listaExtras = new ArrayList<CharSequence>();
-		this.listaBitmaps = new ArrayList<Integer>();
-	}
-
-	public void adicionarItem(int bitmap, String titulo, String subtitulo, String extra) {
-		listaTitulos.add(titulo);
-		listaSubtitulos.add(subtitulo);		
-		listaExtras.add(Html.fromHtml(extra + "<br /><br /><a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es\">Creative Commons-Atribución-NoComercial-SinDerivadas 3.0 Unported</a>"));
-		listaBitmaps.add(bitmap);
-	}
-
-	@Override
-	public Object instantiateItem(View collection, int position) {
-		LinearLayout linearLayout = (LinearLayout) View.inflate(contexto, R.layout.diccionario2, null);
-		// titulo
-		TextView textoTitulo = (TextView) linearLayout.findViewById(R.id.textview_titulo);
-		textoTitulo.setText(listaTitulos.get(position));
-		// Subtitulo
-		TextView textoSubtitulo = (TextView) linearLayout.findViewById(R.id.textview_subtitulo);
-		textoSubtitulo.setText(listaSubtitulos.get(position));
-		// Extra
-		TextView textoExtra = (TextView) linearLayout.findViewById(R.id.textview_extra);
-		textoExtra.setText(listaExtras.get(position));
-		textoExtra.setMovementMethod(LinkMovementMethod.getInstance());
-		// Imagen
-		ImageView imagen = (ImageView) linearLayout.findViewById(R.id.imageview_logo);
-		imagen.setImageResource(listaBitmaps.get(position));
-
-		((ViewPager) collection).addView(linearLayout, 0);
-		return linearLayout;
-	}
-
-	@Override
-	public int getCount() {
-		return listaTitulos.size();
-	}
-
-	@Override
-	public boolean isViewFromObject(View view, Object object) {
-		return view == ((LinearLayout) object);
-	}
-
-	@Override
-	public void destroyItem(View collection, int position, Object view) {
-		((ViewPager) collection).removeView((LinearLayout) view);
-	}
-	
-	public String getNombreProducto(int posicion) {
-		return listaTitulos.get(posicion);
-	}
-
-
-
+    init {
+        listaTitulos = ArrayList()
+        listaSubtitulos = ArrayList()
+        listaExtras = ArrayList()
+        listaBitmaps = ArrayList()
+    }
 }

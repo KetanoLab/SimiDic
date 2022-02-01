@@ -1,182 +1,180 @@
-package com.ketanolab.simidic.viewpager;
+package com.ketanolab.simidic.viewpager
 
-import android.content.Context;
-import android.content.res.TypedArray;
-import android.graphics.Canvas;
-import android.graphics.drawable.Drawable;
-import android.view.View;
-import android.widget.LinearLayout;
+import android.content.Context
+import android.graphics.Canvas
+import android.graphics.drawable.Drawable
+import android.view.View
+import android.widget.LinearLayout
 
 /**
  * A simple extension of a regular linear layout that supports the divider API
  * of Android 4.0+. The dividers are added adjacent to the children by changing
  * their layout params. If you need to rely on the margins which fall in the
  * same orientation as the layout you should wrap the child in a simple
- * {@link android.widget.FrameLayout} so it can receive the margin.
+ * [android.widget.FrameLayout] so it can receive the margin.
  */
-class IcsLinearLayout extends LinearLayout {
-    private static final int[] LL = new int[] {
-        /* 0 */ android.R.attr.divider,
-        /* 1 */ android.R.attr.showDividers,
-        /* 2 */ android.R.attr.dividerPadding,
-    };
-    private static final int LL_DIVIDER = 0;
-    private static final int LL_SHOW_DIVIDER = 1;
-    private static final int LL_DIVIDER_PADDING = 2;
-
-    private Drawable mDivider;
-    private int mDividerWidth;
-    private int mDividerHeight;
-    private int mShowDividers;
-    private int mDividerPadding;
-
-
-    public IcsLinearLayout(Context context, int themeAttr) {
-        super(context);
-
-        TypedArray a = context.obtainStyledAttributes(null, LL, themeAttr, 0);
-        setDividerDrawable(a.getDrawable(IcsLinearLayout.LL_DIVIDER));
-        mDividerPadding = a.getDimensionPixelSize(LL_DIVIDER_PADDING, 0);
-        mShowDividers = a.getInteger(LL_SHOW_DIVIDER, SHOW_DIVIDER_NONE);
-        a.recycle();
-    }
-
-    public void setDividerDrawable(Drawable divider) {
-        if (divider == mDivider) {
-            return;
+internal class IcsLinearLayout(context: Context, themeAttr: Int) : LinearLayout(context) {
+    private var mDivider: Drawable? = null
+    private var mDividerWidth = 0
+    private var mDividerHeight = 0
+    private val mShowDividers: Int
+    private val mDividerPadding: Int
+    override fun setDividerDrawable(divider: Drawable) {
+        if (divider === mDivider) {
+            return
         }
-        mDivider = divider;
+        mDivider = divider
         if (divider != null) {
-            mDividerWidth = divider.getIntrinsicWidth();
-            mDividerHeight = divider.getIntrinsicHeight();
+            mDividerWidth = divider.intrinsicWidth
+            mDividerHeight = divider.intrinsicHeight
         } else {
-            mDividerWidth = 0;
-            mDividerHeight = 0;
+            mDividerWidth = 0
+            mDividerHeight = 0
         }
-        setWillNotDraw(divider == null);
-        requestLayout();
+        setWillNotDraw(divider == null)
+        requestLayout()
     }
 
-    @Override
-    protected void measureChildWithMargins(View child, int parentWidthMeasureSpec, int widthUsed, int parentHeightMeasureSpec, int heightUsed) {
-        final int index = indexOfChild(child);
-        final int orientation = getOrientation();
-        final LayoutParams params = (LayoutParams) child.getLayoutParams();
+    override fun measureChildWithMargins(
+        child: View,
+        parentWidthMeasureSpec: Int,
+        widthUsed: Int,
+        parentHeightMeasureSpec: Int,
+        heightUsed: Int
+    ) {
+        val index = indexOfChild(child)
+        val orientation = orientation
+        val params = child.layoutParams as LayoutParams
         if (hasDividerBeforeChildAt(index)) {
             if (orientation == VERTICAL) {
                 //Account for the divider by pushing everything up
-                params.topMargin = mDividerHeight;
+                params.topMargin = mDividerHeight
             } else {
                 //Account for the divider by pushing everything left
-                params.leftMargin = mDividerWidth;
+                params.leftMargin = mDividerWidth
             }
         }
-
-        final int count = getChildCount();
+        val count = childCount
         if (index == count - 1) {
             if (hasDividerBeforeChildAt(count)) {
                 if (orientation == VERTICAL) {
-                    params.bottomMargin = mDividerHeight;
+                    params.bottomMargin = mDividerHeight
                 } else {
-                    params.rightMargin = mDividerWidth;
+                    params.rightMargin = mDividerWidth
                 }
             }
         }
-        super.measureChildWithMargins(child, parentWidthMeasureSpec, widthUsed, parentHeightMeasureSpec, heightUsed);
+        super.measureChildWithMargins(
+            child,
+            parentWidthMeasureSpec,
+            widthUsed,
+            parentHeightMeasureSpec,
+            heightUsed
+        )
     }
 
-    @Override
-    protected void onDraw(Canvas canvas) {
+    override fun onDraw(canvas: Canvas) {
         if (mDivider != null) {
-            if (getOrientation() == VERTICAL) {
-                drawDividersVertical(canvas);
+            if (orientation == VERTICAL) {
+                drawDividersVertical(canvas)
             } else {
-                drawDividersHorizontal(canvas);
+                drawDividersHorizontal(canvas)
             }
         }
-        super.onDraw(canvas);
+        super.onDraw(canvas)
     }
 
-    private void drawDividersVertical(Canvas canvas) {
-        final int count = getChildCount();
-        for (int i = 0; i < count; i++) {
-            final View child = getChildAt(i);
-
-            if (child != null && child.getVisibility() != GONE) {
+    private fun drawDividersVertical(canvas: Canvas) {
+        val count = childCount
+        for (i in 0 until count) {
+            val child = getChildAt(i)
+            if (child != null && child.visibility != GONE) {
                 if (hasDividerBeforeChildAt(i)) {
-                    final LayoutParams lp = (LayoutParams) child.getLayoutParams();
-                    final int top = child.getTop() - lp.topMargin/* - mDividerHeight*/;
-                    drawHorizontalDivider(canvas, top);
+                    val lp = child.layoutParams as LayoutParams
+                    val top = child.top - lp.topMargin /* - mDividerHeight*/
+                    drawHorizontalDivider(canvas, top)
                 }
             }
         }
-
         if (hasDividerBeforeChildAt(count)) {
-            final View child = getChildAt(count - 1);
-            int bottom = 0;
-            if (child == null) {
-                bottom = getHeight() - getPaddingBottom() - mDividerHeight;
-            } else {
-                //final LayoutParams lp = (LayoutParams) child.getLayoutParams();
-                bottom = child.getBottom()/* + lp.bottomMargin*/;
-            }
-            drawHorizontalDivider(canvas, bottom);
+            val child = getChildAt(count - 1)
+            var bottom = 0
+            bottom = //final LayoutParams lp = (LayoutParams) child.getLayoutParams();
+                child?.bottom /* + lp.bottomMargin*/ ?: height - paddingBottom - mDividerHeight
+            drawHorizontalDivider(canvas, bottom)
         }
     }
 
-    private void drawDividersHorizontal(Canvas canvas) {
-        final int count = getChildCount();
-        for (int i = 0; i < count; i++) {
-            final View child = getChildAt(i);
-
-            if (child != null && child.getVisibility() != GONE) {
+    private fun drawDividersHorizontal(canvas: Canvas) {
+        val count = childCount
+        for (i in 0 until count) {
+            val child = getChildAt(i)
+            if (child != null && child.visibility != GONE) {
                 if (hasDividerBeforeChildAt(i)) {
-                    final LayoutParams lp = (LayoutParams) child.getLayoutParams();
-                    final int left = child.getLeft() - lp.leftMargin/* - mDividerWidth*/;
-                    drawVerticalDivider(canvas, left);
+                    val lp = child.layoutParams as LayoutParams
+                    val left = child.left - lp.leftMargin /* - mDividerWidth*/
+                    drawVerticalDivider(canvas, left)
                 }
             }
         }
-
         if (hasDividerBeforeChildAt(count)) {
-            final View child = getChildAt(count - 1);
-            int right = 0;
-            if (child == null) {
-                right = getWidth() - getPaddingRight() - mDividerWidth;
-            } else {
-                //final LayoutParams lp = (LayoutParams) child.getLayoutParams();
-                right = child.getRight()/* + lp.rightMargin*/;
-            }
-            drawVerticalDivider(canvas, right);
+            val child = getChildAt(count - 1)
+            var right = 0
+            right = //final LayoutParams lp = (LayoutParams) child.getLayoutParams();
+                child?.right /* + lp.rightMargin*/ ?: width - paddingRight - mDividerWidth
+            drawVerticalDivider(canvas, right)
         }
     }
 
-    private void drawHorizontalDivider(Canvas canvas, int top) {
-        mDivider.setBounds(getPaddingLeft() + mDividerPadding, top,
-                getWidth() - getPaddingRight() - mDividerPadding, top + mDividerHeight);
-        mDivider.draw(canvas);
+    private fun drawHorizontalDivider(canvas: Canvas, top: Int) {
+        mDivider!!.setBounds(
+            paddingLeft + mDividerPadding, top,
+            width - paddingRight - mDividerPadding, top + mDividerHeight
+        )
+        mDivider!!.draw(canvas)
     }
 
-    private void drawVerticalDivider(Canvas canvas, int left) {
-        mDivider.setBounds(left, getPaddingTop() + mDividerPadding,
-                left + mDividerWidth, getHeight() - getPaddingBottom() - mDividerPadding);
-        mDivider.draw(canvas);
+    private fun drawVerticalDivider(canvas: Canvas, left: Int) {
+        mDivider!!.setBounds(
+            left, paddingTop + mDividerPadding,
+            left + mDividerWidth, height - paddingBottom - mDividerPadding
+        )
+        mDivider!!.draw(canvas)
     }
 
-    private boolean hasDividerBeforeChildAt(int childIndex) {
-        if (childIndex == 0 || childIndex == getChildCount()) {
-          return false;
+    private fun hasDividerBeforeChildAt(childIndex: Int): Boolean {
+        if (childIndex == 0 || childIndex == childCount) {
+            return false
         }
-        if ((mShowDividers & SHOW_DIVIDER_MIDDLE) != 0) {
-            boolean hasVisibleViewBefore = false;
-            for (int i = childIndex - 1; i >= 0; i--) {
-                if (getChildAt(i).getVisibility() != GONE) {
-                    hasVisibleViewBefore = true;
-                    break;
+        if (mShowDividers and SHOW_DIVIDER_MIDDLE != 0) {
+            var hasVisibleViewBefore = false
+            for (i in childIndex - 1 downTo 0) {
+                if (getChildAt(i).visibility != GONE) {
+                    hasVisibleViewBefore = true
+                    break
                 }
             }
-            return hasVisibleViewBefore;
+            return hasVisibleViewBefore
         }
-        return false;
+        return false
+    }
+
+    companion object {
+        private val LL = intArrayOf( /* 0 */
+            android.R.attr.divider,  /* 1 */
+            android.R.attr.showDividers,  /* 2 */
+            android.R.attr.dividerPadding
+        )
+        private const val LL_DIVIDER = 0
+        private const val LL_SHOW_DIVIDER = 1
+        private const val LL_DIVIDER_PADDING = 2
+    }
+
+    init {
+        val a = context.obtainStyledAttributes(null, LL, themeAttr, 0)
+        dividerDrawable = a.getDrawable(LL_DIVIDER)!!
+        mDividerPadding = a.getDimensionPixelSize(LL_DIVIDER_PADDING, 0)
+        mShowDividers = a.getInteger(LL_SHOW_DIVIDER, SHOW_DIVIDER_NONE)
+        a.recycle()
     }
 }

@@ -1,105 +1,96 @@
-package com.ketanolab.simidic.adapters;
+package com.ketanolab.simidic.adapters
 
-import java.util.ArrayList;
-import java.util.List;
+import android.content.Context
+import android.os.Build
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.BaseAdapter
+import android.widget.ImageView
+import android.widget.TextView
+import com.ketanolab.simidic.R
+import java.util.ArrayList
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.os.Build;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.TextView;
+class WordsAdapter(context: Context?) : BaseAdapter() {
+    private val inflater: LayoutInflater
+    private val imagenes: MutableList<Int>
+    private val titulos: MutableList<String>
+    private val subtitulos: MutableList<CharSequence>
+    override fun getCount(): Int {
+        return titulos.size
+    }
 
-import com.ketanolab.simidic.R;
+    override fun getItem(position: Int): Any {
+        return position
+    }
 
-public class WordsAdapter extends BaseAdapter {
+    override fun getItemId(position: Int): Long {
+        return position.toLong()
+    }
 
-	private LayoutInflater inflater;
-	private List<Integer> imagenes;
-	private List<String> titulos;
-	private List<CharSequence> subtitulos;
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+        var convertView = convertView
+        val holder: ViewHolder
+        if (convertView == null) {
+            convertView = inflater.inflate(R.layout.item_lista, null)
+            holder = ViewHolder()
+            holder.imagen = convertView
+                .findViewById<View>(R.id.imagen_item) as ImageView
+            holder.titulo = convertView
+                .findViewById<View>(R.id.titulo_item) as TextView
+            holder.subtitulo = convertView
+                .findViewById<View>(R.id.subtitulo_item) as TextView
+            convertView.tag = holder
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR1) {
+                holder.titulo!!.setTextIsSelectable(true)
+                holder.subtitulo!!.setTextIsSelectable(true)
+            } else {
+            }
+        } else {
+            holder = convertView.tag as ViewHolder
+        }
+        holder.imagen!!.setImageResource(imagenes[position])
+        holder.titulo!!.text = titulos[position]
+        holder.subtitulo!!.text = subtitulos[position]
+        return convertView!!
+    }
 
-	public WordsAdapter(Context context) {
-		inflater = LayoutInflater.from(context);
-		imagenes = new ArrayList<Integer>();
-		titulos = new ArrayList<String>();
-		subtitulos = new ArrayList<CharSequence>();
-	}
+    internal class ViewHolder {
+        var imagen: ImageView? = null
+        var titulo: TextView? = null
+        var subtitulo: TextView? = null
+    }
 
-	public int getCount() {
-		return titulos.size();
-	}
+    fun addItem(recurso: Int, titulo: String, subtitulo: CharSequence) {
+        imagenes.add(recurso)
+        titulos.add(titulo)
+        subtitulos.add(subtitulo)
+        notifyDataSetChanged()
+    }
 
-	public Object getItem(int position) {
-		return position;
-	}
+    fun addItem(titulo: String, subtitulo: CharSequence) {
+        imagenes.add(0)
+        titulos.add(titulo)
+        subtitulos.add(subtitulo)
+    }
 
-	public long getItemId(int position) {
-		return position;
-	}
-	
-	public View getView(int position, View convertView, ViewGroup parent) {
-		ViewHolder holder;
-		if (convertView == null) {
-			convertView = inflater.inflate(R.layout.item_lista, null);
-			holder = new ViewHolder();
-			holder.imagen = (ImageView) convertView
-					.findViewById(R.id.imagen_item);
-			holder.titulo = (TextView) convertView
-					.findViewById(R.id.titulo_item);
+    fun addItem(titulo: String) {
+        imagenes.add(0)
+        titulos.add(titulo)
+        subtitulos.add("")
+    }
 
-			holder.subtitulo = (TextView) convertView
-					.findViewById(R.id.subtitulo_item);
-			convertView.setTag(holder);
-			if ( android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR1){
-				holder.titulo.setTextIsSelectable(true);
-				holder.subtitulo.setTextIsSelectable(true);
-			} else{
+    fun eliminarTodo() {
+        imagenes.clear()
+        titulos.clear()
+        subtitulos.clear()
+        notifyDataSetChanged()
+    }
 
-			}
-
-		} else {
-			holder = (ViewHolder) convertView.getTag();
-		}
-		holder.imagen.setImageResource(imagenes.get(position));
-		holder.titulo.setText(titulos.get(position));
-		holder.subtitulo.setText(subtitulos.get(position));
-		return convertView;
-	}
-
-	static class ViewHolder {
-		ImageView imagen;
-		TextView titulo;
-		TextView subtitulo;
-	}
-
-	public void addItem(int recurso, String titulo, CharSequence subtitulo) {
-		imagenes.add(recurso);
-		titulos.add(titulo);
-		subtitulos.add(subtitulo);
-		notifyDataSetChanged();
-	}
-
-	public void addItem(String titulo, CharSequence subtitulo) {
-		imagenes.add(0);
-		titulos.add(titulo);
-		subtitulos.add(subtitulo);
-	}
-
-	public void addItem(String titulo) {
-		imagenes.add(0);
-		titulos.add(titulo);
-		subtitulos.add("");
-	}
-	
-	public void eliminarTodo() {
-		imagenes.clear();
-		titulos.clear();
-		subtitulos.clear();
-		notifyDataSetChanged();
-	}
-
+    init {
+        inflater = LayoutInflater.from(context)
+        imagenes = ArrayList()
+        titulos = ArrayList()
+        subtitulos = ArrayList()
+    }
 }

@@ -1,127 +1,124 @@
-package com.ketanolab.simidic.adapters;
+package com.ketanolab.simidic.adapters
 
-import java.util.ArrayList;
+import android.content.Context
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.BaseAdapter
+import android.widget.ImageView
+import android.widget.ProgressBar
+import android.widget.TextView
+import com.ketanolab.simidic.R
+import java.util.ArrayList
 
-import android.content.Context;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
-import android.widget.TextView;
+class DownloadsListAdapter(contexto: Context?) : BaseAdapter() {
+    private val inflater: LayoutInflater
+    private val images: ArrayList<Int>
+    private val names: ArrayList<String>
+    private val authors: ArrayList<String>
+    private val descriptions: ArrayList<String>
+    private val extras: ArrayList<String>
+    private val bars: ArrayList<Boolean>
+    private val values: ArrayList<Int>
+    override fun getCount(): Int {
+        return names.size
+    }
 
-import com.ketanolab.simidic.R;
+    override fun getItem(position: Int): Any {
+        return position
+    }
 
-public class DownloadsListAdapter extends BaseAdapter {
+    override fun getItemId(position: Int): Long {
+        return position.toLong()
+    }
 
-	private LayoutInflater inflater;
-	private ArrayList<Integer> images;
-	private ArrayList<String> names;
-	private ArrayList<String> authors;
-	private ArrayList<String> descriptions;
-	private ArrayList<String> extras;
-	private ArrayList<Boolean> bars;
-	private ArrayList<Integer> values;
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+        var convertView = convertView
+        val holder: ViewHolder
+        if (convertView == null) {
+            convertView = inflater.inflate(R.layout.download_list_item, null)
+            holder = ViewHolder()
+            holder.imageView = convertView
+                .findViewById<View>(R.id.descargaImageView) as ImageView
+            holder.nameTextView = convertView
+                .findViewById<View>(R.id.nameItem) as TextView
+            holder.authorTextView = convertView
+                .findViewById<View>(R.id.authorItem) as TextView
+            holder.descriptionTextView = convertView
+                .findViewById<View>(R.id.descriptionItem) as TextView
+            holder.sizeTextView = convertView
+                .findViewById<View>(R.id.extraItem) as TextView
+            holder.progressBar = convertView
+                .findViewById<View>(R.id.progressBar) as ProgressBar
+            convertView.tag = holder
+        } else {
+            holder = convertView.tag as ViewHolder
+        }
+        holder.imageView!!.setImageResource(images[position])
+        holder.nameTextView!!.text = names[position]
+        holder.authorTextView!!.text = authors[position]
+        holder.descriptionTextView!!.text = descriptions[position]
+        holder.sizeTextView!!.text = extras[position]
+        if (bars[position]) {
+            holder.progressBar!!.visibility = View.VISIBLE
+        } else {
+            holder.progressBar!!.visibility = View.GONE
+        }
+        holder.progressBar!!.progress = values[position]
+        return convertView!!
+    }
 
-	public DownloadsListAdapter(Context contexto) {
-		inflater = LayoutInflater.from(contexto);
-		images = new ArrayList<Integer>();
-		names = new ArrayList<String>();
-		authors = new ArrayList<String>();
-		descriptions = new ArrayList<String>();
-		extras = new ArrayList<String>();
-		bars = new ArrayList<Boolean>();
-		values = new ArrayList<Integer>();
-	}
+    internal class ViewHolder {
+        var imageView: ImageView? = null
+        var nameTextView: TextView? = null
+        var authorTextView: TextView? = null
+        var descriptionTextView: TextView? = null
+        var sizeTextView: TextView? = null
+        var progressBar: ProgressBar? = null
+    }
 
-	public int getCount() {
-		return names.size();
-	}
+    fun adicionarItem(
+        image: Int, name: String, author: String,
+        description: String, extra: String
+    ) {
+        images.add(image)
+        names.add(name)
+        authors.add(author)
+        descriptions.add(description)
+        extras.add(extra)
+        bars.add(false)
+        values.add(0)
+        notifyDataSetChanged()
+    }
 
-	public Object getItem(int position) {
-		return position;
-	}
+    fun updateItem(position: Int, image: Int, text: String, bar: Boolean) {
+        images[position] = image
+        extras[position] = text
+        bars[position] = bar
+        notifyDataSetChanged()
+    }
 
-	public long getItemId(int position) {
-		return position;
-	}
+    fun updateProgress(position: Int, progress: Int) {
+        values[position] = progress
+    }
 
-	public View getView(int position, View convertView, ViewGroup parent) {
-		ViewHolder holder;
-		if (convertView == null) {
-			convertView = inflater.inflate(R.layout.download_list_item, null);
-			holder = new ViewHolder();
-			holder.imageView = (ImageView) convertView
-					.findViewById(R.id.descargaImageView);
-			holder.nameTextView = (TextView) convertView
-					.findViewById(R.id.nameItem);
-			holder.authorTextView = (TextView) convertView
-					.findViewById(R.id.authorItem);
-			holder.descriptionTextView = (TextView) convertView
-					.findViewById(R.id.descriptionItem);
-			holder.sizeTextView = (TextView) convertView
-					.findViewById(R.id.extraItem);
-			holder.progressBar = (ProgressBar) convertView
-					.findViewById(R.id.progressBar);
-			
-			convertView.setTag(holder);
-		} else {
-			holder = (ViewHolder) convertView.getTag();
-		}
+    fun eliminarTodo() {
+        images.clear()
+        names.clear()
+        authors.clear()
+        descriptions.clear()
+        extras.clear()
+        notifyDataSetChanged()
+    }
 
-		holder.imageView.setImageResource(images.get(position));
-		holder.nameTextView.setText(names.get(position));
-		holder.authorTextView.setText(authors.get(position));
-		holder.descriptionTextView.setText(descriptions.get(position));
-		holder.sizeTextView.setText(extras.get(position));
-		if (bars.get(position)) {
-			holder.progressBar.setVisibility(View.VISIBLE);
-		} else {
-			holder.progressBar.setVisibility(View.GONE);
-		}
-		holder.progressBar.setProgress(values.get(position));
-		return convertView;
-	}
-
-	static class ViewHolder {
-		ImageView imageView;
-		TextView nameTextView;
-		TextView authorTextView;
-		TextView descriptionTextView;
-		TextView sizeTextView;
-		ProgressBar progressBar;
-	}
-
-	public void adicionarItem(int image, String name, String author,
-			String description, String extra) {
-		images.add(image);
-		names.add(name);
-		authors.add(author);
-		descriptions.add(description);
-		extras.add(extra);
-		bars.add(false);
-		values.add(0);
-		notifyDataSetChanged();
-	}
-
-	public void updateItem(int position, int image, String text, boolean bar) {
-		images.set(position, image);
-		extras.set(position, text);
-		bars.set(position, bar);
-		notifyDataSetChanged();
-	}
-	public void updateProgress(int position, int progress) {
-		values.set(position, progress);
-	}
-
-	public void eliminarTodo() {
-		images.clear();
-		names.clear();
-		authors.clear();
-		descriptions.clear();
-		extras.clear();
-		notifyDataSetChanged();
-	}
-
+    init {
+        inflater = LayoutInflater.from(contexto)
+        images = ArrayList()
+        names = ArrayList()
+        authors = ArrayList()
+        descriptions = ArrayList()
+        extras = ArrayList()
+        bars = ArrayList()
+        values = ArrayList()
+    }
 }

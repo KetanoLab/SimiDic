@@ -1,240 +1,234 @@
-package com.ketanolab.simidic;
+package com.ketanolab.simidic
 
-import android.content.Context;
-import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.FilterQueryProvider;
-import android.widget.ListView;
-import android.widget.SimpleCursorAdapter;
-import android.widget.TextView;
+import android.content.Intent
+import android.database.Cursor
+import android.database.sqlite.SQLiteDatabase
+import android.os.AsyncTask
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.widget.AdapterView
+import android.widget.AdapterView.OnItemClickListener
+import android.widget.ArrayAdapter
+import android.widget.EditText
+import android.widget.FilterQueryProvider
+import android.widget.ListView
+import android.widget.SimpleCursorAdapter
+import android.widget.TextView
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
+import com.ketanolab.simidic.util.Constants
+import com.ketanolab.simidic.util.Dictionaries
+import com.ketanolab.simidic.util.Util
+import java.util.ArrayList
 
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.ketanolab.simidic.util.Constants;
-import com.ketanolab.simidic.util.Dictionaries;
-import com.ketanolab.simidic.util.Util;
-
-import java.util.ArrayList;
-
-public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener, ActionBar.OnNavigationListener {
-
+class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavigationListener {
     // Paths dictionaries
-    private ArrayList<String> pathsDictionaries;
+    private lateinit var pathsDictionaries: ArrayList<String>
 
     // Navigation
-    private int itemSelectedNavigation = 0;
-    private ArrayAdapter<String> listNavigationAdapter;
+    private var itemSelectedNavigation = 0
+    private var listNavigationAdapter: ArrayAdapter<String>? = null
 
     // List words
-    private ListView wordsListView;
-    private SimpleCursorAdapter WordsSimpleCursorAdapter;
-    SQLiteDatabase db;
+    private var wordsListView: ListView? = null
+    private var WordsSimpleCursorAdapter: SimpleCursorAdapter? = null
+    var db: SQLiteDatabase? = null
 
     // EditText
-    private EditText askBox;
-
-    AsyncTask<Void, Void, Void> mRegisterTask;
+    private lateinit var askBox: EditText
+    var mRegisterTask: AsyncTask<Void, Void, Void>? = null
 
     // END NOTIFICACION PUSH
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        Log.i(Constants.DEBUG, "onCreate()");
-        setContentView(R.layout.activity_main);
-
-        Context context = getSupportActionBar().getThemedContext();
-        listNavigationAdapter = new ArrayAdapter<String>(context,
-                R.layout.action_bar_spinner_list_item);
-        listNavigationAdapter
-                .setDropDownViewResource(R.layout.action_bar_spinner_list_item);
-
-        final android.app.ActionBar actionBar = getActionBar();
+    public override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.i(Constants.DEBUG, "onCreate()")
+        setContentView(R.layout.activity_main)
+        val context = supportActionBar!!.themedContext
+        listNavigationAdapter = ArrayAdapter(
+            context,
+            R.layout.action_bar_spinner_list_item
+        )
+        listNavigationAdapter!!
+            .setDropDownViewResource(R.layout.action_bar_spinner_list_item)
+        val actionBar = actionBar
         // List
-        wordsListView = (ListView) findViewById(R.id.lista);
-        wordsListView.setOnItemClickListener(this);
-        getSupportActionBar().setDisplayShowTitleEnabled(false); // Hide title
-        getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
-        getSupportActionBar().setListNavigationCallbacks(listNavigationAdapter,
-                this);
-        askBox = findViewById(R.id.caja_consulta);
-        askBox.addTextChangedListener(new TextWatcher() {
-
-            public void onTextChanged(CharSequence s, int start, int before,
-                                      int count) {
-                if (s.toString().length() > 0) {
-                    WordsSimpleCursorAdapter.getFilter().filter(s.toString());
+        wordsListView = findViewById<View>(R.id.lista) as ListView
+        wordsListView!!.onItemClickListener = this
+        supportActionBar!!.setDisplayShowTitleEnabled(false) // Hide title
+        supportActionBar!!.navigationMode = ActionBar.NAVIGATION_MODE_LIST
+        supportActionBar!!.setListNavigationCallbacks(
+            listNavigationAdapter,
+            this
+        )
+        askBox = findViewById(R.id.caja_consulta)
+        askBox.addTextChangedListener(object : TextWatcher {
+            override fun onTextChanged(
+                s: CharSequence, start: Int, before: Int,
+                count: Int
+            ) {
+                if (s.toString().length > 0) {
+                    WordsSimpleCursorAdapter!!.filter.filter(s.toString())
                 }
             }
 
-            public void beforeTextChanged(CharSequence s, int start, int count,
-                                          int after) {
+            override fun beforeTextChanged(
+                s: CharSequence, start: Int, count: Int,
+                after: Int
+            ) {
             }
 
-            public void afterTextChanged(Editable s) {
-            }
-        });
-
+            override fun afterTextChanged(s: Editable) {}
+        })
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.i(Constants.DEBUG, "onStart()");
+    override fun onStart() {
+        super.onStart()
+        Log.i(Constants.DEBUG, "onStart()")
 
         // Get dictionaries valid
-        pathsDictionaries = Dictionaries.scanDictionariesAndValidation(this);
+        pathsDictionaries = Dictionaries.scanDictionariesAndValidation(this)
         // Put Navigation
-        putDataDictionariesInNavigation();
+        putDataDictionariesInNavigation()
         // Load words
-        Log.i(Constants.DEBUG, "Cargando palabras...");
-        if (pathsDictionaries.size() > 0) {
+        Log.i(Constants.DEBUG, "Cargando palabras...")
+        if (pathsDictionaries.size > 0) {
             db = SQLiteDatabase.openOrCreateDatabase(
-                    pathsDictionaries.get(itemSelectedNavigation), null);
-            loadAllWords();
+                pathsDictionaries.get(itemSelectedNavigation), null
+            )
+            loadAllWords()
         }
         // Re-query
-        String s = askBox.getText().toString();
-        if (s.toString().length() > 0) {
-            WordsSimpleCursorAdapter.getFilter().filter(s.toString());
+        val s = askBox!!.text.toString()
+        if (s.length > 0) {
+            WordsSimpleCursorAdapter!!.filter.filter(s)
         }
     }
 
-    private void loadAllWords() {
-        final String[] columns = {"_id", "word", "summary"};
-        int[] to = {0, R.id.word_item, R.id.meaning_item};
+    private fun loadAllWords() {
+        val columns = arrayOf("_id", "word", "summary")
+        val to = intArrayOf(0, R.id.word_item, R.id.meaning_item)
         // Cursor cursor = db.rawQuery("SELECT _id, word, summary FROM words",
         // null);
-        Cursor cursor = db
-                .query("words", columns, null, null, null, null, null);
-
-        WordsSimpleCursorAdapter = new SimpleCursorAdapter(this,
-                R.layout.word_list_item, cursor, columns, to, 0);
-
-        WordsSimpleCursorAdapter.setFilterQueryProvider(new FilterQueryProvider() {
-            public Cursor runQuery(CharSequence constraint) {
-
-                String word = "%" + constraint.toString() + "%";
-                Cursor cursor = null;
-                if (pathsDictionaries.get(itemSelectedNavigation)
-                        .contains("gn")) {
-                    cursor = db
-                            .rawQuery(
-                                    "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'(',''),')',''),'�','n'),'�','i'),'�','a'),'�','e'),'�','o'),'�','u') LIKE ?",
-                                    new String[]{word});
-                } else {
-                    cursor = db
-                            .rawQuery(
-                                    "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'�','n'),'�','a') LIKE ?",
-                                    new String[]{word});
-                }
-
-                return cursor;
+        val cursor = db!!
+            .query("words", columns, null, null, null, null, null)
+        WordsSimpleCursorAdapter = SimpleCursorAdapter(
+            this,
+            R.layout.word_list_item, cursor, columns, to, 0
+        )
+        WordsSimpleCursorAdapter!!.filterQueryProvider = FilterQueryProvider { constraint ->
+            val word = "%$constraint%"
+            var cursor: Cursor? = null
+            cursor = if (pathsDictionaries!![itemSelectedNavigation]
+                    .contains("gn")
+            ) {
+                db!!
+                    .rawQuery(
+                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'(',''),')',''),'�','n'),'�','i'),'�','a'),'�','e'),'�','o'),'�','u') LIKE ?",
+                        arrayOf(word)
+                    )
+            } else {
+                db!!
+                    .rawQuery(
+                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'�','n'),'�','a') LIKE ?",
+                        arrayOf(word)
+                    )
             }
-        });
-
-        wordsListView.setAdapter(WordsSimpleCursorAdapter);
-
-    }
-
-    private void putDataDictionariesInNavigation() {
-        listNavigationAdapter.clear();
-        for (int i = 0; i < pathsDictionaries.size(); i++) {
-            SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(
-                    pathsDictionaries.get(i), null);
-            String[] nameAndAuthor = Util.getNameAndAuthorDictionary(db);
-            listNavigationAdapter.add(nameAndAuthor[0]); // Get name
-            db.close();
+            cursor
         }
-        listNavigationAdapter.notifyDataSetChanged();
+        wordsListView!!.adapter = WordsSimpleCursorAdapter
     }
 
-    public boolean onNavigationItemSelected(int position, long id) {
-        itemSelectedNavigation = position;
-        if (pathsDictionaries.size() > 0) {
+    private fun putDataDictionariesInNavigation() {
+        listNavigationAdapter!!.clear()
+        for (i in pathsDictionaries!!.indices) {
+            val db = SQLiteDatabase.openOrCreateDatabase(
+                pathsDictionaries!![i], null
+            )
+            val nameAndAuthor = Util.getNameAndAuthorDictionary(db)
+            listNavigationAdapter!!.add(nameAndAuthor!!.get(0)) // Get name
+            db.close()
+        }
+        listNavigationAdapter!!.notifyDataSetChanged()
+    }
+
+    override fun onNavigationItemSelected(position: Int, id: Long): Boolean {
+        itemSelectedNavigation = position
+        if (pathsDictionaries!!.size > 0) {
             if (db != null) {
-                db.close();
+                db!!.close()
             }
             db = SQLiteDatabase.openOrCreateDatabase(
-                    pathsDictionaries.get(itemSelectedNavigation), null);
-            loadAllWords();
+                pathsDictionaries!![itemSelectedNavigation], null
+            )
+            loadAllWords()
         }
         // Re-query
-        String word = askBox.getText().toString();
-        if (word.length() > 0) {
-            WordsSimpleCursorAdapter.getFilter().filter(word);
+        val word = askBox!!.text.toString()
+        if (word.length > 0) {
+            WordsSimpleCursorAdapter!!.filter.filter(word)
         }
-        return true;
+        return true
     }
 
     // ************************* MENU *************************
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_main, menu);
-        return true;
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.activity_main, menu)
+        return true
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_download:
-                Intent intentDescarga = new Intent(this, DownloadsActivity.class);
-                startActivity(intentDescarga);
-                break;
-            case R.id.menu_favorites:
-                Intent intentFavoritos = new Intent(this, FavoritesActivity.class);
-                startActivity(intentFavoritos);
-                break;
-            case R.id.menu_information:
-                Intent intentCreditos = new Intent(this, CreditsActivity.class);
-                startActivity(intentCreditos);
-                break;
-            case R.id.menu_dictionaries:
-                Intent intentDiccionarios = new Intent(this,
-                        DiccionariesActivity.class);
-                startActivity(intentDiccionarios);
-                break;
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.menu_download -> {
+                val intentDescarga = Intent(this, DownloadsActivity::class.java)
+                startActivity(intentDescarga)
+            }
+            R.id.menu_favorites -> {
+                val intentFavoritos = Intent(this, FavoritesActivity::class.java)
+                startActivity(intentFavoritos)
+            }
+            R.id.menu_information -> {
+                val intentCreditos = Intent(this, CreditsActivity::class.java)
+                startActivity(intentCreditos)
+            }
+            R.id.menu_dictionaries -> {
+                val intentDiccionarios = Intent(
+                    this,
+                    DiccionariesActivity::class.java
+                )
+                startActivity(intentDiccionarios)
+            }
         }
-        return true;
+        return true
     }
 
     // ************************* ITEMCLICK *************************
-    public void onItemClick(AdapterView<?> arg0, View v, int posicion, long id) {
+    override fun onItemClick(arg0: AdapterView<*>?, v: View, posicion: Int, id: Long) {
         // Start WordActivity
-        String word = ((TextView) v.findViewById(R.id.word_item)).getText()
-                .toString();
-        Intent intent = new Intent(this, WordActivity.class);
-        intent.putExtra("path", pathsDictionaries.get(getSupportActionBar()
-                .getSelectedNavigationIndex()));
-        intent.putExtra("word", word);
-        startActivity(intent);
+        val word = (v.findViewById<View>(R.id.word_item) as TextView).text
+            .toString()
+        val intent = Intent(this, WordActivity::class.java)
+        intent.putExtra(
+            "path", pathsDictionaries!![supportActionBar!!
+                .getSelectedNavigationIndex()]
+        )
+        intent.putExtra("word", word)
+        startActivity(intent)
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i(Constants.DEBUG, "onStop()");
+    override fun onStop() {
+        super.onStop()
+        Log.i(Constants.DEBUG, "onStop()")
         if (WordsSimpleCursorAdapter != null) {
-            WordsSimpleCursorAdapter.getCursor().close();
-            WordsSimpleCursorAdapter = null;
+            WordsSimpleCursorAdapter!!.cursor.close()
+            WordsSimpleCursorAdapter = null
         }
         if (db != null) {
-            db.close();
+            db!!.close()
         }
     }
-
-
 }

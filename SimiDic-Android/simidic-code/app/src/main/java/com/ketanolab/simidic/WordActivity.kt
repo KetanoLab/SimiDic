@@ -1,148 +1,132 @@
-package com.ketanolab.simidic;
+package com.ketanolab.simidic
 
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.os.Bundle;
-import android.text.Html;
-import android.text.TextUtils;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.database.sqlite.SQLiteDatabase
+import android.os.Bundle
+import android.text.Html
+import android.text.TextUtils
+import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.ketanolab.simidic.db.FavoritosDbAdapter
+import com.ketanolab.simidic.util.Constants
+import com.ketanolab.simidic.util.Util
 
-import androidx.appcompat.app.AppCompatActivity;
+class WordActivity : AppCompatActivity() {
+    private var textoPalabra: TextView? = null
+    private var textoSignificado: TextView? = null
+    private var textoDiccionario: TextView? = null
+    private var favorite = false
+    private var path: String? = ""
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_word)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        // GUI
+        textoPalabra = findViewById<View>(R.id.textoPalabra) as TextView
+        textoSignificado = findViewById<View>(R.id.textoSignificado) as TextView
+        textoDiccionario = findViewById<View>(R.id.textoDiccionario) as TextView
+        // Get extras
+        val pathDictionary = intent.getStringExtra("path")
+        path = pathDictionary
+        val word = intent.getStringExtra("word")
+        // Meaning
+        loadMeanings(pathDictionary, word)
+        val db = SQLiteDatabase.openOrCreateDatabase(pathDictionary!!, null)
+        try {
+            val nameAndAuthor = Util.getNameAndAuthorDictionary(db)
+            title = nameAndAuthor!![0]
+            textoDiccionario!!.text = nameAndAuthor!![1]
+        } catch (ex: Exception) {
+            Log.e(Constants.DEBUG, "Error en la consulta a la base de datos.")
+        }
+        db.close()
+        textoPalabra!!.text = word
+        favorite = if (esFavorito(word, pathDictionary)) {
+            true
+        } else {
+            false
+        }
+    }
 
-import com.ketanolab.simidic.db.FavoritosDbAdapter;
-import com.ketanolab.simidic.util.Constants;
-import com.ketanolab.simidic.util.Util;
+    private fun loadMeanings(pathDictionary: String?, word: String?) {
+        val db = SQLiteDatabase.openOrCreateDatabase(pathDictionary!!, null)
+        putAllMeanings(db, word)
+        db.close()
+    }
 
-public class WordActivity extends AppCompatActivity {
+    private fun putAllMeanings(db: SQLiteDatabase, word: String?) {
+        var meanings: CharSequence = ""
+        val cursor = db.rawQuery("SELECT meaning from words where word=?", arrayOf(word))
+        if (cursor.moveToFirst()) {
+            do {
+                var meaning = cursor.getString(0)
+                // meaning = meaning.replaceAll("<i>", "</i>");
+                // meaning = meaning.replaceAll("<span foreground",
+                // "<font color");
+                // meaning = meaning.replaceAll("</span>", "</font>");
+                // ***
+                meaning = meaning.replace("\\n", "<br />")
+                // ***
+                meanings = if (meanings == "") {
+                    Html.fromHtml(meaning)
+                } else {
+                    TextUtils.concat(meanings, "\n\n", Html.fromHtml(meaning))
+                }
+            } while (cursor.moveToNext())
+        }
+        cursor.close()
+        textoSignificado!!.text = meanings
+    }
 
-	private TextView textoPalabra;
-	private TextView textoSignificado;
-	private TextView textoDiccionario;
-	private boolean favorite = false;
-	private String path = "";
+    private fun esFavorito(palabra: String?, nombreDiccionario: String?): Boolean {
+        val db = FavoritosDbAdapter(this)
+        db.abrir()
+        val sw = db.isFavorite(palabra!!, nombreDiccionario!!)
+        db.close()
+        return if (sw) {
+            true
+        } else false
+    }
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_word);
+    override fun onPrepareOptionsMenu(menu: Menu): Boolean {
+        if (favorite) {
+            menu.getItem(0).setIcon(R.drawable.ic_action_star_ok)
+        } else {
+            menu.getItem(0).setIcon(R.drawable.ic_action_star)
+        }
+        return super.onPrepareOptionsMenu(menu)
+    }
 
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-		// GUI
-		textoPalabra = (TextView) findViewById(R.id.textoPalabra);
-		textoSignificado = (TextView) findViewById(R.id.textoSignificado);
-		textoDiccionario = (TextView) findViewById(R.id.textoDiccionario);
-		// Get extras
-		String pathDictionary = getIntent().getStringExtra("path");
-		path = pathDictionary;
-		String word = getIntent().getStringExtra("word");
-		// Meaning
-		loadMeanings(pathDictionary, word);
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.activity_word, menu)
+        return true
+    }
 
-		SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(pathDictionary, null);
-		try {
-			String[] nameAndAuthor = Util.getNameAndAuthorDictionary(db);
-			setTitle(nameAndAuthor[0]);
-			textoDiccionario.setText(nameAndAuthor[1]);
-		} catch (Exception ex) {
-			Log.e(Constants.DEBUG, "Error en la consulta a la base de datos.");
-		}
-		db.close();
-
-		textoPalabra.setText(word);
-
-		if (esFavorito(word, pathDictionary)) {
-			favorite = true;
-		} else {
-			favorite = false;
-		}
-
-	}
-
-	private void loadMeanings(String pathDictionary, String word) {
-		SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(pathDictionary, null);
-		putAllMeanings(db, word);
-		db.close();
-	}
-
-	private void putAllMeanings(SQLiteDatabase db, String word) {
-		CharSequence meanings = "";
-		Cursor cursor = db.rawQuery("SELECT meaning from words where word=?", new String[] { word });
-		if (cursor.moveToFirst()) {
-			do {
-				String meaning = cursor.getString(0);
-				// meaning = meaning.replaceAll("<i>", "</i>");
-				// meaning = meaning.replaceAll("<span foreground",
-				// "<font color");
-				// meaning = meaning.replaceAll("</span>", "</font>");
-				// ***
-				meaning = meaning.replace("\\n", "<br />");
-				// ***
-				if (meanings.equals("")) {
-					meanings = Html.fromHtml(meaning);
-				} else {
-					meanings = TextUtils.concat(meanings, "\n\n", Html.fromHtml(meaning));
-				}
-			} while (cursor.moveToNext());
-		}
-		cursor.close();
-		textoSignificado.setText(meanings);
-
-	}
-
-	private boolean esFavorito(String palabra, String nombreDiccionario) {
-		FavoritosDbAdapter db = new FavoritosDbAdapter(this);
-		db.abrir();
-		boolean sw = db.isFavorite(palabra, nombreDiccionario);
-		db.close();
-		if (sw) {
-			return true;
-		}
-		return false;
-	}
-
-	@Override
-	public boolean onPrepareOptionsMenu(Menu menu) {
-		if (favorite) {
-			menu.getItem(0).setIcon(R.drawable.ic_action_star_ok);
-		} else {
-			menu.getItem(0).setIcon(R.drawable.ic_action_star);
-		}
-		return super.onPrepareOptionsMenu(menu);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_word, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		if (item.getItemId() == android.R.id.home) {
-			this.finish();
-		} else if (item.getItemId() == R.id.item_favorite) {
-			FavoritosDbAdapter db = new FavoritosDbAdapter(this);
-			db.abrir();
-			if (favorite) {
-				// Delete favorite
-				item.setIcon(R.drawable.ic_action_star);
-				db.eraseFavorite(textoPalabra.getText().toString(), path);
-				favorite = false;
-				Toast.makeText(this, R.string.no_favorite_now, Toast.LENGTH_SHORT).show();
-			} else {
-				// Add favorite
-				item.setIcon(R.drawable.ic_action_star_ok);
-				db.addFavorite(textoPalabra.getText().toString(), path);
-				favorite = true;
-				Toast.makeText(this, R.string.favorite_now, Toast.LENGTH_SHORT).show();
-			}
-			db.close();
-		}
-		return true;
-	}
-
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            finish()
+        } else if (item.itemId == R.id.item_favorite) {
+            val db = FavoritosDbAdapter(this)
+            db.abrir()
+            if (favorite) {
+                // Delete favorite
+                item.setIcon(R.drawable.ic_action_star)
+                db.eraseFavorite(textoPalabra!!.text.toString(), path!!)
+                favorite = false
+                Toast.makeText(this, R.string.no_favorite_now, Toast.LENGTH_SHORT).show()
+            } else {
+                // Add favorite
+                item.setIcon(R.drawable.ic_action_star_ok)
+                db.addFavorite(textoPalabra!!.text.toString(), path)
+                favorite = true
+                Toast.makeText(this, R.string.favorite_now, Toast.LENGTH_SHORT).show()
+            }
+            db.close()
+        }
+        return true
+    }
 }
