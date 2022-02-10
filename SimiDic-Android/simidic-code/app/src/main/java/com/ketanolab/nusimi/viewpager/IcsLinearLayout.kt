@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.viewpager
+package com.ketanolab.nusimi.viewpager
 
 import android.content.Context
 import android.graphics.Canvas

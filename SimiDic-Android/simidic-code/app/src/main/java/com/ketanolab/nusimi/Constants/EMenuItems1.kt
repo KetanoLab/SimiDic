@@ -1,6 +1,6 @@
-package com.ketanolab.simidic.Constants
+package com.ketanolab.nusimi.Constants
 
-import com.ketanolab.simidic.R
+import com.ketanolab.nusimi.R
 
 /**
  * Created by pteran on 05-02-16.

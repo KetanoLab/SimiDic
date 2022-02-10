@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.anim;
+package com.ketanolab.nusimi.anim;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.ViewSwitcher.ViewFactory;
 
-import com.ketanolab.simidic.R;
+import com.ketanolab.nusimi.R;
 
 public class TextSecundary implements ViewFactory {
 

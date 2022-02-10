@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.util;
+package com.ketanolab.nusimi.util;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -28,7 +28,7 @@ public class Dictionaries {
 								Log.i(Constants.DEBUG, "Find " + files[i].getName());
 								paths.add(path);
 							} catch (Exception ex) {
-								Log.i(Constants.DEBUG, "El archivo esta dañado " + files[i].getName());
+								Log.i(Constants.DEBUG, "El archivo esta daï¿½ado " + files[i].getName());
 							}
 							if (db != null) {
 								db.close();

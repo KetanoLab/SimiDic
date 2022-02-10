@@ -1,4 +1,4 @@
-package com.ketanolab.simidic
+package com.ketanolab.nusimi
 
 import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
@@ -11,10 +11,10 @@ import android.widget.AdapterView.OnItemClickListener
 import android.widget.ListView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.ketanolab.simidic.adapters.WordsAdapter
-import com.ketanolab.simidic.db.FavoritosDbAdapter
-import com.ketanolab.simidic.util.Constants
-import com.ketanolab.simidic.util.Util
+import com.ketanolab.nusimi.adapters.WordsAdapter
+import com.ketanolab.nusimi.db.FavoritosDbAdapter
+import com.ketanolab.nusimi.util.Constants
+import com.ketanolab.nusimi.util.Util
 import java.util.ArrayList
 
 class FavoritesActivity : AppCompatActivity(), OnItemClickListener {

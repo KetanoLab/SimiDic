@@ -1,7 +1,7 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
-import static com.ketanolab.simidic.CommonUtilities.SERVER_URL;
-import static com.ketanolab.simidic.CommonUtilities.TAG;
+import static com.ketanolab.nusimi.CommonUtilities.SERVER_URL;
+import static com.ketanolab.nusimi.CommonUtilities.TAG;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;

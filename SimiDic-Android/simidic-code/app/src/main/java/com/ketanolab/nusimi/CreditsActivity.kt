@@ -1,4 +1,4 @@
-package com.ketanolab.simidic
+package com.ketanolab.nusimi
 
 import android.os.AsyncTask
 import android.os.Bundle
@@ -9,9 +9,9 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageSwitcher
 import android.widget.TextSwitcher
 import androidx.appcompat.app.AppCompatActivity
-import com.ketanolab.simidic.anim.ImageLogo
-import com.ketanolab.simidic.anim.PrincipalText
-import com.ketanolab.simidic.anim.SecundaryText
+import com.ketanolab.nusimi.anim.ImageLogo
+import com.ketanolab.nusimi.anim.PrincipalText
+import com.ketanolab.nusimi.anim.SecundaryText
 
 class CreditsActivity : AppCompatActivity() {
      lateinit var imageSwitcher1: ImageSwitcher
@@ -28,10 +28,10 @@ class CreditsActivity : AppCompatActivity() {
         R.string.special_thanks
     )
     private val texts2 = arrayOf(
-        "",
-        "SimiDic 1.0.1",
+        "...",
+        "Nusimi 1.0.1",
         "Felix Layme Pairumani, Teofilo Laime Ajacopa, Comité HABLE Guaraní \n  Saturnino Callo, Elio Ortiz",
-        "la comunidad",
+        "Community",
         "Amos Batto",
         "Pedro Teran",
         "Amos Bato/Pedro Teran",
@@ -39,11 +39,10 @@ class CreditsActivity : AppCompatActivity() {
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_credits)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-
-        // --------------------
         imageSwitcher1 = findViewById(R.id.imageSwitcher1)
         imageSwitcher1.setFactory(ImageLogo(this))
         textSwicher1 = findViewById(R.id.textSwitcher1)

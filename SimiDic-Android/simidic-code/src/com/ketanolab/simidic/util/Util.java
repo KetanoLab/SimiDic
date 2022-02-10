@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.util;
+package com.ketanolab.nusimi.util;
 
 import java.io.File;
 
@@ -14,8 +14,8 @@ import android.net.NetworkInfo;
 import android.os.Environment;
 import android.util.Log;
 
-import com.ketanolab.simidic.DescargaActivity;
-import com.ketanolab.simidic.R;
+import com.ketanolab.nusimi.DescargaActivity;
+import com.ketanolab.nusimi.R;
 
 public class Util {
 
@@ -49,7 +49,7 @@ public class Util {
 									sw = true;
 								}
 							} catch (Exception ex) {
-								Log.i(Constants.DEBUG, "El archivo esta dañado " + files[i].getName());
+								Log.i(Constants.DEBUG, "El archivo esta daï¿½ado " + files[i].getName());
 							}
 							if (db != null) {
 								db.close();

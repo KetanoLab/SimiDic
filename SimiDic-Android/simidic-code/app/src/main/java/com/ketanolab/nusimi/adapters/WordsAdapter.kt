@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.adapters
+package com.ketanolab.nusimi.adapters
 
 import android.content.Context
 import android.os.Build
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.ketanolab.simidic.R
+import com.ketanolab.nusimi.R
 import java.util.ArrayList
 
 class WordsAdapter(context: Context?) : BaseAdapter() {

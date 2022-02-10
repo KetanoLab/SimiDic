@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ketanolab.simidic.viewpager
+package com.ketanolab.nusimi.viewpager
 
 import android.content.Context
 import android.graphics.Canvas
@@ -31,7 +31,7 @@ import androidx.core.view.MotionEventCompat
 import androidx.core.view.ViewConfigurationCompat
 import androidx.viewpager.widget.ViewPager
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener
-import com.ketanolab.simidic.R
+import com.ketanolab.nusimi.R
 
 /**
  * Draws circles (one for each view). The current view position is filled and

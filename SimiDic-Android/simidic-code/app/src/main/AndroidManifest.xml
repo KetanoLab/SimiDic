@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ketanolab.simidic"
+    package="com.ketanolab.nusimi"
     android:versionCode="4"
     android:versionName="1.1.0"
     android:installLocation="auto"
@@ -29,9 +29,10 @@
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".SplashActivity"
+            android:name="com.ketanolab.nusimi.SplashActivity"
             android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,24 +40,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name="com.ketanolab.nusimi.MainActivity" >
         </activity>
         <activity
-            android:name=".DownloadsActivity"
+            android:name="com.ketanolab.nusimi.DownloadsActivity"
             android:label="@string/downloads" >
         </activity>
         <activity
-            android:name=".DiccionariesActivity"
+            android:name="com.ketanolab.nusimi.DiccionariesActivity"
             android:label="@string/dictionaries" >
         </activity>
-        <activity android:name=".WordActivity" >
+        <activity android:name="com.ketanolab.nusimi.WordActivity" >
         </activity>
         <activity
-            android:name=".FavoritesActivity"
+            android:name="com.ketanolab.nusimi.FavoritesActivity"
             android:label="@string/favorites" >
         </activity>
         <activity
-            android:name=".CreditsActivity"
+            android:name="com.ketanolab.nusimi.CreditsActivity"
             android:label="@string/credits" >
         </activity>
 

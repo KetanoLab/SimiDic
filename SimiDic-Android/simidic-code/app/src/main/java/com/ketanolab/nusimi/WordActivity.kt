@@ -1,4 +1,4 @@
-package com.ketanolab.simidic
+package com.ketanolab.nusimi
 
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
@@ -11,9 +11,9 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.ketanolab.simidic.db.FavoritosDbAdapter
-import com.ketanolab.simidic.util.Constants
-import com.ketanolab.simidic.util.Util
+import com.ketanolab.nusimi.db.FavoritosDbAdapter
+import com.ketanolab.nusimi.util.Constants
+import com.ketanolab.nusimi.util.Util
 
 class WordActivity : AppCompatActivity() {
     private var textoPalabra: TextView? = null

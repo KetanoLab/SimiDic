@@ -1,4 +1,4 @@
-package com.ketanolab.simidic
+package com.ketanolab.nusimi
 
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
-import com.ketanolab.simidic.adapters.DictionariesViewPagerAdapter
-import com.ketanolab.simidic.util.Dictionaries
-import com.ketanolab.simidic.viewpager.CirclePageIndicator
+import com.ketanolab.nusimi.adapters.DictionariesViewPagerAdapter
+import com.ketanolab.nusimi.util.Dictionaries
+import com.ketanolab.nusimi.viewpager.CirclePageIndicator
 
 class DiccionariesActivity : AppCompatActivity() {
     // Paginado

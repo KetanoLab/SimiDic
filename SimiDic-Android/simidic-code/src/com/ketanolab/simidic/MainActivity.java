@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import java.util.ArrayList;
 
@@ -23,8 +23,8 @@ import android.widget.TextView;
 
 //LIBRERIAS IMPORTADAS PARA NOTIFICACION PUSH
 
-import static com.ketanolab.simidic.CommonUtilities.SENDER_ID;
-import static com.ketanolab.simidic.CommonUtilities.SERVER_URL;
+import static com.ketanolab.nusimi.CommonUtilities.SENDER_ID;
+import static com.ketanolab.nusimi.CommonUtilities.SERVER_URL;
 
 import android.os.AsyncTask;
 
@@ -37,9 +37,9 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 
-import com.ketanolab.simidic.util.Constants;
-import com.ketanolab.simidic.util.Dictionaries;
-import com.ketanolab.simidic.util.Util;
+import com.ketanolab.nusimi.util.Constants;
+import com.ketanolab.nusimi.util.Dictionaries;
+import com.ketanolab.nusimi.util.Util;
 
 public class MainActivity extends SherlockActivity implements
 		ActionBar.OnNavigationListener, OnItemClickListener {

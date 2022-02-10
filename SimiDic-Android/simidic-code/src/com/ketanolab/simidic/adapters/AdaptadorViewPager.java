@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.adapters;
+package com.ketanolab.nusimi.adapters;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.ketanolab.simidic.R;
+import com.ketanolab.nusimi.R;
 
 
 public class AdaptadorViewPager extends PagerAdapter {
@@ -36,7 +36,7 @@ public class AdaptadorViewPager extends PagerAdapter {
 	public void adicionarItem(int bitmap, String titulo, String subtitulo, String extra) {
 		listaTitulos.add(titulo);
 		listaSubtitulos.add(subtitulo);		
-		listaExtras.add(Html.fromHtml(extra + "<br /><br /><a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es\">Creative Commons-Atribución-NoComercial-SinDerivadas 3.0 Unported</a>"));
+		listaExtras.add(Html.fromHtml(extra + "<br /><br /><a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es\">Creative Commons-Atribuciï¿½n-NoComercial-SinDerivadas 3.0 Unported</a>"));
 		listaBitmaps.add(bitmap);
 	}
 

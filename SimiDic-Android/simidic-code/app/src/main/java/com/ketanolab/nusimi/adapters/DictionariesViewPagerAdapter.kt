@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.adapters
+package com.ketanolab.nusimi.adapters
 
 import android.content.Context
 import android.text.Html
@@ -9,7 +9,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.ketanolab.simidic.R
+import com.ketanolab.nusimi.R
 import java.util.ArrayList
 
 class DictionariesViewPagerAdapter(private val contexto: Context) : PagerAdapter() {
@@ -25,7 +25,7 @@ class DictionariesViewPagerAdapter(private val contexto: Context) : PagerAdapter
     }
 
     override fun instantiateItem(collection: View, position: Int): Any {
-        val linearLayout = View.inflate(contexto, R.layout.diccionario2, null) as LinearLayout
+        val linearLayout = View.inflate(contexto, R.layout.dictionary_view, null) as LinearLayout
         // titulo
         val textoTitulo = linearLayout.findViewById<View>(R.id.textview_titulo) as TextView
         textoTitulo.text = listaTitulos[position]

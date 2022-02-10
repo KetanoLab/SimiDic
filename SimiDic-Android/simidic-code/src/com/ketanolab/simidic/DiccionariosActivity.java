@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import java.util.ArrayList;
 
@@ -10,8 +10,8 @@ import android.support.v4.view.ViewPager;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.ketanolab.simidic.adapters.AdaptadorViewPager;
-import com.ketanolab.simidic.util.Dictionaries;
+import com.ketanolab.nusimi.adapters.AdaptadorViewPager;
+import com.ketanolab.nusimi.util.Dictionaries;
 import com.viewpagerindicator.CirclePageIndicator;
 
 public class DiccionariosActivity extends SherlockActivity {

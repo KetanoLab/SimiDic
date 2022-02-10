@@ -1,4 +1,4 @@
-package com.ketanolab.simidic
+package com.ketanolab.nusimi
 
 import android.os.AsyncTask
 import android.os.Bundle
@@ -14,10 +14,9 @@ import android.widget.ListView
 import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.ketanolab.simidic.DownloadsActivity
-import com.ketanolab.simidic.adapters.DownloadsListAdapter
-import com.ketanolab.simidic.util.Constants
-import com.ketanolab.simidic.util.Util
+import com.ketanolab.nusimi.adapters.DownloadsListAdapter
+import com.ketanolab.nusimi.util.Constants
+import com.ketanolab.nusimi.util.Util
 import org.json.JSONArray
 import java.io.BufferedInputStream
 import java.io.BufferedReader
@@ -89,6 +88,8 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
             downloading = BitSet()
             layoutMensaje!!.visibility = View.GONE
             layoutCargando!!.visibility = View.VISIBLE
+            tasks = ArrayList<DownloadFile>()
+
         }
 
         override fun doInBackground(vararg values: String?): Void? {
@@ -130,9 +131,10 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
 
         override fun onProgressUpdate(vararg values: String?) {
             super.onProgressUpdate(*values)
-            if (!Util.isDownloaded(directoryPath + values[3])) {
+            if (!Util.isDownloaded(directoryPath + "/" + values[3])) {
                 fileNames!!.add(values[3]!!)
                 urls!!.add(values[4]!!)
+                tasks!!.add(DownloadFile(tasks!!.size+2, values[4]!!))
                 listAdapter!!.adicionarItem(
                     R.drawable.ic_menu_download,
                     values[0]!!,
@@ -194,7 +196,7 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
 
                 // Download file
                 val input: InputStream = BufferedInputStream(url.openStream())
-                val output: OutputStream = FileOutputStream(path + args[1])
+                val output: OutputStream = FileOutputStream(path + "/" + args[1])
                 val data = ByteArray(1024)
                 var total: Long = 0
                 var count: Int

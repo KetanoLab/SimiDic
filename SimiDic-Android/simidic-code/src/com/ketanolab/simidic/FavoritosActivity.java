@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import java.util.ArrayList;
 
@@ -15,10 +15,10 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.ketanolab.simidic.adapters.AdaptadorLista;
-import com.ketanolab.simidic.db.FavoritosDbAdapter;
-import com.ketanolab.simidic.util.Constants;
-import com.ketanolab.simidic.util.Util;
+import com.ketanolab.nusimi.adapters.AdaptadorLista;
+import com.ketanolab.nusimi.db.FavoritosDbAdapter;
+import com.ketanolab.nusimi.util.Constants;
+import com.ketanolab.nusimi.util.Util;
 
 public class FavoritosActivity extends SherlockActivity implements OnItemClickListener {
 

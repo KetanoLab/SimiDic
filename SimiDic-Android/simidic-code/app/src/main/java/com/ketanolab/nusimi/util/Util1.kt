@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.util
+package com.ketanolab.nusimi.util
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase
 import android.net.ConnectivityManager
 import android.os.Environment
 import android.util.Log
-import com.ketanolab.simidic.DownloadsActivity
-import com.ketanolab.simidic.R
+import com.ketanolab.nusimi.DownloadsActivity
+import com.ketanolab.nusimi.R
 import java.io.File
 
 object Util {
@@ -26,7 +26,7 @@ object Util {
         if (checkExternalStorageAvailable()) {
             val directory = File(file)
             if (directory.exists()) {
-                val files = directory.listFiles()
+                val files = directory.parentFile.listFiles()
                 if (files.size > 0) {
                     for (i in files.indices) {
                         if (checkFilenameDictionary(files[i].name)) {

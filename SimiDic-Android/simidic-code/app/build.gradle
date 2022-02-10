@@ -6,8 +6,8 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.ketanolab.simidic"
-        minSdkVersion 15
+        applicationId "com.ketanolab.nusimi"
+        minSdkVersion 20
         targetSdkVersion 30
     }
 

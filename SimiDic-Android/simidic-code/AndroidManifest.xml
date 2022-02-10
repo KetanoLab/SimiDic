@@ -23,7 +23,7 @@
  
     <!-- Creates a custom permission so only this app can receive its messages. -->
     <permission
-        android:name="com.ketanolab.simidic.permission.C2D_MESSAGE"
+        android:name="com.ketanolab.nusimi.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
  
     <uses-permission android:name="com.ketanolab.simidic.permission.C2D_MESSAGE" />

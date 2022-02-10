@@ -6,4 +6,5 @@
     android:layout_height="wrap_content"
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:paddingVertical="16dp"
+    android:paddingHorizontal="8dp"
     android:ellipsize="marquee" />

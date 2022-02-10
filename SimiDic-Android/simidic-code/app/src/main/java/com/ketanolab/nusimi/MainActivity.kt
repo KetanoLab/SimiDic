@@ -1,4 +1,4 @@
-package com.ketanolab.simidic
+package com.ketanolab.nusimi
 
 import android.content.Intent
 import android.database.Cursor
@@ -21,9 +21,9 @@ import android.widget.SimpleCursorAdapter
 import android.widget.TextView
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
-import com.ketanolab.simidic.util.Constants
-import com.ketanolab.simidic.util.Dictionaries
-import com.ketanolab.simidic.util.Util
+import com.ketanolab.nusimi.util.Constants
+import com.ketanolab.nusimi.util.Dictionaries
+import com.ketanolab.nusimi.util.Util
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavigationListener {
@@ -51,10 +51,10 @@ class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavig
         val context = supportActionBar!!.themedContext
         listNavigationAdapter = ArrayAdapter(
             context,
-            R.layout.action_bar_spinner_list_item
+            R.layout.dictionaries_list_item
         )
         listNavigationAdapter!!
-            .setDropDownViewResource(R.layout.action_bar_spinner_list_item)
+            .setDropDownViewResource(R.layout.dictionaries_list_item)
         val actionBar = actionBar
         // List
         wordsListView = findViewById<View>(R.id.lista) as ListView
