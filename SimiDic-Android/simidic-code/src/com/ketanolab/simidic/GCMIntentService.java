@@ -1,7 +1,7 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
-import static com.ketanolab.simidic.CommonUtilities.SENDER_ID;
-import static com.ketanolab.simidic.CommonUtilities.displayMessage;
+import static com.ketanolab.nusimi.CommonUtilities.SENDER_ID;
+import static com.ketanolab.nusimi.CommonUtilities.displayMessage;
 
 import android.app.Notification;
 import android.app.NotificationManager;

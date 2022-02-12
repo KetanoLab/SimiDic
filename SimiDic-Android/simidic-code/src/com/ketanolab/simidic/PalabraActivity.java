@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,9 +13,9 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.ketanolab.simidic.db.FavoritosDbAdapter;
-import com.ketanolab.simidic.util.Constants;
-import com.ketanolab.simidic.util.Util;
+import com.ketanolab.nusimi.db.FavoritosDbAdapter;
+import com.ketanolab.nusimi.util.Constants;
+import com.ketanolab.nusimi.util.Util;
 
 public class PalabraActivity extends SherlockActivity {
 

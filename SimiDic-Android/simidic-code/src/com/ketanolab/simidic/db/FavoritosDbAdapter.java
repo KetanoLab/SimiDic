@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.db;
+package com.ketanolab.nusimi.db;
 
 import android.content.ContentValues;
 import android.content.Context;

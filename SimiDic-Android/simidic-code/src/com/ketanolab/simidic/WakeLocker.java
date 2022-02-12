@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import android.content.Context;
 import android.os.PowerManager;

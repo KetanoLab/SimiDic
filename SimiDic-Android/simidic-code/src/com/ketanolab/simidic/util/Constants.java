@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.util;
+package com.ketanolab.nusimi.util;
 
 import android.os.Environment;
 

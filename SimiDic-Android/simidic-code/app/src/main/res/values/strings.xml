@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">"SimiDic"</string>
-    <string name="app_version_name" translatable="false">"1.1.1"</string>
-    <string name="app_full_name">"SimiDic 1.0.1"</string>
+    <string name="app_name">"Nusimi"</string>
+    <string name="app_version_name" translatable="false">1.0.0</string>
+    <string name="app_full_name">"Nusimi 1.0.0"</string>
     <string name="ketanolab">"Ketanolab"</string>
     <string name="illa_a">"ILLA-A"</string>
     <!-- Titles -->
@@ -22,7 +22,7 @@
     <!-- DownloadsActivity -->
     <string name="download_failed">"Download failed, try again."</string>
     <string name="downloaded">"Downloaded"</string>
-    <string name="is_downloaded_or_downloading">"You select this download."</string>
+    <string name="is_downloaded_or_downloading">"The dictionary will be downloaded soon"</string>
     <string name="downloading">"Downloading ..."</string>
     <string name="load_completed">"Load completed"</string>
     <string name="no_internet">"Without Internet"</string>

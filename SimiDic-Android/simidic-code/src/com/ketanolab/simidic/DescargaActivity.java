@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -34,9 +34,9 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.ketanolab.simidic.adapters.DownloadsListAdapter;
-import com.ketanolab.simidic.util.Constants;
-import com.ketanolab.simidic.util.Util;
+import com.ketanolab.nusimi.adapters.DownloadsListAdapter;
+import com.ketanolab.nusimi.util.Constants;
+import com.ketanolab.nusimi.util.Util;
 
 public class DescargaActivity extends SherlockActivity implements OnItemClickListener {
 

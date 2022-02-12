@@ -1,4 +1,4 @@
-package com.ketanolab.simidic.adapters;
+package com.ketanolab.nusimi.adapters;
 
 import java.util.ArrayList;
 
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.ketanolab.simidic.R;
+import com.ketanolab.nusimi.R;
 
 public class DownloadsListAdapter extends BaseAdapter {
 

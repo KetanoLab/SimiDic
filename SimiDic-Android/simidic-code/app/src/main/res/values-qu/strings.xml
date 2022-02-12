@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"SimiDic"</string>
-    <string name="app_full_name">"SimiDic 1.0.1"</string>
+    <string name="app_name">Nusimi</string>
+    <string name="app_full_name">Nusimi 1.0.0</string>
     <string name="author">"Chhiijnuqiri"</string>
     <string name="authors">"ukarjama arus"</string>
     <string name="by">"layku"</string>

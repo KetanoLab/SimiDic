@@ -1,4 +1,4 @@
-package com.ketanolab.simidic;
+package com.ketanolab.nusimi;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.widget.TextSwitcher;
 
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.ketanolab.simidic.anim.ImageLogo;
-import com.ketanolab.simidic.anim.TextPrincipal;
-import com.ketanolab.simidic.anim.TextSecundary;
+import com.ketanolab.nusimi.anim.ImageLogo;
+import com.ketanolab.nusimi.anim.TextPrincipal;
+import com.ketanolab.nusimi.anim.TextSecundary;
 
 public class CreditosActivity extends SherlockActivity {
 

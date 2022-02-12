@@ -1,6 +1,6 @@
-package com.ketanolab.simidic.anim;
+package com.ketanolab.nusimi.anim;
 
-import com.ketanolab.simidic.R;
+import com.ketanolab.nusimi.R;
 
 import android.content.Context;
 import android.view.Gravity;
