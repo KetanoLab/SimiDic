@@ -9,19 +9,17 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import com.ketanolab.nusimi.R
+import com.ketanolab.nusimi.models.Dictionary
 import java.util.ArrayList
 
-class DownloadsListAdapter(contexto: Context?) : BaseAdapter() {
-    private val inflater: LayoutInflater
+class DownloadsListAdapter(var context: Context?) : BaseAdapter() {
+    private val inflater: LayoutInflater = LayoutInflater.from(context)
     private val images: ArrayList<Int>
-    private val names: ArrayList<String>
-    private val authors: ArrayList<String>
-    private val descriptions: ArrayList<String>
-    private val extras: ArrayList<String>
     private val bars: ArrayList<Boolean>
+    private val dictionaries: ArrayList<Dictionary>
     private val values: ArrayList<Int>
     override fun getCount(): Int {
-        return names.size
+        return dictionaries.size
     }
 
     override fun getItem(position: Int): Any {
@@ -55,10 +53,10 @@ class DownloadsListAdapter(contexto: Context?) : BaseAdapter() {
             holder = convertView.tag as ViewHolder
         }
         holder.imageView!!.setImageResource(images[position])
-        holder.nameTextView!!.text = names[position]
-        holder.authorTextView!!.text = authors[position]
-        holder.descriptionTextView!!.text = descriptions[position]
-        holder.sizeTextView!!.text = extras[position]
+        holder.nameTextView!!.text = dictionaries[position].name
+        holder.authorTextView!!.text = dictionaries[position].author
+        holder.descriptionTextView!!.text = dictionaries[position].description
+        holder.sizeTextView!!.text = dictionaries[position].size
         if (bars[position]) {
             holder.progressBar!!.visibility = View.VISIBLE
         } else {
@@ -77,15 +75,11 @@ class DownloadsListAdapter(contexto: Context?) : BaseAdapter() {
         var progressBar: ProgressBar? = null
     }
 
-    fun adicionarItem(
-        image: Int, name: String, author: String,
-        description: String, extra: String
+    fun addItem(
+        image: Int, dictionary: Dictionary
     ) {
         images.add(image)
-        names.add(name)
-        authors.add(author)
-        descriptions.add(description)
-        extras.add(extra)
+        dictionaries.add(dictionary)
         bars.add(false)
         values.add(0)
         notifyDataSetChanged()
@@ -93,7 +87,7 @@ class DownloadsListAdapter(contexto: Context?) : BaseAdapter() {
 
     fun updateItem(position: Int, image: Int, text: String, bar: Boolean) {
         images[position] = image
-        extras[position] = text
+        dictionaries[position] = dictionaries[position].copy(size = text)
         bars[position] = bar
         notifyDataSetChanged()
     }
@@ -102,22 +96,25 @@ class DownloadsListAdapter(contexto: Context?) : BaseAdapter() {
         values[position] = progress
     }
 
-    fun eliminarTodo() {
+    fun eraseAll() {
         images.clear()
-        names.clear()
-        authors.clear()
-        descriptions.clear()
-        extras.clear()
+        dictionaries.clear()
         notifyDataSetChanged()
     }
 
+    fun markDownloaded(dictionary: String) {
+        for (i in dictionaries.indices) {
+            if (dictionaries[i].file == dictionary) {
+                images[i] = R.drawable.ic_action_ok
+                dictionaries[i] = dictionaries[i].copy(size = context!!.resources.getString(R.string.downloaded))
+                bars[i] = false
+            }
+        }
+    }
+
     init {
-        inflater = LayoutInflater.from(contexto)
         images = ArrayList()
-        names = ArrayList()
-        authors = ArrayList()
-        descriptions = ArrayList()
-        extras = ArrayList()
+        dictionaries = ArrayList()
         bars = ArrayList()
         values = ArrayList()
     }

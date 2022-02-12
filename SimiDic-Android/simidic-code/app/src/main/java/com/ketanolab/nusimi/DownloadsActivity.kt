@@ -15,6 +15,7 @@ import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.ketanolab.nusimi.adapters.DownloadsListAdapter
+import com.ketanolab.nusimi.models.Dictionary
 import com.ketanolab.nusimi.util.Constants
 import com.ketanolab.nusimi.util.Util
 import org.json.JSONArray
@@ -31,9 +32,8 @@ import java.util.ArrayList
 import java.util.BitSet
 
 class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
-    // URLs
-    private var urls: ArrayList<String>? = null
-    private var fileNames: ArrayList<String>? = null
+    // dictionaries
+    private var dictionaries: ArrayList<Dictionary>? = null
 
     // List
     private var listView: ListView? = null
@@ -80,11 +80,10 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
     }
 
     inner class LoadJSON(private val directoryPath: String?) :
-        AsyncTask<String?, String?, Void?>() {
+        AsyncTask<String?, Dictionary?, Void?>() {
         override fun onPreExecute() {
-            listAdapter!!.eliminarTodo()
-            urls = ArrayList()
-            fileNames = ArrayList()
+            listAdapter!!.eraseAll()
+            dictionaries = ArrayList()
             downloading = BitSet()
             layoutMensaje!!.visibility = View.GONE
             layoutCargando!!.visibility = View.VISIBLE
@@ -114,13 +113,15 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
                     val jsonArray = JSONArray(resultado)
                     for (i in 0 until jsonArray.length()) {
                         val jsonObject = jsonArray.getJSONObject(i)
-                        val name = jsonObject.getString("name")
-                        val author = jsonObject.getString("author")
-                        val descripcion = jsonObject.getString("description")
-                        val file = jsonObject.getString("file")
-                        val url = jsonObject.getString("url")
-                        val size = jsonObject.getString("size")
-                        publishProgress(name, author, descripcion, file, url, size)
+                        val dictionary = Dictionary(
+                            name = jsonObject.getString("name"),
+                            author = jsonObject.getString("author"),
+                            description = jsonObject.getString("description"),
+                            file = jsonObject.getString("file"),
+                            url = jsonObject.getString("url"),
+                            size = jsonObject.getString("size")
+                        )
+                        publishProgress(dictionary)
                     }
                 }
             } catch (ex: Exception) {
@@ -129,22 +130,18 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
             return null
         }
 
-        override fun onProgressUpdate(vararg values: String?) {
-            super.onProgressUpdate(*values)
-            if (!Util.isDownloaded(directoryPath + "/" + values[3])) {
-                fileNames!!.add(values[3]!!)
-                urls!!.add(values[4]!!)
-                tasks!!.add(DownloadFile(tasks!!.size+2, values[4]!!))
-                listAdapter!!.adicionarItem(
+        override fun onProgressUpdate(vararg dictionary: Dictionary?) {
+            super.onProgressUpdate(*dictionary)
+            if (!Util.isDownloaded(directoryPath + "/" + dictionary[0]!!.file)) {
+
+                dictionaries!!.add(dictionary[0]!!)
+                tasks!!.add(DownloadFile(tasks!!.size+2, dictionary[0]!!.url))
+                listAdapter!!.addItem(
                     R.drawable.ic_menu_download,
-                    values[0]!!,
-                    values[1]!!,
-                    values[2]!!,
-                    values[5]!!
-                )
-                Log.i(Constants.DEBUG, "Added item download: " + values[0])
+                    dictionary[0]!!)
+                Log.i(Constants.DEBUG, "Added item download: " + dictionary[0]!!.name)
             }
-            Log.i(Constants.DEBUG, "Added item (all) download: " + values[0])
+            Log.i(Constants.DEBUG, "Added item (all) download: " + dictionary[0]!!.name)
         }
 
         override fun onPostExecute(result: Void?) {
@@ -152,21 +149,25 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
             if (listAdapter!!.count == 0) {
                 layoutMensaje!!.visibility = View.VISIBLE
             }
+            val names = Util.getListOfDownloadedDictionaries("$directoryPath/")
+            names?.let {
+                for (i in names.indices) {
+                    names[i]?.let {
+                        listAdapter!!.markDownloaded(names[i]!!)
+                    }
+                }
+            }
         }
     }
 
     override fun onItemClick(arg0: AdapterView<*>?, view: View, posicion: Int, id: Long) {
-        Log.i(Constants.DEBUG, "Descargando... " + fileNames!![posicion])
+        Log.i(Constants.DEBUG, "Descargando... " + dictionaries!![posicion].file)
         if (downloading!![posicion]) {
             Toast.makeText(this, R.string.is_downloaded_or_downloading, Toast.LENGTH_SHORT).show()
         } else {
-            tasks!!.add(
-                posicion, DownloadFile(
-                    posicion, applicationContext.getExternalFilesDir(null)!!
-                        .absolutePath
-                )
-            )
-            tasks!![posicion].execute(urls!![posicion], fileNames!![posicion])
+            tasks!![posicion] = DownloadFile(
+                    posicion, applicationContext.getExternalFilesDir(null)!!.absolutePath)
+            tasks!![posicion].execute(dictionaries!![posicion].url, dictionaries!![posicion].file)
             downloading!!.set(posicion)
         }
     }

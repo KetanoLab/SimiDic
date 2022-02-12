@@ -32,66 +32,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35333e22-11d1-4e9c-ac97-8b8565568dc2" name="Default" comment="refactored package id to com.ketanolab.nusimi">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Constants1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/models/Dictionary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/Constants/EMenuItems1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/Constants/EMenuItems1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/CreditsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/CreditsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/DiccionariesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DiccionariesActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/DownloadsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/FavoritesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/FavoritesActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/WordActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/WordActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/adapters/DictionariesViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/DictionariesViewPagerAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/adapters/DownloadsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/DownloadsListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/adapters/WordsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/WordsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/anim/ImageLogo1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/ImageLogo1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/anim/PrincipalText1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/PrincipalText1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/anim/SecundaryText1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/SecundaryText1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/db/FavoritosDbAdapter1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/db/FavoritosDbAdapter1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/util/Constants1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/util/Dictionaries1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Dictionaries.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/util/ResourcesUtil1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/ResourcesUtil1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/util/Util1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/viewpager/CirclePageIndicator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/viewpager/CirclePageIndicator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/viewpager/IcsLinearLayout.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/viewpager/IcsLinearLayout.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/simidic/viewpager/PageIndicator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/viewpager/PageIndicator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/action_bar_spinner_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dictionaries_list_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dictionaries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dictionaries.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/diccionario2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dictionary_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ay/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ay/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-gn/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-gn/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-qu/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-qu/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/CommonUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/CommonUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/ConnectionDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/ConnectionDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/CreditosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/CreditosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/DescargaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/DescargaActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/DiccionariosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/DiccionariosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/FavoritosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/FavoritosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/GCMIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/GCMIntentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/PalabraActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/PalabraActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/ServerUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/ServerUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/WakeLocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/WakeLocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/adapters/AdaptadorLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/adapters/AdaptadorLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/adapters/AdaptadorViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/adapters/AdaptadorViewPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/adapters/DownloadsListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/adapters/DownloadsListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/anim/ImageLogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/anim/ImageLogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/anim/TextPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/anim/TextPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/anim/TextSecundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/anim/TextSecundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/db/FavoritosDbAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/db/FavoritosDbAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/util/Dictionaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/util/Dictionaries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ketanolab/simidic/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ketanolab/simidic/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/DownloadsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/DownloadsListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +50,39 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/home/pedrogezn/.android/avd/Pixel_3a_API_30_x86.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@19241FDF600HCC]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="simidic-code" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="simidic-code" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="simidic-code" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,6 +90,7 @@
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
         <option value="resourceFile" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -129,7 +107,7 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="DEBUGGABLE_DEVICE" value="google-pixel_6-19241FDF600HCC" />
-    <property name="DEBUGGABLE_PROCESS" value="com.ketanolab.simidic" />
+    <property name="DEBUGGABLE_PROCESS" value="com.ketanolab.nusimi" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@19241FDF600HCC" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-01-27T11:05:50.993627Z" />
@@ -137,13 +115,15 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/home/pedrogezn/Android/Sdk/sources/android-30/android/widget/AbsListView.java_SELECTED" value="AbsListView" />
+    <property name="android-custom-view/home/pedrogezn/Android/Sdk/sources/android-30/android/widget/AdapterView.java_SELECTED" value="AdapterView" />
     <property name="android-custom-view/home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/java/com/ketanolab/simidic/viewpager/CirclePageIndicator.java_SELECTED" value="CirclePageIndicator" />
     <property name="android-custom-view/home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/java/com/ketanolab/simidic/viewpager/CirclePageIndicator.kt_SELECTED" value="CirclePageIndicator" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -152,6 +132,11 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/values" />
       <recent name="$PROJECT_DIR$/app/src/main/res/values-v14" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle androidConnectedDebutTests" />
+    </option>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -351,6 +336,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="simidic-code [androidConnectedDebutTests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidConnectedDebutTests" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -362,7 +366,13 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.simidic-code [androidConnectedDebutTests]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.simidic-code [androidConnectedDebutTests]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -411,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643681531430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactored package id to com.ketanolab.nusimi">
+      <created>1644522942514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644522942514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,73 +451,83 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactored package id to com.ketanolab.nusimi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="480" y="288" width="950" height="537" key="#PSD" timestamp="1643250939278">
+    <state x="480" y="288" width="950" height="537" key="#PSD" timestamp="1644606300986">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="480" y="288" width="950" height="537" key="#PSD/0.27.1920.1053@0.27.1920.1053" timestamp="1644606300986" />
     <state x="480" y="288" width="950" height="537" key="#PSD/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643250939278" />
     <state x="748" y="272" width="413" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1643679297220">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="748" y="272" width="413" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1643679297220" />
-    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog" timestamp="1644260679835">
+    <state x="134" y="162" width="484" height="832" key="#xdebugger.evaluate" timestamp="1644611304052">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1644260679835" />
+    <state x="134" y="162" width="484" height="832" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1644611304052" />
+    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog" timestamp="1644617634380">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1644617634380" />
+    <state width="466" height="485" key="DebuggerActiveHint" timestamp="1644611240086">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="466" height="485" key="DebuggerActiveHint/0.27.1920.1053@0.27.1920.1053" timestamp="1644611240086" />
     <state x="743" y="300" width="424" height="519" key="FileChooserDialogImpl" timestamp="1643251338314">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="300" width="424" height="519" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643251338314" />
-    <state width="939" height="-41" key="GridCell.Tab.0.bottom" timestamp="1644512869273">
+    <state width="1158" height="277" key="GridCell.Tab.0.bottom" timestamp="1644631939299">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="939" height="-41" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1644512869273" />
+    <state width="1158" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939299" />
     <state width="1878" height="240" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546074" />
     <state width="1878" height="277" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="939" height="-41" key="GridCell.Tab.0.center" timestamp="1644512869273">
+    <state width="1158" height="277" key="GridCell.Tab.0.center" timestamp="1644631939299">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="939" height="-41" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1644512869273" />
+    <state width="1158" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939299" />
     <state width="1878" height="240" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546073" />
     <state width="1878" height="277" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="939" height="-41" key="GridCell.Tab.0.left" timestamp="1644512869272">
+    <state width="1158" height="277" key="GridCell.Tab.0.left" timestamp="1644631939298">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="939" height="-41" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1644512869272" />
+    <state width="1158" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939298" />
     <state width="1878" height="240" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546071" />
     <state width="1878" height="277" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="939" height="-41" key="GridCell.Tab.0.right" timestamp="1644512869273">
+    <state width="1158" height="277" key="GridCell.Tab.0.right" timestamp="1644631939299">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="939" height="-41" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1644512869273" />
+    <state width="1158" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939299" />
     <state width="1878" height="240" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546074" />
     <state width="1878" height="277" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.1.bottom" timestamp="1644279253284">
+    <state width="1158" height="277" key="GridCell.Tab.1.bottom" timestamp="1644631939300">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1644279253284" />
+    <state width="1158" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939300" />
     <state width="1878" height="277" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074480" />
-    <state width="1878" height="277" key="GridCell.Tab.1.center" timestamp="1644279253283">
+    <state width="1158" height="277" key="GridCell.Tab.1.center" timestamp="1644631939300">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1644279253283" />
+    <state width="1158" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939300" />
     <state width="1878" height="277" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.1.left" timestamp="1644279253283">
+    <state width="1158" height="277" key="GridCell.Tab.1.left" timestamp="1644631939299">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1644279253283" />
+    <state width="1158" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939299" />
     <state width="1878" height="277" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.1.right" timestamp="1644279253283">
+    <state width="1158" height="277" key="GridCell.Tab.1.right" timestamp="1644631939300">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1644279253283" />
+    <state width="1158" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1644631939300" />
     <state width="1878" height="277" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074480" />
     <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1643250923775">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="464" y="188" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643250923775" />
-    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1643291319796">
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1644522947699">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="555" y="276" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1644522947699" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643291319796" />
     <state x="742" y="245" width="426" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644260469850">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -510,6 +537,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="764" y="456" width="382" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643813746902" />
+    <state x="624" y="252" width="672" height="677" key="run.anything.popup" timestamp="1644611232750">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1644611232750" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1644512067549">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -528,19 +559,69 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
-          <line>33</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
-          <line>214</line>
+          <line>215</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
-          <line>127</line>
+          <line>128</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
+          <line>66</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
+          <line>53</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Util1.kt</url>
+          <line>63</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
+          <line>152</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
+          <line>164</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
+          <line>187</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
+          <line>179</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
+          <line>163</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -554,6 +635,17 @@
         <watch expression="file.isRooted" language="kotlin" />
         <watch expression="file.exists()" language="kotlin" />
         <watch expression="directory.parentFile.listFiles()" language="kotlin" />
+      </configuration>
+      <configuration name="Remote">
+        <watch expression="Util.isDownloaded(directoryPath + &quot;/&quot; + values[3])" language="kotlin" />
+        <watch expression="(files[i].name == directory.name)" language="kotlin" />
+        <watch expression="directoryPath" language="kotlin" />
+        <watch expression="files[i].name" language="kotlin" />
+        <watch expression="directory.name" language="kotlin" />
+        <watch expression="path == file" language="kotlin" />
+        <watch expression="file.equals(path)" language="kotlin" />
+        <watch expression="es" language="kotlin" />
+        <watch expression="ex" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>

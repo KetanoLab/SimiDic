@@ -21,6 +21,52 @@ object Util {
         } else false
     }
 
+    fun getListOfDownloadedDictionaries(file: String): Array<String?>? {
+        if (checkExternalStorageAvailable()) {
+            val directory = File(file)
+            if (directory.exists()) {
+                var files = directory.listFiles()
+                var names: Array<String?>
+                if (files.size > 0) {
+                    names = kotlin.arrayOfNulls(files.size)
+                    for (i in files.indices) {
+                        if (checkFilenameDictionary(files[i].name)) {
+                            val path = files[i].absolutePath
+                            // Last question
+                            lateinit var db: SQLiteDatabase
+                            try {
+                                db = SQLiteDatabase.openOrCreateDatabase(path, null)
+                                getNameAndAuthorDictionary(db) // test
+                                // consistent
+                                // file
+                                Log.i(Constants.DEBUG, "Find " + files[i].name)
+                                db?.close()
+                                names[i] = files[i].name
+                            } catch (ex: Exception) {
+                                files[i] = null
+                                names[i] = null
+                            }
+                            finally {
+                                db?.close()
+                            }
+                        }
+                    }
+                    return names
+                } else {
+                    return null
+                    Log.i(Constants.DEBUG, "No hay ningun archivo.")
+                }
+            } else {
+                return null
+                Log.i(Constants.DEBUG, "No existe ruta.")
+            }
+        } else {
+            return null
+            Log.i(Constants.DEBUG, "No hay SD.")
+        }
+        return null
+    }
+
     fun isDownloaded(file: String): Boolean {
         var sw = false
         if (checkExternalStorageAvailable()) {
@@ -61,7 +107,6 @@ object Util {
         }
         return sw
     }
-
     fun checkFilenameDictionary(name: String): Boolean {
         return if (name.length == 11 && name.contains(".db")) {
             true
